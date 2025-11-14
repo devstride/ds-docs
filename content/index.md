@@ -1,26 +1,24 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI.
+  title: DevStride Documentation
+  description: Complete documentation for DevStride - the modern work management platform for agile teams. Learn how to plan, track, and deliver your work effectively.
 ---
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+DevStride Documentation
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
+Welcome to the complete guide for DevStride, your all-in-one work management platform.
 
-Docus brings the best of the Nuxt ecosystem into one CLI.
+Get started with cycles, boards, gantt charts, reports, and powerful automations to streamline your workflow.
 
 #links
   :::u-button
   ---
   color: neutral
   size: xl
-  to: /getting-started/installation
+  to: /getting-started/basic-terms
   trailing-icon: i-lucide-arrow-right
   ---
   Get started
@@ -29,95 +27,89 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   :::u-button
   ---
   color: neutral
-  icon: simple-icons-github
+  icon: i-lucide-book-open
   size: xl
-  to: https://github.com/nuxt-content/docus
+  to: /admin/admin-onboarding-guide
   variant: outline
   ---
-  Star on GitHub
+  Admin Guide
   :::
 ::
 
 ::u-page-section
 #title
-Shipped with many features
+Explore DevStride Features
 
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com
+  icon: i-lucide-repeat
+  to: /cycles/backlog-refinement
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
-  
+  [Cycles & Sprints]{.text-primary}
+
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  Plan and execute your work in time-boxed iterations. Manage sprint planning, backlog refinement, and track progress with burndown charts.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
+  icon: i-lucide-kanban
+  to: /boards/11-creating-boards
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
-  
+  [Boards & Kanban]{.text-primary}
+
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  Visualize your workflow with customizable boards. Track work items across different statuses with drag-and-drop simplicity and WIP limits.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com
+  icon: i-lucide-gantt-chart
+  to: /gantt/add-to-gantt
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
-  
+  [Gantt Charts]{.text-primary}
+
   #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  Plan projects with timeline views. Manage dependencies, track progress, and visualize your project schedule at a glance.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  icon: i-lucide-bar-chart
+  to: /reports/report-filters-and-options
   ---
   #title
-  Customize with [Nuxt App Config]{.text-primary}
-  
+  [Reports & Analytics]{.text-primary}
+
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+  Make data-driven decisions with powerful reports. Track velocity, cycle time, burnup, burndown, throughput, and more with AI-powered insights.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
+  icon: i-lucide-zap
+  to: /customization/08-a-wip-limiters
   ---
   #title
-  Collaborate on [Nuxt Studio]{.text-primary}
-  
+  [Automations]{.text-primary}
+
   #description
-  Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+  Streamline your workflow with powerful automations. Set up custom rules, triggers, and actions to reduce manual work.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
+  icon: i-lucide-users
+  to: /admin/admin-onboarding-guide
   ---
   #title
-  Built-in navigation and [full-text search]{.text-primary}
-  
+  [Team Management]{.text-primary}
+
   #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  Set up teams, manage permissions, and configure your work model. Complete admin guide to get your organization started.
   :::
 ::
