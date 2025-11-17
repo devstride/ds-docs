@@ -1,0 +1,61 @@
+# Basic Terms
+
+> 
+
+## The Workstream
+
+The Map Value module is a portfolio map view comprised of workstreams. A Workstream represents a delivery of value - it is "the what" that needs to be done in an organization.
+
+DevStride allows you to organize workstreams in the most meaningful way for your business. Inside the map, each top-level workstream is called a core workstream.
+
+A **Core workstream** represents initiatives, products, functional areas, or any top-level division of work that best reflects your organization's value delivery.
+
+Workstreams can be nested, allowing you to subdivide work into more refined streams within a tree structure. You can create as many nested workstreams as you like. Sub-workstreams roll up to the core workstreams, giving visibility at any level up or down the map.
+
+Drag and drop workstreams to instantly update your organization’s workflow according to your operational needs.
+
+![The Workstream.png](/images/The-Workstream.png)
+
+## The Work Item
+
+An item is an assignable unit of work housed in a workstream. Each item contains a description, comments, assets, activity, and sophisticated tools to assign, estimate, and track work.
+
+To add an item to the workstream from the Map, Plan, or Work modules, click the green Add Item button in the top right corner of the screen. Once you've assigned the Item Title, begin entering information in the workspace.
+
+Items can also be added from other locations in DevStride.
+
+![workitem3.png](/images/workitem3.png)
+
+## The Workspace
+
+Every item and every workstream contains a Workspace. A Workspace is where a user can populate and manage all the information and activity for a work item. The workspace offers a variety of information and functionality, such as:
+
+- Title and Number
+- Rich Text Description
+- Comments
+- Uploaded and Linked assets
+- Code-hosting integration platforms
+- Team and User assignment
+- Priority level
+- Agile Cycle and Kanban Lane
+- Time and Effort Point Estimates
+- Custom Fields
+- Tags
+
+![Workspace.png](/images/Workspace.png)
+
+## The Cycle
+
+A cycle enables users to plan and track work within a given period. A cycle is a repeating window of capacity planning, commitment, and execution. Planning and working in cycles allows a team to manage and project performance over time.
+
+Cycles are created in Settings under cadences. Cycles are then assigned in the Plan Delivery Module. Agile organizations practicing Scrum frequently plan in a two-week "sprint." In contrast, others plan quarterly, monthly, or weekly. How you define a cycle's length is up to you and your team!
+
+You can assign items to current or future cycles for completion.
+
+![The Cycle.png](/images/The-Cycle.png)
+
+## The Board
+
+In DevStride, users can view and move work items within a KanBan board in the Plan Delivery module. Boards can be set up as perpetual (ongoing) or cycle-based. Drag item cards between lanes as work progresses.
+
+Users can apply filters for a swift and practical segmentation of work items in the Status view, Table view or 2D view.

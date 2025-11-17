@@ -1,0 +1,48 @@
+# Admin Onboarding - Item Workspace - Right Bar: Priority
+
+> 
+
+#### Item Workspace Tour: Right Bar Features continued - Priority
+
+Next on the item workspace is the Priority setting (1).
+
+![image.png](/images/image173.png)
+
+Priority settings are customizable. You can set up the priority options for your organizations in **Settings** (1).
+
+As with all Settings collections, you can use the default levels or click on the **New** icon to add to the list of available options(2). The levels in this list reflect the pool of all levels available to any collection in the entire organization.
+
+You can then drag any options in this list to an existing collection, or create a new Collection (3).
+
+![image.png](/images/image173.png)
+
+Then, simply drag the levels you would like included in the new collection from the Levels pane into the Collection (4).
+
+![image.png](/images/image173.png)
+
+After you have included all the levels you want to include in your new collection, you can add that collection to the desired Item type (5). Now the levels from the collection will be displayed for that item type throughout your DevStride organization.
+
+![image.png](/images/image173.png)
+
+If you would like to make any edits to individual items on your priority lists, click on the pencil icon and make your changes. These updates will be applied to all items that use this level system-wide.
+
+![image.png](/images/image173.png)
+
+Priority levels are used throughout the system, on the item workspace of the item itself, and as a field in multiple views and analytics throughout DevStride.
+
+![image.png](/images/image173.png)
+
+**What this gives you**
+Because different kinds of projects have different requirements for priority tracking, DevStride gives you the flexibility you need to use the kind of priorities that work for each item type in your item type hierarchy.
+
+In our example, we have projects that are based on service-level agreements, so we created priority levels that help track priorities for established  response times. We used a red "SLA - 1 hour" level to show that the priority for fixing this issue is 1 hour. The red color and the 1-hour priority shows a the critical nature of the issue.
+
+**Note:** As with many other settings in DevStride, priority levels can be used as a trigger in **Automations**, which will be covered later. A change in a priority can trigger notifications and other actions in the system, which is another method to raise visibility and prevent potential setbacks.
+
+---
+
+Now, continue to tour the features on the right bar of the item workspace:
+
+[Teams through Status](/v1/docs/5d-admin-onboarding-item-workspace)[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)
+
+[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)

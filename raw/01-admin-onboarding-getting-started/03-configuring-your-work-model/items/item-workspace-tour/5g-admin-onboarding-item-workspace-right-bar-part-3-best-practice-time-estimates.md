@@ -1,0 +1,56 @@
+# Admin Onboarding - Item Workspace -Right Bar: Best Practice time estimates
+
+> 
+
+#### **Item Workspace Tour: Right Bar Features A Time Estimates Best Practice**
+
+In our last article we noted that tracking time on items individually allows you to aggregate groups of items for insights into a pool of work.
+
+If you note that in a pool of items the standard deviation is fairly large, there is more risk that the time estimates could be off for that pool of work, potentially resulting in project delays.
+
+Here's a best practice for avoiding project delays through rolled up esimates.
+
+<alert title="A Time Tracking Best Practice: Visibility through rolled up Estimates" type="info">
+
+There's an easy way to get instant visibility on having too many tasks or tasks that might take too long for a given portion of your project.
+
+Create estimation ranges for each of your item types to track whether—when combined—they will reach the outer level of your estimate for the entire set.
+
+Here's how that works.
+
+In **Settings**, Create a range for each of your task-level items (1).
+
+In our example below, tasks are our smallest types, so we created suitable ranges of a certain number of hours from xxs tasks all the way to xl tasks.
+
+We also created larger ranges for what we would consider small, medium and large Capabilities, which is the next level up in our item type hierarchy. (1) We could choose to do this with our Module item types as well. We will just show Tasks and Capabilities for this example.
+
+![image.png](/images/image157.png)
+
+Once we defined our ranges, we created collections named for each type of item and then grouped our ranges into their collections. Then we assigned the collection we wanted to use to our item type. We used related names to help us match our ranges to our collections.
+
+Once in our system, we can apply estimates to each task. Since Tasks are  children of Modules in our item hierarchy, we can easily see if the Tasks we have in a given module exceed the sizing we have defined for its (parent) Module.
+
+In our example below, our Module item displays an orange warning icon. This warning lets us know that based on our estimated time, this module could take longer than our definition of a module of this size:
+
+![image.png](/images/image157.png)
+
+You can click on the warning icon to see the completion stats and the warning details.
+
+![image.png](/images/image157.png)
+
+This warning icon shows throughout the system, elevating the potential issue.
+
+**The takeaway:** The better you decompose your work into small estimated tasks that roll up into bigger estimated buckets, the better predictability you have.
+
+</alert>
+
+**What This Gives You**
+
+With powerful and flexibility time estimation capabilities, DevStride gives you predictability right from the beginning—for successful project delivery in the end.
+
+---
+
+Now, continue to tour the right bar of the item workspace:
+[Teams through Status](/v1/docs/5d-admin-onboarding-item-workspace)[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)
+
+[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)
