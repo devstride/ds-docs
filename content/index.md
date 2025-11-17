@@ -18,7 +18,7 @@ Get started with cycles, boards, gantt charts, reports, and powerful automations
   ---
   color: neutral
   size: xl
-  to: /getting-started/basic-terms
+  to: /01-admin-onboarding-getting-started/basic-terms
   trailing-icon: i-lucide-arrow-right
   ---
   Get started
@@ -29,7 +29,7 @@ Get started with cycles, boards, gantt charts, reports, and powerful automations
   color: neutral
   icon: i-lucide-book-open
   size: xl
-  to: /admin/admin-onboarding-guide
+  to: /01-admin-onboarding-getting-started/admin-onboarding-guide
   variant: outline
   ---
   Admin Guide
