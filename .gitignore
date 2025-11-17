@@ -38,3 +38,5 @@ logs
 .env
 DevStride-Docs
 
+# Content backup
+content-backup/
