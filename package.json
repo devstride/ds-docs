@@ -2,6 +2,7 @@
   "name": "ds-docs",
   "type": "module",
   "private": true,
+  "packageManager": "pnpm@9.15.0",
   "scripts": {
     "dev": "nuxt dev --extends docus",
     "build": "nuxt build --extends docus",
