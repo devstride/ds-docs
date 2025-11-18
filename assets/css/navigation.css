@@ -1,0 +1,17 @@
+
+/* Remove padding from aside elements */
+aside {
+  padding-left: 0!important;
+  padding-right: 4px!important;
+}
+
+.truncate {
+  overflow: unset;
+  text-overflow: unset;
+  text-align: left;
+  /* text-wrap-mode: wrap; */ /* CSS Text Level 4 - limited support */
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-weight: normal;
+}
