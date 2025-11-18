@@ -1,0 +1,1 @@
+import{r as t}from"./C9GBJz85.js";import a from"./zHd2JpGb.js";import{z as e,H as n,i as s,w as i,W as c}from"./BBMeE9cp.js";import"./BN_7HF1G.js";const d={__name:"ProseCaution",setup(p){const o=e();return(r,f)=>(s(),n(a,{color:"error",icon:c(o).ui.icons.caution},{default:i(()=>[t(r.$slots,"default",{mdcUnwrap:"p"})]),_:3},8,["icon"]))}};export{d as default};
