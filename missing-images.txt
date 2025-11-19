@@ -1,0 +1,16 @@
+add-dependencies.png
+board-folder-interface.png
+board-folder-structure.png
+board-types-comparison.png
+create-folder-dialog.png
+create-subfolder-menu.png
+edit-dependencies.png
+folder-configuration-dialog.png
+folder-default-team.png
+import-items-button.png
+import-items-dialog.png
+new-folder-button.png
+removing-dependencies.png
+status-view.png
+viewing-dependencies.png
+workstream-breakdown.png
