@@ -1,0 +1,16 @@
+/* Replace header text with logo */
+header a[href="/"] {
+  font-size: 0;
+  background-image: url('/ds-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 180px;
+  height: 40px;
+  display: inline-block;
+}
+
+/* Hide the text but keep accessibility */
+header a[href="/"]::before {
+  content: '';
+}

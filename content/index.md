@@ -4,112 +4,133 @@ seo:
   description: Complete documentation for DevStride - the modern work management platform for agile teams. Learn how to plan, track, and deliver your work effectively.
 ---
 
-::u-page-hero
+::hero-section
 #title
-DevStride Documentation
+Welcome to DevStride Documentation
 
 #description
-Welcome to the complete guide for DevStride, your all-in-one work management platform.
+Explore the world of DevStride with our detailed guide, designed to empower users on their journey.
+::
 
-Get started with cycles, boards, gantt charts, reports, and powerful automations to streamline your workflow.
-
-#links
-  :::u-button
-  ---
-  color: neutral
-  size: xl
-  to: /01-admin-onboarding-getting-started/basic-terms
-  trailing-icon: i-lucide-arrow-right
-  ---
-  Get started
-  :::
-
-  :::u-button
-  ---
-  color: neutral
-  icon: i-lucide-book-open
-  size: xl
-  to: /01-admin-onboarding-getting-started/admin-onboarding-guide
-  variant: outline
-  ---
-  Admin Guide
-  :::
+::get-started-release-notes
 ::
 
 ::u-page-section
-#title
-Explore DevStride Features
-
+---
+class: py-16
+---
 #features
   :::u-page-feature
   ---
-  icon: i-lucide-repeat
-  to: /cycles/backlog-refinement
+  icon: i-lucide-git-branch
+  to: /02.workstreams-and-work-items/mapping-your-workstreams
   ---
   #title
-  [Cycles & Sprints]{.text-primary}
+  Mapping Your Workstreams
 
   #description
-  Plan and execute your work in time-boxed iterations. Manage sprint planning, backlog refinement, and track progress with burndown charts.
+  Explore Mapping Workstreams to understand how your work aligns with business goals. This feature helps you understand how your work fits into the larger picture, ensuring that every item moves the organization forward.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-kanban
-  to: /boards/11-creating-boards
+  icon: i-lucide-bar-chart-3
+  to: /03.boards/11-creating-boards
   ---
   #title
-  [Boards & Kanban]{.text-primary}
+  Boards
 
   #description
-  Visualize your workflow with customizable boards. Track work items across different statuses with drag-and-drop simplicity and WIP limits.
+  Our Boards feature provides a dynamic, visual platform to organize and track tasks through various workflow stages. Use Kanban, table, and 2D views for an efficient overview of tasks across different stages.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-gantt-chart
-  to: /gantt/add-to-gantt
+  icon: i-lucide-file-text
+  to: /02.workstreams-and-work-items/understanding-work-items
   ---
   #title
-  [Gantt Charts]{.text-primary}
+  Work Items
 
   #description
-  Plan projects with timeline views. Manage dependencies, track progress, and visualize your project schedule at a glance.
+  Use Work Items to manage and keep track of individual tasks such as stories, bugs, or feature requests. This is where your individual contributions to the project's success become visible and manageable.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-bar-chart
-  to: /reports/report-filters-and-options
+  icon: i-lucide-pie-chart
+  to: /04.measure-performance-reports/report-filters-and-options
   ---
   #title
-  [Reports & Analytics]{.text-primary}
+  Reports
 
   #description
-  Make data-driven decisions with powerful reports. Track velocity, cycle time, burnup, burndown, throughput, and more with AI-powered insights.
+  Generate detailed Reports to gain insights into various aspects of your project's health. Assess performance, monitor resource utilization, and track progress to make informed decisions.
   :::
 
   :::u-page-feature
   ---
   icon: i-lucide-zap
-  to: /customization/08-a-wip-limiters
+  to: /05.automations/setting-up-basic-automations
   ---
   #title
-  [Automations]{.text-primary}
+  Automations
 
   #description
-  Streamline your workflow with powerful automations. Set up custom rules, triggers, and actions to reduce manual work.
+  Employ our sophisticated Automations to streamline your workflow. Set up intelligent rules and actions that handle routine tasks automatically, freeing up your time for more important work.
   :::
 
   :::u-page-feature
   ---
   icon: i-lucide-users
-  to: /admin/admin-onboarding-guide
+  to: /08.workspace-capabilities/configure-organization
   ---
   #title
-  [Team Management]{.text-primary}
+  Configure Organization
 
   #description
-  Set up teams, manage permissions, and configure your work model. Complete admin guide to get your organization started.
+  Configure your Organization within DevStride to mirror your real-world team structure. Customize user permissions and methodologies to create a seamless alignment of your work experience.
   :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-settings
+  to: /02.workstreams-and-work-items/data-models
+  ---
+  #title
+  Data Models
+
+  #description
+  Understand the structure of your project data with our intuitive Data Models. They lay out how the information you work with is organized logically, helping you plan and report more effectively.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-package
+  to: /16.item-types/item-types
+  ---
+  #title
+  Item Types
+
+  #description
+  Navigate through the different Item Types to categorize your work into specialties, epics, stories, bugs. This categorization helps you organize your workload and prioritize effectively.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-chevron-down
+  to: /08.workspace-capabilities/workspace-capabilities
+  ---
+  #title
+  Workspace Capabilities
+
+  #description
+  Leverage the full range of Workspace Capabilities to enhance collaboration, manage documents, and tailor your workflow settings to your team's needs, all within your personalized space.
+  :::
+::
+
+::video-section
+::
+
+::article-lists
 ::
