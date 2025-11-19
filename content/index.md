@@ -23,7 +23,7 @@ class: py-16
   :::u-page-feature
   ---
   icon: i-lucide-git-branch
-  to: /02.workstreams-and-work-items/mapping-your-workstreams
+  to: /workstreams-and-work-items/mapping-your-workstreams
   ---
   #title
   Mapping Your Workstreams
@@ -35,7 +35,7 @@ class: py-16
   :::u-page-feature
   ---
   icon: i-lucide-bar-chart-3
-  to: /03.boards/11-creating-boards
+  to: /boards/using-cycle-boards
   ---
   #title
   Boards
@@ -47,7 +47,7 @@ class: py-16
   :::u-page-feature
   ---
   icon: i-lucide-file-text
-  to: /02.workstreams-and-work-items/understanding-work-items
+  to: /workstreams-and-work-items/understanding-work-items
   ---
   #title
   Work Items
@@ -59,7 +59,7 @@ class: py-16
   :::u-page-feature
   ---
   icon: i-lucide-pie-chart
-  to: /04.measure-performance-reports/report-filters-and-options
+  to: /measure-performance-reports/report-filters-and-options
   ---
   #title
   Reports
@@ -71,7 +71,7 @@ class: py-16
   :::u-page-feature
   ---
   icon: i-lucide-zap
-  to: /05.automations/setting-up-basic-automations
+  to: /automations/setting-up-basic-automations
   ---
   #title
   Automations
@@ -83,7 +83,7 @@ class: py-16
   :::u-page-feature
   ---
   icon: i-lucide-users
-  to: /08.workspace-capabilities/configure-organization
+  to: /workspace-capabilities/configure-organization
   ---
   #title
   Configure Organization
@@ -95,7 +95,7 @@ class: py-16
   :::u-page-feature
   ---
   icon: i-lucide-settings
-  to: /02.workstreams-and-work-items/data-models
+  to: /workstreams-and-work-items/data-models
   ---
   #title
   Data Models
@@ -119,7 +119,7 @@ class: py-16
   :::u-page-feature
   ---
   icon: i-lucide-chevron-down
-  to: /08.workspace-capabilities/workspace-capabilities
+  to: /workspace-capabilities/workspace-capabilities
   ---
   #title
   Workspace Capabilities

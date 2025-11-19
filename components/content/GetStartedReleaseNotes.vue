@@ -11,7 +11,7 @@
           <p class="card-description">
             Get yourself familiar with DevStride in our 'Getting Started' section. Here, you'll find all the essential resources and guides to set up your account, navigate the interface, and begin managing projects with confidence.
           </p>
-          <NuxtLink to="/01-admin-onboarding-getting-started/basic-terms" class="card-link">
+          <NuxtLink to="/admin-onboarding-getting-started/setting-the-stage" class="card-link">
             Read more
           </NuxtLink>
         </div>
@@ -27,7 +27,7 @@
           <p class="card-description">
             Stay informed on the latest updates and enhancements with our release notes. Discover new features, improvements, and fixes in each update to continuously enhance your portfolio management experience.
           </p>
-          <NuxtLink to="/11.release-notes/2025-01-01-01-27" class="card-link">
+          <NuxtLink to="/release-notes/releases" class="card-link">
             Read more
           </NuxtLink>
         </div>

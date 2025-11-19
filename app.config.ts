@@ -9,5 +9,15 @@ export default defineAppConfig({
       "error": "red",
       "neutral": "neutral"
     }
+  },
+  docus: {
+    header: {
+      navigation: [
+        {
+          title: 'Documentation',
+          to: '/admin-onboarding-getting-started/setting-the-stage'
+        }
+      ]
+    }
   }
 })
