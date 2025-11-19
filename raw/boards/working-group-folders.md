@@ -1,0 +1,92 @@
+# Working Group Folders: Organizing the Who of the work
+
+> Learn how to organize boards using working group folders to assign and structure work across teams and departments.
+
+## Organizing Boards: Working Group Folders
+
+One of the overarching goals of DevStride is to help teams connect strategic objectives to the tasks teams will execute.
+
+Within the Boards module, working group folders are your "containers" for organizing "who" does the work you have identified in the Workstreams.
+
+To consider how to structure your working group folders, let's first take a quick look back at workstreams. Once the workstreams have been created and the work to be done has been identified, the work can be assigned.
+
+Again, the workstream represents the "what" of the work to be done. The "who" and "when" still has to be defined. And that will be done through setting up working group folders.
+
+In the image below, we can see that there's a workstream called IT & Product (1). This work has been broken down into Product Objectives (2), which have been further decomposed into Epics, or features (3).
+
+Finally, each Epic (4) has been broken down into a series of Product Task items (5). This is just an example. Your organization can use any workstream hierarchy and naming convention you wish.
+
+![Workstream breakdown showing IT & Product objectives, epics, and task items](/images/workstream-breakdown.png)
+
+The next step is to assign this work to a particular working group, the "who" using board folders and boards. The folders are used to help organize the boards.
+
+Here's a look at an example board folder structure that an organization might use to organize the work of multiple teams and their within a product development organization:
+
+![Board folder structure showing nested hierarchy of working groups](/images/board-folder-structure.png)
+
+As you can see here, common strategy for organizing folders and their boards in DevStride is as a nested hierarchy of working groups.
+
+Folders are flexible - they can represent the work being done instead of a strict organizational chart. They simply reflect the various working groups doing the work.
+
+Hierarchical nesting can be used - or not. Nesting teams in a hierarchy allows visibility to the work at all levels where there are smaller team reporting up through a bigger functional group or initiative.
+
+Folders can represent teams, departments, programs, functional groups, or temporary working groups. These folders allow you to assign boards, cadences, and work at the right level.
+
+Looking at this example again, we can see the teams represented on these folders are nested in a hierarchy, like this:
+
+- IT & Technology (in this case, representing the entire enterprise)
+
+  - ACH Processing (a working group focusing on ACH processing)
+  
+    - Product team 4 (a working group supporting a product within ACH processing)
+
+![Board folder interface showing folder hierarchy with breadcrumb navigation](/images/board-folder-interface.png)
+
+Item assignment boards for each folder will be housed to the right (2). Boards  contain the work to be completed during a particular cycle or as part of a perpetual list.
+
+An interactive breadcrumb trail is available above (3).
+
+#### Folder Structure
+
+When you create your folders, one folder should correlate to one working group.
+
+In our example, the top working group is IT & Technology. Sub-working groups in this example, such as ACH Processing, are named based on the technology solutions or modules they are working on. The Credit Card groups is on the same level as ACH. Both roll up into IT & Technology.
+
+#### Step 1: Create a New Folder
+
+To create working groups as in this example, click the **new folder.** icon (1).
+You can then name the folder and make it the parent (2).
+
+Give the folder a meaningful name (e.g., "ACH Processing").
+
+If this is part of a larger department, select a parent folder to nest under.
+
+Click Save.
+
+#### Step 2: Create sub-folders, as necessary
+
+Add additional sub-working groups as needed.
+
+From the elipses on your desired parent folder (1) chose **New folder.**
+
+![Creating a new subfolder from parent folder menu](/images/create-subfolder-menu.png)
+
+On the pop-up box, select the parent folder's name (2).
+Fill in the name of the child folder you are creating (3).
+For now, we will leave the configuration options (can contain boards and cycles) toggled on.
+Select the cadence you wish to use for the boards in this folder (4).
+Select the status collection you wish to use for this board (5).
+
+![Folder configuration dialog showing cadence and status collection options](/images/folder-configuration-dialog.png)
+
+Lastly, you can choose a default team to pre-populate your team field when you create items, if you would like. This time-saving selection (6) is optional:
+
+![Default team selection in folder configuration](/images/folder-default-team.png)
+
+#### Why it Matters: Folders
+
+Folders are your containers for organizing work. They can represent teams, departments, programs, or working groups and allow you to assign boards, cadences, and work at the right level.
+
+Folder hierarchy can be nested as deeply and broadly as each organization prefers.
+
+Next up, we'll review how boards are created for each working group folder.
