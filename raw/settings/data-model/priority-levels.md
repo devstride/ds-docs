@@ -1,0 +1,23 @@
+# Priority Levels
+
+> 
+
+### Create Levels
+
+In the Manage Priority Levels area, next the 1 - Create Levels heading, click the New button and come up with your own customized set of priority levels. For example, DevStrides uses:
+
+- Critical
+- High
+- Medium
+- Normal
+- Low
+
+You can add, edit, and remove as many priority levels as you like.
+
+### Group them into Collections
+
+To group Priority levels into Collections, choose a specific one as your Default level, i.e. Normal. Every time an item is created, this priority level will be automatically assinged to it. You can then change that in the item workspace, or item card.
+
+Note that you can drag priority levels in to add them to collections, around to change their order, or remove them completely. If you remove a priority level from a collection, you will be asked to confirm with the following prompt:
+
+"Are you sure you want to remove the priority "Low"? Any work item in a core workstream using this collection will be reset to the first available priority.

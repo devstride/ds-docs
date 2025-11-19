@@ -21,13 +21,13 @@ In this guide, we will show you how to create an Automation from a Trigger that 
 
 By default, all Automations will be placed in the **"Other"** group, however you can also add new groups. Automation Groups are a great way to organize your Automations, which becomes especially helpful as you create larger numbers of Automations. Simply click the **New Automation Group** button to create a new group, and then you can organize existing and new Automations into their appropriate groups.
 
-![image.png](/images/image18.png)
+![image.png](/images/image22.png)
 
 ### Add Automation
 
 To add an automation in DevStride, click the **Add Automation** button in the top right corner of the screen.
 
-![image.png](/images/image18.png)
+![image.png](/images/image19.png)
 
 ### Configure Automation
 
@@ -39,14 +39,14 @@ Once you have specified the Description and Automation Group, configuring your A
 
 For example: Any time a **New Work Item is Created** anywhere under the **Product** workstream hierarchy, change the team to **Product**.
 
-![image.png](/images/image18.png)
+![image.png](/images/image20.png)
 
 ### Monitor Automation Run History
 
 To monitor the activity of your Automations, you can view the Run History.
 
-![image.png](/images/image18.png)
+![image.png](/images/image23.png)
 
 You will then be able to review the run history of the Automation to ensure it matches your expectations, or to help determine if there's something preventing it from running.
 
-![image.png](/images/image18.png)
+![image.png](/images/image24.png)
