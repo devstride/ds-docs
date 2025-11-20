@@ -218,14 +218,14 @@
 
 .footer-section {
   background: linear-gradient(135deg, #1a1f5c 0%, #0f1340 100%);
-  padding: 3rem 2rem 2rem;
+  padding: 1rem .5rem 1rem;
 }
 
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 3rem;
   color: white;
 }
@@ -333,7 +333,7 @@
   }
 
   .footer-section {
-    padding: 2rem 1.5rem 1.5rem;
+    padding: 1rem .5rem 1rem;
   }
 
   .column-title {
