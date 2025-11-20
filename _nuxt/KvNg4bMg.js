@@ -1,1 +1,0 @@
-import{_ as o}from"./DwWAvu-8.js";import{_ as a,H as n,i as s,w as r,U as _}from"./0SnuBYHL.js";const c={};function f(t,l){const e=o;return s(),n(e,null,{default:r(()=>[_(t.$slots,"default")]),_:3})}const m=a(c,[["render",f]]);export{m as default};
