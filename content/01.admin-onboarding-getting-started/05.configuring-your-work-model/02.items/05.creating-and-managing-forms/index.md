@@ -24,7 +24,7 @@ Forms function as the front end for capturing user input which is then integrate
 
 When logged into DevStride, users can click on a "Request an Item" link in the header to access these forms (1).
 
-![image.png](https://cdn.document360.io/27e6d58d-db03-43a0-98cb-afb3f6b4b485/Images/Documentation/image%28236%29.png){height="" width=""}
+![image.png](/images/image236.png)
 
 
 **Public Forms:** These forms are accessible without a login. Public forms have a public link that an external user can use.
@@ -50,11 +50,11 @@ In **Settings**, go to **Forms > Item Request Forms** (1). Click on **New Item R
 
 Label your Forms Group (3).
 
-![image.png](https://cdn.document360.io/27e6d58d-db03-43a0-98cb-afb3f6b4b485/Images/Documentation/image%28233%29.png){height="" width=""}
+![image.png](/images/image233.png)
 
 Forms Group(s) display in the Manage Item Request Forms pane - refresh your screen if you do not see them (1). You can collapse and expand the groups (2) and edit or delete the forms groups (3).
 
-![image.png](https://cdn.document360.io/27e6d58d-db03-43a0-98cb-afb3f6b4b485/Images/Documentation/image%28242%29.png){height="" width=""}
+![image.png](/images/image242.png)
 
 #### Step 2: Create an item request form
 
@@ -64,15 +64,15 @@ Indicate whether the form should be Public or Private (3).
 
 Select from Item request Group. This is optional - leave this blank if you do not want this form organized in a group (4). Click **Create Item Request**.
 
-![image.png](https://cdn.document360.io/27e6d58d-db03-43a0-98cb-afb3f6b4b485/Images/Documentation/image%28235%29.png){height="" width=""}
+![image.png](/images/image235.png)
 
 Select the item type for the form you want to create (1). Indicate where you would like to house these request forms in the location dropdown (2).
 
-![image.png](https://cdn.document360.io/27e6d58d-db03-43a0-98cb-afb3f6b4b485/Images/Documentation/image%28239%29.png){height="" width=""}
+![image.png](/images/image239.png)
 
 Navigate to the workstream you want them in (3) and click Select Parent.
 
-![image.png](https://cdn.document360.io/27e6d58d-db03-43a0-98cb-afb3f6b4b485/Images/Documentation/image%28240%29.png){height="" width=""}
+![image.png](/images/image240.png)
 
 Forms can be placed in any workstream you choose. For our example, we are creating enhancement requests, so we have created a User-Submitted Forms workstream under our Product Backlog workstream.
 
@@ -83,7 +83,7 @@ Name your form as you would like your users (internal or external) to see it (1)
 Select from the list of custom fields that have already been defined for the the  item type you selected for your form (2). This ensures that all submitted data maps correctly to the underlying data model.
 
 
-![image.png](https://cdn.document360.io/27e6d58d-db03-43a0-98cb-afb3f6b4b485/Images/Documentation/image%28243%29.png){height="" width=""}
+![image.png](/images/image243.png)
 
 Add the fields you would like to include on the form (1). The available fields are based on the base work item fields in addition to the selected item type's custom field collection (2).
 
@@ -94,12 +94,12 @@ Indicated whether the you would like each field to be visible or required (3).
 
 Note that if you want to add a hidden field with a default value, you can add it here and then set it to hidden. Click update item request.
 
-![image.png](https://cdn.document360.io/27e6d58d-db03-43a0-98cb-afb3f6b4b485/Images/Documentation/image%28244%29.png){height="" width=""}
+![image.png](/images/image244.png)
 
 
 You can view the forms (1) in their groups along with their details (2) on the Manage Item Request Forms Pane. You can access the external link (3), edit, or delete the form (3). You can also edit or delete the Form group from here (4).
 
-![image.png](https://cdn.document360.io/27e6d58d-db03-43a0-98cb-afb3f6b4b485/Images/Documentation/image%28245%29.png){height="" width=""}
+![image.png](/images/image245.png)
 
 
 
