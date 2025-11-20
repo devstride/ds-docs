@@ -1,16 +1,34 @@
-/* Replace header text with logo */
+/* Header with icon and text */
 header a[href="/"] {
+  display: flex;
+  align-items: center;
+  gap: 1px;
   font-size: 0;
-  background-image: url('/ds-logo.png');
+  text-decoration: none;
+}
+
+/* Show icon before text */
+header a[href="/"]::before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('/devstride_icon.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 180px;
-  height: 40px;
-  display: inline-block;
+  flex-shrink: 0;
 }
 
-/* Hide the text but keep accessibility */
-header a[href="/"]::before {
-  content: '';
+/* Show "devstride" text after icon */
+header a[href="/"]::after {
+  content: 'DevStride';
+  font-size: 28px;
+  font-weight: 900;
+  /* color: var(--color-gray-900); */
+}
+
+/* Dark mode text color */
+.dark header a[href="/"]::after {
+  /* color: var(--color-gray-50); */
 }

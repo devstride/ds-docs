@@ -11,13 +11,9 @@ export default defineNuxtConfig({
     '~/assets/css/header-logo.css'
   ],
 
-  content: {
-    documentDriven: true
-  },
-
   app: {
     head: {
-      title: 'DevStride Documentation'
+      title: 'DevStride Documentation',
     }
   }
 })
