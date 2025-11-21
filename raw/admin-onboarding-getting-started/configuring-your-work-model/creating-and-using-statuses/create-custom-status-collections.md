@@ -27,13 +27,13 @@ To create a custom status, click on the **New** icon (1) next to Create Status. 
 - Status name (2) : Type in the name you want to use for your tag. In our example below, we want to create a tag called Client, to be used for client approval of an item.
 - Status color (3): Select the display color of the tag.
 
-![image.png](/images/image227.png)
+![image.png](/images/image226.png)
 
 Click on **Create Status**.
 
 Here are our new user-defined status options (1) on the global list of available statuses. You can change their names or colors by clicking on the  pencil icon (2). Remove the status by clicking the "x" (3).  Edits are updated automatically throughout the system.
 
-![image.png](/images/image227.png)
+![image.png](/images/image228.png)
 
 #### Step 2: Group Into Collections
 
@@ -43,13 +43,13 @@ In our example, we create a Status Collection container called Marketing Workflo
 
 To do this, we click on the New icon (1), and enter in the name of our collection (2). Click Create Status Collection.
 
-![image.png](/images/image227.png)
+![image.png](/images/image229.png)
 
 Now we can add the statuses we want in this collection. Drag and drop all the desired fields from the Create Statuses pane to the new Marketing Workflow collection (1).
 
 This creates our populated collection container (1). Note that the system-supplied terminal statuses New and Done are automatically placed in this collection (2).
 
-![image.png](/images/image227.png)
+![image.png](/images/image230.png)
 
 All the Statuses in the Marketing Workflow collection will now be available for use in any board we set up and assign this collection to so that we will be able to manage workflow through these stages.
 
@@ -59,13 +59,13 @@ You can **also easily add statuses to the default collection**. You will need to
 
 Note: there is no additional step assigning the status to boards here (3). This happens on the boards page.
 
-![image.png](/images/image227.png)
+![image.png](/images/image231.png)
 
 #### Step 3: Assign the desired status collection to the board
 
 When creating a [new board](/v1/docs/11-creating-boards), you can set the workflow statuses you wish to use from the new board pop-up:
 
-![image.png](/images/image227.png)
+![image.png](/images/image248.png)
 
 Select the status collection (1) you want to use for the board.
 The default selection automatically displays. The statuses for that collection will display below it (2). To select a different status collection from those you have created in Settings, click on the drop down arrow (3).

@@ -26,11 +26,11 @@ Click on the  progress bar for the task you would like to adjust (1). Note the d
 
 Drag on the progress bar (3) to adjust the dates and/or duration of the task. You can also reference the calendar dates on your table view in the left pane (4). In this example, we have changed the task duration from 1 day to 9 days, which updates the duration displayed on the left side of the pane as well.
 
-![image.png](/images/image371.png)
+![image.png](/images/image372.png)
 
 Note that changing the duration here, also changes duration dates in the item itself (5).
 
-![image.png](/images/image371.png)
+![image.png](/images/image373.png)
 
 #### **Step 2: Snap to Cycle, if desired**
 
@@ -44,30 +44,33 @@ A modal pops up (3) that allows you to select the cycles you want to view your g
 
 In the gantt example below, we have items from both a Development board (WebDev) and a go-to-market team (GTM). Our GTM team might want to see their dates in light of the development team's cadence. Here's how they would do this, in the model, Navigate to Engineering team's folder name and click the expansion carrot (4).
 
-![image.png](/images/image371.png)
+![image.png](/images/image375.png)
 
 We could choose to see the Engineering group's cycles at the Program Increment (longer cycle for planning) (5) by clicking select  or a specific working team's 2 week cycle by exapanding a specific working cycle group's folder underneath - here, we're selecting the WebDev group's 2 week cycle (6):
 
-![image.png](/images/image371.png)
+![image.png](/images/image376.png)
 
 Once you have navigated out to your desired working group's cycle cadence, click Select (7):
 
-![image.png](/images/image371.png)
+![image.png](/images/image377.png)
 
 The cadence of that board will appear (8):
 
-![image.png](/images/image371.png)
+![image.png](/images/image378.png)
 
 ---
 
-<br />
+<alert title="Powerful Predictability through Context" type="info">
+
+Why is this sync to cycle functionality so **powerful?**
 
 Our example above shows how the user can get *context through clear insight into activities, timelines, and deadlines across the organization*:
 
 GTM team members can see that most of their GTM activities will happen in Sprint 15.3 of the WebDev's sprint planning cycle.
 
 The actual calendar dates sit right above the sprint information (see 8 in the image above).
-::
+
+</alert>
 
 You can reset your view to your own sprint anytime through the same workflow, starting with clicking on the snap to cycles icon and then navigating to your team's board folder.
 
@@ -91,11 +94,11 @@ Here in the Gantt chart, relationships are displayed in a **Relationships** colu
 
 You can also view item relationships many other places in the system, including in **Manage Items** under the relationship Column or in an Item's workspace drawer by clicking on the Manage Relationship icon (1), as in the example below. The Relationships modal appears (2) providing a summary and detail level along with links to the items listed.
 
-![image.png](/images/image371.png)
+![image.png](/images/image380.png)
 
 Click View Graph (above, 3) to see a rendering of relationships for the item:
 
-![image.png](/images/image371.png)
+![image.png](/images/image381.png)
 
 **Relationship Management** is one more layer of visibility that DevStride can help provide to project teams and stakeholders.
 
@@ -117,4 +120,4 @@ Unlinked removes the automatic connection.
 
 You can choose the mode you want to use under settings (1):
 
-![image.png](/images/image371.png)
+![image.png](/images/image382.png)

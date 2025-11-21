@@ -29,7 +29,7 @@ The next step is to assign this work to a particular working group, the "who" us
 
 Here's a look at an example board folder structure that an organization might use to organize the work of multiple teams and their within a product development organization:
 
-![image.png](/images/image265.png)
+![image.png](/images/image266.png)
 
 As you can see here, common strategy for organizing folders and their boards in DevStride is as a nested hierarchy of working groups.
 
@@ -41,11 +41,15 @@ Folders can represent teams, departments, programs, functional groups, or tempor
 
 Looking at this example again, we can see the teams represented on these folders are nested in a hierarchy, like this:
 
-> IT & Technology (in this case, representing the entire enterprise)
->    → ACH Processing (a working group focusing on ACH processing)
+> IT & Technology (in this case, representing the entire enterprise)<br />
+> 
+> 
+>    → ACH Processing (a working group focusing on ACH processing)<br />
+> 
+> 
 >        → Product team 4 (a working group supporting a product within ACH          processing)
 
-![image.png](/images/image265.png)
+![image.png](/images/image268.png)
 
 Item assignment boards for each folder will be housed to the right (2). Boards  contain the work to be completed during a particular cycle or as part of a perpetual list.
 
@@ -76,7 +80,7 @@ Add additional sub-working groups as needed.
 
 From the elipses on your desired parent folder (1) chose **New folder.**
 
-![image.png](/images/image265.png)
+![image.png](/images/image274.png)
 
 On the pop-up box, select the parent folder's name (2).
 Fill in the name of the child folder you are creating (3).
@@ -84,11 +88,11 @@ For now, we will leave the configuration options (can contain boards and cycles)
 Select the cadence you wish to use for the boards in this folder (4).
 Select the status collection you wish to use for this board (5).
 
-![image.png](/images/image265.png)
+![image.png](/images/image276.png)
 
 Lastly, you can choose a default team to pre-populate your team field when you create items, if you would like. This time-saving selection (6) is optional:
 
-![image.png](/images/image265.png)
+![image.png](/images/image277.png)
 
 #### Why it Matters: Folders
 

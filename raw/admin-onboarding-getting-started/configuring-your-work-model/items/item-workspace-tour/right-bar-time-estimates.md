@@ -34,7 +34,7 @@ We just added xxs as an option, but we need to identify the list (collection) we
 
 To add your new option to a collection, simply drag it from the list pane and drop it into a collection in the Group Into Collections pane (1). You can also rename any option by clicking on the pencil icon next to it (2). Any changes you changes you make here will flow through to the collections that use them.
 
-![image.png](/images/image141.png)
+![image.png](/images/image142.png)
 
 Once you drag an option to the appropriate collection, it shows up in the associated drop-down lists in DevStride.
 
@@ -42,35 +42,37 @@ You can see the newly added xx-s range (1) that we created in our example. It is
 
 You can create new lists by clicking on the **New** icon (4) and defining your list. If you want different ranges, simply go back to the **Create Range** panel and click on **New** to create other ranges.
 
-![image.png](/images/image141.png)
+![image.png](/images/image143.png)
 
-**Note:**
+**Note:**<br />
+
+
 Teams often prefer that time estimates are only set up at the **task level** (1) as in our example below. You can disable any item types you do not wish to track time estimates on by clicking on **"time estimates disabled"** (2) in the drop down options for each relevant item type.
 
 You can also re-arrange the order that your pre-set options show up in your drop-down list by using the grab bar and moving an item up or down on the list (3).
 
-![image.png](/images/image141.png)
+![image.png](/images/image149.png)
 
 We can now take a look at the way our items are tracked in our example.
 
 We are tracking estimated effort points in all Module item types in our hierarchy (1). You can see that we've used the fixed list of the Fibonacci-based scale that we created (2).
 
-![image.png](/images/image141.png)
+![image.png](/images/image146.png)
 
 We are tracking all Task item types with time estimates using the t-shirt sizing list we set up (1). We disabled time estimation for all other item types (2).
 
-![image.png](/images/image141.png)
+![image.png](/images/image152.png)
 
 When we open an item, the estimation method presets that are available to us (1) is now based on these settings.
 
-![image.png](/images/image141.png)
+![image.png](/images/image153.png)
 
 **Note:**
 On any given item, your team can choose to either use pre-sets or **can enter in their own estimates manually** in the boxes below the pre-sets. DevStride automatically calculates the PERT and confidence level for manual entries as well.
 
 Once you have entered your time estimate on a task, DevStride also displays the standard deviation in the range field as well as the resulting time estimate calculation on the item (1).
 
-![image.png](/images/image141.png)
+![image.png](/images/image154.png)
 
 **Why it's important**
 Why does estimating tracking matter? And why is knowing the standard deviation useful?
@@ -95,7 +97,7 @@ In our example below, tasks are our smallest types, so we created suitable range
 
 We also created larger ranges for what we would consider small, medium and large Capabilities, which is the next level up in our item type hierarchy. (1) We could choose to do this with our Module item types as well. We will just show Tasks and Capabilities for this example.
 
-![image.png](/images/image141.png)
+![image.png](/images/image157.png)
 
 Once we defined our ranges, we created collections named for each type of item and then grouped our ranges into their collections. Then we assigned the collection we wanted to use to our item type. We used related names to help us match our ranges to our collections.
 
@@ -103,11 +105,11 @@ Once in our system, we can apply estimates to each task. Since Tasks are  childr
 
 In our example below, our Module item displays an orange warning icon. This warning lets us know that based on our estimated time, this module could take longer than our definition of a module of this size:
 
-![image.png](/images/image141.png)
+![image.png](/images/image158.png)
 
 You can click on the warning icon to see the completion stats and the warning details.
 
-![image.png](/images/image141.png)
+![image.png](/images/image160.png)
 
 This warning icon shows throughout the system, elevating the potential issue.
 
@@ -122,4 +124,20 @@ With powerful and flexibility estimation capabilities, DevStride gives you predi
 ---
 
 Now, continue to tour the right bar of the item workspace:
-[Teams through Status](/v1/docs/5d-admin-onboarding-item-workspace)[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)
+<br />
+
+[Teams through Status](/v1/docs/5d-admin-onboarding-item-workspace)<br />
+
+[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)<br />
+
+[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)<br />
+
+[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)<br />
+
+[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)<br />
+
+[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)<br />
+
+[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)<br />
+
+[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)

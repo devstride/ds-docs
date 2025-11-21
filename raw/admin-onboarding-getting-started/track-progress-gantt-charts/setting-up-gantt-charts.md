@@ -29,11 +29,11 @@ Product X Gantts
 
 For our example. we will use the name Web DevOps Demo Gantts (3). Click **Add** (4):
 
-![image.png](/images/image321.png)
+![image.png](/images/image323.png)
 
 The Gantt group's name now appears in the Gantt Groups section of the box (5):
 
-![image.png](/images/image321.png)
+![image.png](/images/image324.png)
 
 ### Step 2: Create a new Gantt chart
 
@@ -41,12 +41,13 @@ Now, Create a new gantt chart by clicking on the **Create New** icon again (1) a
 
 For our example, we used the name Web DevOps Demo Chart.
 
-![image.png](/images/image321.png)
+![image.png](/images/image326.png)
 
 Select the Gantt group you want to associate to your gantt chart (3).
+
 Click **Create Gantt** (4).
 
-![image.png](/images/image321.png)
+![image.png](/images/image329.png)
 
 ### Step 3: Create an Initiative name that will contain the gantt chart items
 
@@ -62,7 +63,7 @@ A marketing team might use something like "FY x Marketing initiatives" or "Clien
 
 To create an initiative, click either the New initiative (4) or Add to Gantt (4) icons.
 
-![image.png](/images/image321.png)
+![image.png](/images/image330.png)
 
 Name and create your initiative by entering the desired details into the dialog box (5), including:
 
@@ -72,39 +73,39 @@ Name and create your initiative by entering the desired details into the dialog 
 
 Click **Create Initiative**.
 
-![image.png](/images/image321.png)
+![image.png](/images/image331.png)
 
 The name of the initiative now appears (6) and defaults to the current calendar timing (7). This will adjust as we add items to the gantt.
 
 Click the kabob to the right of the initiative name to edit the name or to take other actions (1):
 
-![image.png](/images/image321.png)
+![image.png](/images/image339.png)
 
 You can create more than one initiative. This allows you to easily house and display activities across and organization (2).
 
-![image.png](/images/image321.png)
+![image.png](/images/image340.png)
 
 ### Step 4: Populate your Gantt with the work you want to track.
 
 Click on Add to Gantt (1) to select what you'd like to track in your gantt chart from the Map Value workstreams (2).
 
-![image.png](/images/image321.png)
+![image.png](/images/image341.png)
 
 Choose your initiative that you want to add work items to (3).
 
-![image.png](/images/image321.png)
+![image.png](/images/image342.png)
 
 Then click on the items/workstream dropdown (5).
 
-![image.png](/images/image321.png)
+![image.png](/images/image345.png)
 
 Use the dialog box to navigate to the items you want to add from your Plan Value workstream map (6):
 
-![image.png](/images/image321.png)
+![image.png](/images/image346.png)
 
 Click to add entire workstreams or individual items to the gantt (7). When you have made your selections, click **Select Items** (8).
 
-![image.png](/images/image321.png)
+![image.png](/images/image347.png)
 
 Your gantt can include multiple work from multiple boards, at any level of the value map/workstreams.
 
@@ -117,7 +118,7 @@ Gantt charts render timelines based on the scope and board type of your selectio
 
 Gantt chart items display on the timeline according to their start and end dates. These dates can be viewed in granularity from days to years. To adjust the granularity, click on the zoom level icon (1) and select the level granularity you'd like to see. The following example displays the quarterly view (2):
 
-![image.png](/images/image321.png)
+![image.png](/images/image348.png)
 
 ### Step 6: Associate your gantt chart to your desired cadence: Snap to Cycles
 
@@ -129,23 +130,22 @@ Here's how:
 
 Click the Snap to Cyles icon (1). A modal will appear, indicating the cycles that are used for each board. Navigate to the board that represents the cycle that you wish to use (2):
 
-![image.png](/images/image321.png)
+![image.png](/images/image349.png)
 
 In the example below, we want to see the gantt chart through the lens of the Engineering (1) - Web Dev team's board. Note that they work in "Sprints" (2):
 
 Once you navigate to the board cycle you want, click Select (3).
 
-![image.png](/images/image321.png)
+![image.png](/images/image351.png)
 
 The sprint cycle for this team now appears on the gantt chart grid. Note the sprint name is listed (1) and the timeframe displays (2) according to the level of granularity selected (3).
 
 Here, we have selected the calendar to display in months now instead of quarters because we want to see our sprints by months:
 
-![image.png](/images/image321.png)
+![image.png](/images/image352.png)
 
 Next Up: Using Gantts
 
 ## Why it Matters
 
 While the name of the game is agility, dates matter most to clients. If you’re accountable for date commitments, contractual, financial, or regulatory outcomes, DevStride helps you build confidence and reduce delivery risks.
-:::

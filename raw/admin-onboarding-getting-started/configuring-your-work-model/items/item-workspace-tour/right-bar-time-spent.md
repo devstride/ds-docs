@@ -24,7 +24,7 @@ At the parent level, DevStride indicates any actual time overage (1) compared to
 
 In the case of time spent overage, warning icons display on the item and throughout the system on workstreams, boards, and gantt charts. These icons link to an interactive completion stats pop-up (3).
 
-![image.png](/images/image161.png)
+![image.png](/images/image162.png)
 
 <alert title="Time Spent: A Powerful Predicability Tool" type="info">
 
@@ -43,7 +43,7 @@ The assignee here is primarily used for understanding accountability for the par
 
 In this example below, this parent item is assigned to someone responsible for the overall work. The owners of the tasks of the child items are listed below (2). The time for the child items belongs to assignees of those items.
 
-![image.png](/images/image161.png)
+![image.png](/images/image163.png)
 
 **Time and Subtasks**
 
@@ -55,7 +55,7 @@ On the subtasks tab (1), use the configure icon (2) to enable the time estimatio
 
 Subtasks' time and estimation updates (4) for this item will now roll up to the item totals(5).
 
-![image.png](/images/image161.png)
+![image.png](/images/image172.png)
 
 **What this gives you**
 
@@ -73,6 +73,20 @@ You can build subtasks for each time entry and track billable time. In this way,
 
 Now, continue to tour the features on the right bar of the item workspace:
 
-[Teams through Status](/v1/docs/5d-admin-onboarding-item-workspace)[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)
+<br />
 
-[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)
+[Teams through Status](/v1/docs/5d-admin-onboarding-item-workspace)<br />
+
+[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)<br />
+
+[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)<br />
+
+[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)<br />
+
+[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)<br />
+
+[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)<br />
+
+[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)<br />
+
+[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)

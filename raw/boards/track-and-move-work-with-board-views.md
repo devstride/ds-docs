@@ -95,30 +95,14 @@ It provides a rich, interactive, and editable graphic interface with many option
 
 - Ability to view different data points on either the x or y axis, including by:
 
-  - ```text
-  Assignee
-  ```
-  - ```text
-  Color of items
-  ```
-  - ```text
-  Engineering type (i.e., backend, none, UI/UX, research, review)
-  ```
-  - ```text
-  Item type (read only)
-  ```
-  - ```text
-  Parent (read only)
-  ```
-  - ```text
-  Priority
-  ```
-  - ```text
-  Release
-  ```
-  - ```text
-  Status
-  ```
+  - Assignee
+  - Color of items
+  - Engineering type (i.e., backend, none, UI/UX, research, review)
+  - Item type (read only)
+  - Parent (read only)
+  - Priority
+  - Release
+  - Status
 
 ![2D x_y axis selection.gif](/images/2D-x_y-axis-selection.gif)
 

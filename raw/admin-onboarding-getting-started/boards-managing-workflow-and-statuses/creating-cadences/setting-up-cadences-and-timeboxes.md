@@ -14,11 +14,11 @@ Here is an example of how you might fill out the pop-up box for a Program Increm
 
 Click on New Planning Cadence (1) or (2).
 
-![image.png](/images/image254.png)
+![image.png](/images/image262.png)
 
 Fill in the pop up box.
 
-![image.png](/images/image254.png)
+![image.png](/images/image263.png)
 
 **Cadence Label:** Example - "Program Increment"
 
@@ -34,7 +34,7 @@ Fill in the pop up box.
 
 If the shorter sprint is intended to function as a child of the Planning Increment, select the PI as the parent.
 
-![image.png](/images/image254.png)
+![image.png](/images/image264.png)
 
 **Save time with "Ancestors" variables**
 Ancestor variables allow nested cadences to reference attributes from their parent cadence. This is especially useful for structured planning, such as:
@@ -57,7 +57,7 @@ In this example, we are creating Sprints that count on under the program increme
 1. Select the color you would like to use for this planning cadence (4).
 2. Click Create Cadence (5).
 
-![image.png](/images/image254.png)
+![image.png](/images/image270.png)
 
 You can create multiple cadences for use by various teams and can apply them when you are ready.
 
@@ -74,11 +74,11 @@ DevStride offers tremendous flexibility in time-box creation. Time-boxes can be 
 5. Child periods can also be adjusted or removed (6)
 6. You have a choice to recursively create child cadences or not (7).
 
-![image.png](/images/image254.png)
+![image.png](/images/image271.png)
 
 The Planning Cadence screen displays any parent-child relationship you set up (1) as well as the dates you applied (2). If selected, the cadences are recursively created.
 
-![image.png](/images/image254.png)
+![image.png](/images/image272.png)
 
 ---
 
@@ -90,6 +90,6 @@ Here are some additional features that cadences provide:
 
 **Adjustments & Refresh:** Users can adjust cadence start dates and refresh to update dependent cycles.
 
-![image.png](/images/image254.png)
+![image.png](/images/image269.png)
 
 Read on to find out how to assign and use cadences through the use of boards.

@@ -83,7 +83,7 @@ You can name your stages to align with your business needs. Marketing teams, for
 - Done (ending terminal state)
 
 Here's an example of status collections in DevStride **Settings**:
-![image.png](/images/image221.png)
+![image.png](/images/image222.png)
 
 **Methodology Flexibility**
 DevStride kanban boards and their workflow/statuses are designed to be flexible to support your methodology.

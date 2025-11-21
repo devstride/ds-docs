@@ -60,11 +60,11 @@ Summary data by board (4) displays along the bottom of the screen, including:
 - Estimated hours
 - Actual hours
 
-![image.png](/images/image307.png)
+![image.png](/images/image309.png)
 
 Adjust board real estate with by resizing (1) or collapsing (2) columns as desired. Note that both normal columns (3) and collapsed columns (4) still both display the same summary data as listed above, by stage.
 
-![image.png](/images/image307.png)
+![image.png](/images/image311.png)
 
 #### Table View
 
@@ -81,7 +81,7 @@ To access this view, click open a board and then click on the table view icon (1
 - Board statistics, including item numbers, members, estimated and completed time (4)
 - Ability to add items to the board by importing or adding items from the screen (5)
 
-![image.png](/images/image307.png)
+![image.png](/images/image313.png)
 
 As a fully interactive and editable view, the board also provides hot keys and drop down lists allow users to move through the items, review, and make changes with ease.
 
@@ -95,30 +95,14 @@ It provides a rich, interactive, and editable graphic interface with many option
 
 - Ability to view different data points on either the x or y axis, including by:
 
-  - ```text
-  Assignee
-  ```
-  - ```text
-  Color of items
-  ```
-  - ```text
-  Engineering type (i.e., backend, none, UI/UX, research, review)
-  ```
-  - ```text
-  Item type (read only)
-  ```
-  - ```text
-  Parent (read only)
-  ```
-  - ```text
-  Priority
-  ```
-  - ```text
-  Release
-  ```
-  - ```text
-  Status
-  ```
+  - Assignee
+  - Color of items
+  - Engineering type (i.e., backend, none, UI/UX, research, review)
+  - Item type (read only)
+  - Parent (read only)
+  - Priority
+  - Release
+  - Status
 
 ![2D x_y axis selection.gif](/images/2D-x_y-axis-selection.gif)
 
@@ -138,7 +122,7 @@ Other advanced board features include:
 
 In the example below, the review column has turned read because the rule set by the admin in [Settings - Statuses & WIP Limiters](https://app.devstride.com/devstride/organization/settings?section=lanes) has been exceeded.
 
-![image.png](/images/image307.png)
+![image.png](/images/image314.png)
 
 - Automatic parent rollup: moving a task in the boards triggers status updates and completion totals for its parents.
 

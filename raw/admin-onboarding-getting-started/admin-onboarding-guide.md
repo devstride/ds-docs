@@ -139,6 +139,8 @@ DevStride accommodates unlimited teams and multiple project management methodolo
 
 <br />
 
+Your DevStride is essentially a blank slate at the beginning. You can start fresh or integrate with your existing tools.
+
 For ease of onboarding, this guide is divided into "capability-by-capability" instructions, with the links to the next step at the bottom of the page.
 
 Setting up each capability generally takes just a few minutes to complete.
@@ -159,7 +161,7 @@ Complete the fields on your user screen.
 
 Enter your verification code.
 
-![image.png](/images/image168.png)
+![image.png](/images/image169.png)
 
 Welcome!
 
@@ -174,7 +176,7 @@ You only need to set up one organization, regardless of how many teams or projec
 **How to do it**
 Click on the **DevStride** link in the lower left corner (1). Next, click Create Organization (2).
 
-![image.png](/images/image168.png)
+![image.png](/images/image52.png)
 
 The **Create Organization** box will pop up.
 
@@ -182,7 +184,7 @@ Fill in the **Organization Name** field. You can name it anything you want.
 
 We suggest using your company name and uploading your logo.
 
-![image.png](/images/image168.png)
+![image.png](/images/image46.png)
 
 **Notes on Users**
 
@@ -194,13 +196,17 @@ Once you have filled in the Create an Organization pop-up, click **Create Organi
 
 <br />
 
+Next, you will see the **Organization Configuration** screen.
+
 <br />
+
+This screen allows you to fill in additional details about your organization.
 
 The Profile section can be completed now or later. (1)
 
 The Workflow Automation section can be set to the default for now. (2)
 
-![image.png](/images/image168.png)
+![image.png](/images/image223.png)
 
 ---
 

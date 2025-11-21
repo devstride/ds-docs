@@ -1,6 +1,6 @@
 # Import Stories and Epics into Boards
 
-> Step-by-step guide to importing stories and epics into your DevStride boards.
+> 
 
 ## How to Import Stories and Epics into Boards
 

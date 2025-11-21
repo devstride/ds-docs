@@ -1,6 +1,6 @@
 # How DevStride manages the When: Perpetual vs. Cycle-based Boards
 
-> Learn about Perpetual Boards vs. Cycle-based Boards and how to choose the right approach for your team.
+> 
 
 ## Perpetual Boards vs. Time Cycle Board (or both!)
 

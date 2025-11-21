@@ -14,7 +14,9 @@ Some types of work benefit greatly from the concept of point estimation.
 
 Estimation of effort helps teams assess if planned work is reasonable or not. As a general rule, there are 2 types of estimation, Effort and Time. We will discuss Effort estimation here:
 
-**Effort Points**
+**Effort Points**<br />
+
+
 Effort points is an **arbitrary measure** that the team agrees on and is **relative to the team who is doing the estimation**. This is critical to interpreting effort points correctly. Different teams are comprised of different levels of expertise, and what might represent one level of effort for one team is different for another team.
 
 Effort points are often represented by the idea of numbers (such as 1-low, 5-medium 10-large, or by employing a Fibonacci scale of 1, 2, 3, 5, 8, etc.). Whatever method is used, remember that estimates are relative to each team, so one team's "3" shouldn't be compared to another team's "3."
@@ -29,7 +31,9 @@ See our Project Management Principals and Best Practices articles for more infor
 
 </alert>
 
-**How to Do It**
+**How to Do It**<br />
+
+
 To set up Effort Point options, go to **Settings > Data Model > Effort Point Estimation.**
 
 Your item types hierarchies will be displayed here under the  **Manage Effort Board Estimation** panel.
@@ -38,14 +42,32 @@ You can set up the effort point estimation scale you prefer for each type, or ca
 
 ![image.png](/images/image140.png)
 
-**How to See Effort Points in DevStride**
+**How to See Effort Points in DevStride**<br />
+
+
 Effort points are displayed here on the item (1).
 
-![image.png](/images/image140.png)
+![image.png](/images/image246.png)
 
 Effort points can be used in filters, tables, reports and analytics throughout DevStride.
 
 ---
 
 Continue to tour the features on the right bar of the item workspace:
-[Teams through Status](/v1/docs/5d-admin-onboarding-item-workspace)[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)
+<br />
+
+[Teams through Status](/v1/docs/5d-admin-onboarding-item-workspace)<br />
+
+[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)<br />
+
+[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)<br />
+
+[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)<br />
+
+[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)<br />
+
+[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)<br />
+
+[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)<br />
+
+[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)

@@ -1,6 +1,6 @@
 # Working Group Folders: Organizing the Who of the work
 
-> Learn how to organize boards using working group folders to assign and structure work across teams and departments.
+> 
 
 ## Organizing Boards: Working Group Folders
 

@@ -112,15 +112,15 @@ Locate the the board you want to manage - if it's one of your cycle boards, the 
 
 Click the Go icon (4) to open the board.
 
-![image.png](/images/image303.png)
+![image.png](/images/image301.png)
 
 Ideally, you would have already defined what work has to be delivered by creating items in your [Map Value](https://app.devstride.com/devstride/map?selectedFolder=F2432&tab=portfolio) module. If so, you can click on import items (1).
 
-![image.png](/images/image303.png)
+![image.png](/images/image304.png)
 
 A dialogue box will open and you can locate the items you want to assign by navigating through the map (2), searching by keyword (3), or by using filters (4).
 
-![image.png](/images/image303.png)
+![image.png](/images/image305.png)
 
 In the example below, we have navigated through the map to locate the group of items we want to add to the board. Here's how:
 ![chrome-capture-2025-7-17.gif](/images/chrome-capture-2025-7-171.gif)
@@ -129,11 +129,11 @@ You can add items at whatever level of your hierarchy is appropriate for your bo
 
 You can go back and add more items to a board from different locations in your map, as in here. Note there are already items in the right "selected side."  You can navigate to other areas of your map and add more items:
 
-![chrome-capture-2025-7-17.gif](/images/chrome-capture-2025-7-171.gif)
+![chrome-capture-2025-7-17.gif](/images/chrome-capture-2025-7-18.gif)
 
 Once you have chosen items you want to add to your board, click Select Items (5).
 
-![image.png](/images/image303.png)
+![image.png](/images/image306.png)
 
 You will now see all the items you selected on that board, in any view you wish to see.
 
@@ -150,11 +150,16 @@ Use the various views to see work committed to the board.
 
 No problem! You can add them to the map OR right to here in Plan Devliery. Adding them here (via any view) will add them to the Map Value module as well.
 
-<br />
+To add items directly from Plan Delivery, click on the New Item (1) icon from any view. The dialogue box will open.
+Enter the name of the item you'd like to create.
 
 <br />
 
-![image.png](/images/image303.png)
+Click on the down arrow of the location field to navigate to the place in the Workstream in Map Value you would like this item to be.
+Select the item type for this item.
+If you'd like to have the item open for you so that you can set additional details click the check box (3).
+
+![image.png](/images/image312.png)
 
 <br />
 

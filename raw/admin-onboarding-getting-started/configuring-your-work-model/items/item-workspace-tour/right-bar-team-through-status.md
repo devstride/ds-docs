@@ -19,22 +19,50 @@ Identifying the team for the item populates the **Assigned to** dropdown with th
 
 To assign a team member to the item, click on **Choose Assignee** (1). Then select a team member from the list (2) or search by their name (3). If you want to clear the assignment, click on **clear** (4) here next to Assigned To in the bar.
 
-![image.png](/images/image137.png)
+![image.png](/images/image138.png)
+
+<alert title="Notes on Assignment" type="info">
+
+Item are assigned to **one individual** - the assignee. This helps create ownership and accountability.
+
+**Subtasks** of items can be assigned to other team members (one assignee per sub-task) to help further break up smaller, checklist-type to dos. Typically, though, If it's big enough to be visible on a timeline, it's best to track work as items rather than sub-tasks.
+
+**When an assignee has completed the task** - When a task has been completed, mark it "done" and leave the assignee on the item.
+
+"Clear" is meant to be used as a fast way to change remove an assignee for later assignment, not to indicate that the individual no longer has the work.
+
+Leaving the assignee's name on the "done" task allows for reporting of hours, referencing who performed the work, etc.
+
+</alert>
 
 **Cycle/Board**
 
 This is one of the places where the "when" of the work can be indicated for the item (1). We will discuss this in more detail in the Set up Cycles and Boards Section coming up in this guide.
 
-![image.png](/images/image137.png)
+![image.png](/images/image384.png)
 
 **Status**
 
 Status indicates the item's state in your work process, and is based on either default or custom statuses in Settings.
 
-![image.png](/images/image137.png)
+![image.png](/images/image383.png)
 
 ---
 
 Continue through the features on the right bar of the item workspace:
 
-[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)
+[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)<br />
+
+[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)<br />
+
+[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)<br />
+
+[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)<br />
+
+[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)<br />
+
+[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)<br />
+
+[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)<br />
+
+[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)

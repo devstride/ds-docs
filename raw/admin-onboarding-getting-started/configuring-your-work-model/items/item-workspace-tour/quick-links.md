@@ -7,29 +7,32 @@
 The following Quick Links are available for other useful information right from the Item Header:
 
 **Participants**
+
 Clicking on **Participants icon** (1) allows you to see at a glance who is involved with this item, including creators, assignees, and watchers.
 
 ![image.png](/images/image116.png)
 
 **Completion Stats**
+
 The Completion Stats icon (1) displays a pop-up widget (2) with information about the progress of the item. We will detail this more later.
-![image.png](/images/image116.png)
+![image.png](/images/image125.png)
 
 **Blocked Indicator**
 
 The blocked indicator is extremely valuable for raising a flag on work that cannot move forward. You can mark any item as blocked by simply clicking on the the block icon (1) and typing in the reason the item is blocked (2).
 
-![image.png](/images/image116.png)
+![image.png](/images/image126.png)
 
 You can see that the item is blocked right from the item's workspace:
 
-![image.png](/images/image116.png)
+![image.png](/images/image127.png)
 
 The Workstream Map also indicates the item's blocked status:
 
-![image.png](/images/image116.png)
+![image.png](/images/image128.png)
 
 **What This Gives You**
+
 A powerful way to raise a red flag, the blocked indicator displays wherever it is relevant throughout the system. It shows up on boards, tables, reports, and gantt charts as well, features which we will visit later.
 
 **Manage Relationships**
@@ -48,17 +51,18 @@ This view is a useful way to create relationships, view relationships, and quick
 
 To create a relationship, click on the Relationship icon (1) in the relevant item. Click on the type of relationship you would like to create (2).
 
-![image.png](/images/image116.png)
+![image.png](/images/image129.png)
 
 Navigate through the workstream map in the pop-up window (1) to the item you want to create a relationship for and add it to the pane on the right (2). Click **Save.**
 
-![image.png](/images/image116.png)
+![image.png](/images/image131.png)
 
 You can now view the relationship you created in the pop-up. The items that appear here are interactive, so that you can link to them as needed.
 
-![image.png](/images/image116.png)
+![image.png](/images/image134.png)
 
 **Color Picker Icon**
+
 By default, items inherit their item type color (found in Settings). You can change the color on a given item to adhere to your own business rules or for your own purposes.
 
 Note: The color you make an item is not a personal view - it will show up that way to all users.
@@ -66,4 +70,22 @@ Note: The color you make an item is not a personal view - it will show up that w
 ---
 
 Now, for the features on the right bar of the item workspace:
-[Team through Status](/v1/docs/5d-admin-onboarding-item-workspace)[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)
+<br />
+
+[Team through Status](/v1/docs/5d-admin-onboarding-item-workspace)<br />
+
+[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)<br />
+
+[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)<br />
+
+[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)<br />
+
+[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)<br />
+
+[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)<br />
+
+[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)<br />
+
+[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)<br />
+
+[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)

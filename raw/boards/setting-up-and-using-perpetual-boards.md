@@ -27,9 +27,9 @@ Click the “Plan Delivery” icon (1).
 - Navigate to the working teams folder for which you want to add a board (2a).
 - Or create a [new folder](/v1/docs/11-creating-boards) at this time.
 
-Click the “+ New” button (2b)
+Click the "+ New" button (2b)
 
-![image.png](/images/image283.png)
+![image.png](/images/image285.png)
 
 ### Step 3: Add a new board.
 
@@ -78,7 +78,7 @@ That’s what makes it evergreen — it runs continuously with no time box.
 
 To view a particular perpetual board, navigate to the desired board through your folders view (1).
 
-![image.png](/images/image283.png)
+![image.png](/images/image293.png)
 
 Select the board you wish to see. Perpectual boards are listed along the top. Click go on the desired board (2).  Cycle based boards are listed in the next row down.
 
@@ -88,7 +88,7 @@ There are multiple ways to view your selected board.
 
 - To view columns in a kanban board click on the kanban icon (1).
 
-![image.png](/images/image283.png)
+![image.png](/images/image295.png)
 
 This view provides a wealth of information, including:
 
@@ -106,7 +106,7 @@ Reminder: Status columns are customizable in settings.<br />
 
 To view board items in a table view, click the Table View icon (1).
 
-![image.png](/images/image283.png)
+![image.png](/images/image297.png)
 
 Columns are editable and rows can sorted, filtered or dragged up and down individually or as groups to reflect ranking, priority or other desired order (2).
 
@@ -118,7 +118,7 @@ DevStride provides a powerful, two-dimensional view with multiple options availa
 
 To view board items in **2 D view**, click on the 2D view icon (1):
 
-![image.png](/images/image283.png)
+![image.png](/images/image298.png)
 
 You can then select the information you would like to see in the columns. Here, we are showing assignees team in the rows (2) an Status in the columns (3).
 
@@ -128,7 +128,7 @@ Unassigned tasks appear in the  first row (5). You can drag tasks into different
 
 Note: You can see in this view that the same tasks that were showing up as red/overdue in the kanban and the list view are still showing up as red in the 2D view. This makes it easy to see that something is at risk.
 
-![image.png](/images/image283.png)
+![image.png](/images/image299.png)
 
 Another powerful feature is this board's combination of relationship map and internal/external dependency display.
 
@@ -140,13 +140,13 @@ DevStride includes the gutter lane in the 2D view (as well as all other rows), r
 
 You can see here that there are some external relationships that connect to some of the unassigned and overdue tasks on this board. This can help you to address any issues before negative downstream effects occur.
 
-![image.png](/images/image283.png)
+![image.png](/images/image300.png)
 
 ### Step 7: In each type of board, edit views and columns as needed
 
 The 2D board will display the values you decide to include - you can also show these boards by other data and can filter, and create views, etc. using selections from the control ribbon at the top:
 
-![chrome-capture-2025-7-15.gif](/images/chrome-capture-2025-7-15.gif)
+![Board views and filters demo](/images/chrome-capture-2025-7-15.gif)
 
 Click the icon in the board header that you wish to use: Views, Filters, Sort, Options:
 

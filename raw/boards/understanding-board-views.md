@@ -1,6 +1,6 @@
 # Understanding Board Views
 
-> Learn about DevStride board views: Status View, Table View, and 2D View, each designed for different project management needs.
+> 
 
 ## Understanding DevStride Board Views
 

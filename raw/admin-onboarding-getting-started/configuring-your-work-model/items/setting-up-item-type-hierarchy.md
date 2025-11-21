@@ -43,7 +43,7 @@ DevStride allows you to create and name your item types, decide how many you nee
 
 To create a new item type or a new hierarchy of items, navigate to **Item types** under **Settings** and click on **New Item Type** (5).
 
-![image.png](/images/image261.png)
+![image.png](/images/image54.png)
 
 You can name your item types anything you want. For some organizations, an item type hierarchy might be as simple as:
 
@@ -55,22 +55,22 @@ Click on **Settings** then **Item Types** (1). Then click on the green **New Ite
 Name the highest level of your item hierarchy in the pop-up box under Label (3).
 In our example, we are using Module as our top-level item category. We do not need to select a parent at this point (4), because Module is at the top. We can then choose its display color. (5)
 
-![image.png](/images/image261.png)
+![image.png](/images/image56.png)
 
 We want the Modules that we will be working on to break down into smaller ideas or objectives and smaller pieces of work.
 
 For our example, we will name this smaller type of work—and the next level down in our hierarchy—"Capability." (1) Then we can assign it as a child level of Module (2) and choose its display color (3).
 
-![image.png](/images/image261.png)
+![image.png](/images/image57.png)
 
 If you forget to add the item to its parent, you can edit it as long as there is no work assigned to it.
 
 And because there is no work of this item type in the system, we can still edit its place in the hierarchy by clicking on the edit pencil. Then, simply choose its parent from the dropdown (1).
 
-![image.png](/images/image261.png)
+![image.png](/images/image60.png)
 
 **Note**: Time is tracked on the lowest child level(s) as indicated here (1), so that all time can be rolled up to each parent above it.
-![image.png](/images/image261.png)
+![image.png](/images/image61.png)
 
 <alert title="Important:" type="warning">
 
@@ -109,7 +109,7 @@ Client (or Initiative if internal) → Campaign → Objectives →Tasks
 Some teams might use multiple types of item hierarchies. There is no limit.
 
 Here's an example of multiple hierarchies - in this case, one for marketing, one for organization initiatives, and one for product engineering:
-![image.png](/images/image261.png)
+![image.png](/images/image63.png)
 
 </alert>
 

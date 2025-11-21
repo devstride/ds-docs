@@ -23,11 +23,11 @@ Note that visual indicators roll up at each level to show that somewhere in the 
 
 To see wha the issue is, simply click on the expansion carrot to the left of any level you want to drill into (4):
 
-![image.png](/images/image353.png)
+![image.png](/images/image355.png)
 
 Now we can see the details. In this example, there was simply a date missing (5):
 
-![image.png](/images/image353.png)
+![image.png](/images/image356.png)
 
 This is one way to see if there are other issues as well, such as incorrect dependencies, slipped dates, etc.
 
@@ -37,7 +37,7 @@ Using filters is a great way to display a certain aspect of the project plan. Fo
 
 Click on the Filters icon (2). Select the filter(s) you want to use. Here, we'll select Team (3). The Filter modal will appear, where we can select the team(s) we want to include (4) and apply the filter.
 
-![image.png](/images/image353.png)
+![image.png](/images/image357.png)
 
 ### 3. View your gantt chart through your team or any other team's cadence
 
@@ -49,17 +49,17 @@ The **power** of this view is that you can see a given gantt chart with your tea
 
 In our example, we could decide to view the GTM activities and where they land in another team's sprints:
 
-![image.png](/images/image353.png)
+![image.png](/images/image358.png)
 
 If we want to see them in the GTM team's cadence, simply change it that of the GTM team.
 
 Click the snap to cycle icon (1). In the modal that appears, click on the cadence you'd like to view (2). Here, we'll select the GTM group at the program increment cadence level, which uses multiple sprints.  Click Select (3).
 
-![image.png](/images/image353.png)
+![image.png](/images/image359.png)
 
 Now, the work you are viewing in the gantt is diplayed according to the program increment timeline that the GTM team uses. Here we're seeing activities in PI-14, which started earlier, and PI-15, which is marked where it begins on the screen (1)
 
-![image.png](/images/image353.png)
+![image.png](/images/image361.png)
 
 **You can filter items by:**
 
@@ -79,11 +79,11 @@ Here's an example of creating a saved view using a filter to diplay priority ite
 
 Click on the **Filters** icon (1). Apply one or more from the modal. In this example, we will select **Priority** (2). Select one or more priorities that you want to display. We will choose to show **Critical** (3). Apply filter (4).
 
-![image.png](/images/image353.png)
+![image.png](/images/image362.png)
 
 Here's what displays when the filter is applied. We have expanded the view (by clicking on the > carrots on the left (5) to show some of the critical items that were included as a result of the filter (6).
 
-![image.png](/images/image353.png)
+![image.png](/images/image365.png)
 
 To save this view, simply click on the **Views** icon (7).
 **Note**: there is a "Clear customizations" option (8) - select this if you don't want to include the customizations that you have enabled in the view, such as:
@@ -96,7 +96,7 @@ In our case, we want to retain our customizations, so we will not clear the cust
 
 Name the view with an easy to recognize name (9). Click Save (10).
 
-![image.png](/images/image353.png)
+![image.png](/images/image367.png)
 
 The save modal will appear. Name the view (11) - this is the title that will display if shared. Add a description, if desired, for clarity (12).
 
@@ -104,7 +104,7 @@ Choose whether you wish to have this view visible to you only or to team members
 
 Click **Save View** (14).
 
-![image.png](/images/image353.png)
+![image.png](/images/image368.png)
 
 To access or share your view:
 
@@ -116,7 +116,7 @@ The view we created is displayed in the list (17). From its row, you can (18):
 - Click on the pencil icon to edit the view name and its details.
 - Click the x to remove the view.
 
-![image.png](/images/image353.png)
+![image.png](/images/image369.png)
 
 ## Why it Matters
 
@@ -130,7 +130,8 @@ Specialized views based on summary level, cadences, and filters provide the leve
 
 ---
 
-:::(Info) (Considerations and Best Practices)
+<alert title="Considerations and Best Practices" type="info">
+
 **Perpetual Board Items:** These don’t have cadence-defined dates. If you want them to appear correctly in the Gantt by date, open to manually assign start/end dates in the item or do it quickly from its Plan Delivery board or Manage Items views. Or, consider moving them to a time-boxed board if appropriate.
 
 **Cadence Date Integrity:** When using time-boxed cycles (e.g., PI 1, Sprint 3), items will inherit start/end dates from the cadence if no manual overrides are applied.
@@ -138,3 +139,5 @@ Specialized views based on summary level, cadences, and filters provide the leve
 **Dependencies:** Be thoughtful when mapping dependencies. A bad chain can cause unintended shifts when a predecessor moves.
 
 **Granularity:** Don’t overload the Gantt chart with too many child items (like individual stories) unless necessary. Use filters or zoom levels to stay high-level for execs or detailed for team planning.
+
+</alert>

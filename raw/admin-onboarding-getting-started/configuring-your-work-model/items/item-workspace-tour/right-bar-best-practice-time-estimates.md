@@ -32,11 +32,11 @@ Once in our system, we can apply estimates to each task. Since Tasks are  childr
 
 In our example below, our Module item displays an orange warning icon. This warning lets us know that based on our estimated time, this module could take longer than our definition of a module of this size:
 
-![image.png](/images/image157.png)
+![image.png](/images/image158.png)
 
 You can click on the warning icon to see the completion stats and the warning details.
 
-![image.png](/images/image157.png)
+![image.png](/images/image160.png)
 
 This warning icon shows throughout the system, elevating the potential issue.
 
@@ -51,6 +51,20 @@ With powerful and flexibility time estimation capabilities, DevStride gives you 
 ---
 
 Now, continue to tour the right bar of the item workspace:
-[Teams through Status](/v1/docs/5d-admin-onboarding-item-workspace)[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)
+<br />
 
-[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)
+[Teams through Status](/v1/docs/5d-admin-onboarding-item-workspace)<br />
+
+[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)<br />
+
+[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)<br />
+
+[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)<br />
+
+[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)<br />
+
+[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)<br />
+
+[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)<br />
+
+[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)

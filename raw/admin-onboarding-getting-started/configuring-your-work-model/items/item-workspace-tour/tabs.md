@@ -12,24 +12,24 @@ To review the tabs on the item workspace, we will take a look at a Module Item (
 
 We might want to describe what the expected module will deliver. We can do this in the **Discussion tab** (1). This tab allows you to describe the item using a feature-rich text editor (2).
 
-![image.png](/images/image85.png)
+![image.png](/images/image88.png)
 
 **→ AI Time Saver**
 You can take advantage of AI in DevStride's to help generate your description. You can simply click the AI icon (2), and DevStride will generate results based on your item name.
 
 If you include prompts or relevant links in the discussion box (1), you can get even better results once you click generate (2).
 
-![image.png](/images/image85.png)
+![image.png](/images/image90.png)
 
 **What This Gives You**
 The AI feature can save countless hours by providing relevant content, a consistent way to describe an item, suggested steps or considerations, or any additional information you would like to include based on a specific AI prompt.
 
 You can see an example of an AI-generated description below (3).
-![image.png](/images/image85.png)
+![image.png](/images/image91.png)
 
 The **Discussion tab** also has a **Comments** feature (1). This feature helps you capture valuable discussions pertaining to the item (2). This comments section is also integrated with DevStride Notifications and email.
 
-![image.png](/images/image85.png)
+![image.png](/images/image92.png)
 
 **Child Items Tab**
 
@@ -39,7 +39,7 @@ You can see both its parent workstreams (2) and its child items (3). This sectio
 
 New child items can be added here.
 
-![image.png](/images/image85.png)
+![image.png](/images/image100.png)
 
 In addition, if you click on the grabber bar (1) and drag it to the left, you can expand any item window to provide a larger view.
 
@@ -47,21 +47,21 @@ Inside this table, you can filter, sort by fields, determine which columns you w
 
 You can also manage large lists of items here through Filter, Sort and Options views (2). If you'd like to manage which columns you view from here, click on Options (3):
 
-![image.png](/images/image85.png)
+![image.png](/images/image97.png)
 
 Then click Table Options (1) and select the columns you'd like to see (2):
 
-![image.png](/images/image85.png)
+![image.png](/images/image98.png)
 
 If you'd like to **add a new work item** right from this screen, click on New Item (1). Note that the default new item type assumes the hierarchy of the child items in current list (2).
 
 A pop-up window displays. Name the item you are adding (2). You can accept the location and item type or, you can change the location and item type as well throught these dropdowns (4 - 5). Click Save New Item (6) when finished.
 
-![image.png](/images/image85.png)
+![image.png](/images/image102.png)
 
 Adding items here is synchronized with the main Workstream Map and will automatically populate in the map as well. Here, our example, Capability F, is now on the Workstream Map in the correct location (1).
 
-![image.png](/images/image85.png)
+![image.png](/images/image104.png)
 
 **Subtasks Tab**
 Subtasks exist for the purpose of creating a light-weight task list. This is not designed to be work with a data model and reporting, etc. It's meant to be a checklist of small activities you want to remember to do related to this particular item.
@@ -83,9 +83,10 @@ From the Subtasks tab (1) click on Add subtask (2).
 
 To indicate a subtask is complete, simply click on the checkmark next to it (3). Note that you can see that there are subtasks on this tab by glancing at the badge counter (4).
 
-![image.png](/images/image85.png)
+![image.png](/images/image106.png)
 
 **Assets Tab**
+
 The Assets Tab is a way of organizing and linking to the item's relevant external resources. Great examples of useful assets are:
 
 - Google Docs of living or static documents
@@ -107,13 +108,14 @@ Links allow you and your team to refer to and work on the most current version o
 Asset links preserve access rights protection so that only team members with the appropriate rights can actually open the document.
 
 **How to Do it**
+
 From the Assets tab (1) you can upload a file or link a URL (2). Note: Use link a URL if you want to link to a living shared file that is stored online (like Googe Docs).
 
 You can further organize how Assets display, by clicking on Add Group and Naming it.
 
 Assets that are mentioned in the Description Tab are auto-populate in the Description Assets Section. Assets that might be added to Custom Fields that are part of this item are auto-populated in teh the Custom Fields Assets section. See (3).
 
-![image.png](/images/image85.png)
+![image.png](/images/image107.png)
 
 As an example, here's how to create a group and link a URL.
 
@@ -125,11 +127,11 @@ During this step, you can also type or paste in the link to the file. Name the f
 
 Click upload (4).
 
-![image.png](/images/image85.png)
+![image.png](/images/image108.png)
 
 The asset will now appear in the group you created (1). You can add or remove assets from the group anytime (2).
 
-![image.png](/images/image85.png)
+![image.png](/images/image111.png)
 
 **Activity Tab**
 
@@ -139,7 +141,7 @@ If you ever need to track down who made a particular change or when they changed
 
 You can interact with the list of activities (2) by clicking on links, searching by date range (3) and transaction type (4-5).
 
-![image.png](/images/image85.png)
+![image.png](/images/image113.png)
 
 ---
 

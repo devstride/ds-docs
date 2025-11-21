@@ -18,15 +18,19 @@ As with all the other Settings (1), you can add to the the global list of item t
 
 To create a custom field type, click on New icon next to Create Fields. There are many Available custom Fields Types to choose from:
 
+<div style="max-width: 300px;">
+
 ![chrome-capture-2025-2-3.gif](/images/chrome-capture-2025-2-3.gif)
+
+</div>
 
 Select the field type you want to add from the picker list (1).
 
-![image.png](/images/image188.png)
+![image.png](/images/image190.png)
 
 Then fill out the information you want to include in the display for this field (2):
 
-![image.png](/images/image188.png)
+![image.png](/images/image191.png)
 
 #### Step 2: Group Into Collections
 
@@ -36,15 +40,15 @@ After you have created the fields you wish to use (3), you can group them into c
 
 Then, assign the collection to your desired item type (6).
 
-![image.png](/images/image188.png)
+![image.png](/images/image194.png)
 
 You can edit your collections and their names at the main level (1) and at the form level (2). Within each collection list, you can use the grab bars drag items in to add, around to order, and out to remove (3).
 
-![image.png](/images/image188.png)
+![image.png](/images/image193.png)
 
 DevStride automatically displays a blank default Collection type (1) to use across all item types in the side bar 2). You will need to follow the same path of creating your organization's desired default fields and adding them to your default collection:
 
-![image.png](/images/image188.png)
+![image.png](/images/image195.png)
 
 #### Step 4: Create Forms as needed
 
@@ -68,18 +72,18 @@ In the example below, we can see how fields from the Product Collection are set 
 
 In an Epic, the side bar fields (2) will show in the **sidebar** and and remaining forms show in the **Forms** (3) tab.
 
-![image.png](/images/image188.png)
+![image.png](/images/image196.png)
 
 Here they are on an epic. The sidebar items from the Product Collection is displayed (1). Note that the default sidebar collection includes the calculated total for the RICE score.
 
-![image.png](/images/image188.png)
+![image.png](/images/image197.png)
 
 The forms (2) for the rest of the Product Collection in our example are in the forms tab. Note that input section for the RICE score score is grouped here as one of the Form tab sections (3). Setting this input section up as a form in the collection removes the clutter from the sidebar. The calculation from this input is assigned in the side bar as we noted above.
 
 **This is another powerful capability - forms within a collection can interact.**
 Data in one form can reference or be calculated in another form.
 
-![image.png](/images/image188.png)
+![image.png](/images/image198.png)
 
 As we touched on in the Create Fields step, there are many field types that you can use. Following is an easy reference table on the types of fields we offer and potential examples of their uses:
 
@@ -451,7 +455,9 @@ As we touched on in the Create Fields step, there are many field types that you 
 
 ---
 
-**What this Gives You**
+**What this Gives You**<br />
+
+
 DevStride provides unparalleled flexibility for your organization through custom fields while preserving the ability to standardize for reporting and analytics.
 
 [Next Up: Setting Up Tags](/v1/docs/07-admin-onboarding-tags)

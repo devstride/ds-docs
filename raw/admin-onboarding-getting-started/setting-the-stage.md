@@ -71,7 +71,7 @@ Break down work items from bigger units of work to smaller.
 
 For example, a development group's item type hierarchy might look like this:
 
-![image.png](/images/image315.png)
+![image.png](/images/image338.png)
 
 Goal: Using a map of value and an item hierarchy helps you to decompose the work/value to be delivered from the big things - like initiatives, all the way down to the small things, like tasks. This is your planned value view, like a product owner or business leader would view it - a delivery of value.
 
@@ -89,9 +89,9 @@ You will assign work to teams later in boards.
 
 #### 2. Organize Folders and Define Team Execution in Plan Delivery
 
-Create folders (1) named for how teams operate as working groups performing work (e.g., “QA Team”, “Web Product x Engineering Team”, “Customer Ops”).
+Create folders (1) named for how teams operate as working groups performing work (e.g., "QA Team", "Web Product x Engineering Team", "Customer Ops").
 
-![image.png](/images/image315.png)
+![image.png](/images/image317.png)
 
 Inside each folder, create:
 
@@ -100,13 +100,13 @@ Inside each folder, create:
 
 as needed (2):
 
-![image.png](/images/image315.png)
+![image.png](/images/image318.png)
 
 **Create Boards and and Assign Workstream Items**
 
 Assign items into the appropriate board where execution happens.
 
-![image.png](/images/image315.png)
+![image.png](/images/image319.png)
 
 <br />
 
@@ -133,8 +133,6 @@ DevStride tracks all this automatically — by relating child items to their par
 
 </alert>
 
-:::
-
 #### 3. Use Track Progress as a delivery timing guardrail
 
 The interactive gantt charts in Track Progress provide a visual overview of:
@@ -149,7 +147,7 @@ In addition to providing teams and leadership with status information, Track Pro
 - scenario planning for delivery timeframes and change requests
 - sharing capabilities
 
-![image.png](/images/image315.png)
+![image.png](/images/image333.png)
 
 #### 4. Measure Performance with interactive reports
 
@@ -158,7 +156,7 @@ The Measure Performance module provides robust and meaningful reporting of progr
 
 
 
-![image.png](/images/image315.png)
+![image.png](/images/image335.png)
 
 ---
 

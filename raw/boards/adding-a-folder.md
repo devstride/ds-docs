@@ -1,6 +1,6 @@
 # Adding a Folder
 
-> Learn how to create and organize folders in Boards for efficient project management and sprint organization.
+> 
 
 ## Creating a Folder in Boards for Organized Project Management
 

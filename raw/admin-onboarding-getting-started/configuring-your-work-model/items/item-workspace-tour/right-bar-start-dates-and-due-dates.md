@@ -16,7 +16,7 @@ Start and end dates can also be used as triggers in **Automations.**
 
 If you use cyclical planning, as with sprints, you can  **sync** your start and end dates with your cycles. DevStride's default is to sync start and end dates automatically with the cycle cadences you set up (1).
 
-![image.png](/images/image202.png)
+![image.png](/images/image186.png)
 
 If any of your teams work in board cycles (sprints or other specified cadences) this sync setting becomes important. When you set up your boards and assign them to a cycle, the tasks associated with that board adopt the start and end date board's cycle as their start and due date.
 
@@ -30,6 +30,20 @@ We will cover the default setting more as well as other options when we discuss 
 
 Now, continue to tour the features on the right bar of the item workspace:
 
-[Teams through Status](/v1/docs/5d-admin-onboarding-item-workspace)[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)
+<br />
 
-[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)
+[Teams through Status](/v1/docs/5d-admin-onboarding-item-workspace)<br />
+
+[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)<br />
+
+[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)<br />
+
+[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)<br />
+
+[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)<br />
+
+[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)<br />
+
+[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)<br />
+
+[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)

@@ -12,12 +12,8 @@ Forms are **optional** in DevStride. They are typically used for specific purpos
 
 The key to forms is that they:
 
-- ```text
-Capture required information in a standardized way
-```
-- ```text
-Can be part of a simple or complex workflow
-```
+- Capture required information in a standardized way
+- Can be part of a simple or complex workflow
 
 Forms function as the front end for capturing user input which is then integrated into your established work streams and boards.
 

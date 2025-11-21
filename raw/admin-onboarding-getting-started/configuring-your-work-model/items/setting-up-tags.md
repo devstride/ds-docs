@@ -87,7 +87,7 @@ To create a custom tag, click on New icon (4) next to Create Tags. Then, fill in
 
 Click on Create Tag.
 
-![image.png](/images/image204.png)
+![image.png](/images/image208.png)
 
 #### Step 2: Group Into Collections
 
@@ -95,23 +95,23 @@ Organize Tags into a Collection:
 
 After you have created the tags you wish to use (1), you can group them into collections that are specific to your needs. (A collection groups tags by context or workflow.)
 
-![image.png](/images/image204.png)
+![image.png](/images/image218.png)
 
 In our example, we have decided to use certain tags as default options for many of our item types. For our product work, we'd like to make sure we include the client approval tag, so we will create a collection and include this tag.
 
 To do this, click on the New icon (1) and enter in the name of the collection you would like to create (2). Click Create Tag Collection.
 
-![image.png](/images/image204.png)
+![image.png](/images/image210.png)
 
 This creates our now-available collection container (1). The system-supplied/default tags are automatically placed in this collection (2).
 
-![image.png](/images/image204.png)
+![image.png](/images/image211.png)
 
 Now we can add the additional tags we want in this collection. Drag and drop all the desired fields from the Create Tags pane (1) to the new Product collection. Note that the client tag (2) that we set up was one of the options we dragged over. We also chose to drag over the other user-defined tags on the left pane as we also want them available to the Product Item Types.
 
 We now have a collection named Product (3) that contains our custom tags. All the tags in the Product collection will now be available for use in any item type we assign the collection to. Our aim here is to assign this collection to the Product item types, but we could assign this collection to any item type in the right panel that we wish.
 
-![image.png](/images/image204.png)
+![image.png](/images/image213.png)
 
 #### Step 3: Assign to Item Types
 
@@ -123,17 +123,17 @@ Here, we've assigned the Product collection to the Product item types (1) and th
 
 Note that you can get as specific as you wish with your collections because each item type can be assigned their own collection.
 
-![image.png](/images/image204.png)
+![image.png](/images/image215.png)
 
 You can edit your collections and their names using the pencil icon in the Group into Collections pane or you can delete the collection by clicking the x (1).
 
 Within each collection list, you can use the grab bars drag items in to add, around to order, and out to remove (2).
 
-![image.png](/images/image204.png)
+![image.png](/images/image216.png)
 
 You can **also easily add items to the default collection**. You will need to follow the same path of creating your organization's desired default fields, adding them to your default collection (1). Any new fields you add to the default collection will automatically become available to all the item types with the default collection assigned to them (2).
 
-![image.png](/images/image204.png)
+![image.png](/images/image217.png)
 
 ---
 

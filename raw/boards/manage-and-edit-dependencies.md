@@ -1,6 +1,6 @@
 # Manage and Edit Dependencies
 
-> Learn how to add, edit, and manage task dependencies in DevStride to maintain project relationships and workflow.
+> 
 
 ## Managing and Editing Dependencies in DevStride
 
