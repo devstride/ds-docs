@@ -81,7 +81,8 @@ function createFrontmatter(metadata) {
  * Replace CDN image URLs with local paths
  */
 function replaceImageUrls(content, filename) {
-  // Pattern: ![alt text](https://cdn.document360.io/.../filename){height="" width=""}
+  // Pattern: ![alt text](https://cdn.document360.io/.../filename){height="" 
+  // =""}
   const imageRegex = /!\[([^\]]*)\]\(https:\/\/cdn\.document360\.io\/[^)]+\)(\{[^}]*\})?/g;
 
   return content.replace(imageRegex, (match, altText, attributes) => {

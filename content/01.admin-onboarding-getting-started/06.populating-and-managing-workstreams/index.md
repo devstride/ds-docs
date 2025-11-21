@@ -31,15 +31,15 @@ Back to our Product Development Workstream example, we might want to add nested 
 
 We've added Workstreams to represent 3 products that are being developed (1). Again, these workstreams represent the **what** of the work that is being tracked in the organization.
 
-![image.png](/images/image67.png)
+![image.png](/images/image68.png)
 
 To edit any of the names, you can click inside the name of the Workstream (1) and edit it:
 
-![image.png](/images/image67.png)
+![image.png](/images/image69.png)
 
 You can take these other actions (1) on the workstream by right clicking on the workstream name. You can also reorder the way your workstreams display by clicking on the grab bar and moving them around (2):
 
-![image.png](/images/image67.png)
+![image.png](/images/image70.png)
 
 
 * * *
@@ -59,31 +59,31 @@ You can name it anything you want. Module does not have to be in the name.
 
 Then we choose the item type. Because this is an item at the top of the product development hierarchy that we created, we will make the item type Product Module (3-4). 
 
-Now the other item types in our example - like Product Capabilities and Product Task items - can be nested underneath it. 
+Now the other item types in our example - like Product Capabilities and Product Task items - can be nested underneath it.
 
-![image.png](/images/image67.png)
+![image.png](/images/image72.png)
 
 
-To do this, we can add the next level of granularity down. In our example, we will add an item under Login Module. Click on the "Login Module >" row (1).  And then click on **add item** in the Login Module's panel to create a nested item (2). 
+To do this, we can add the next level of granularity down. In our example, we will add an item under Login Module. Click on the "Login Module >" row (1).  And then click on **add item** in the Login Module's panel to create a nested item (2).
 
-![image.png](/images/image67.png)
+![image.png](/images/image73.png)
 
 We will name the capability we want to track. In our example, we call it Login with MFA (1). Because we have added an item inside a module, the next item type down,  Product Capability, is auto-populated (2).
 
 If you would like to further describe this item using its workspace, you can open this item's workspace by clicking on the available box (3). The workspace for this new item will open once you click Save New Item. You can also open the item any time to add information to its workspace.
 
-Click **Save New Item** (4). 
+Click **Save New Item** (4).
 
-![image.png](/images/image67.png)
+![image.png](/images/image75.png)
 
 In our example, since Capabilities are right above tasks in our hierarchy, we are ready to add our individual tasks. To add tasks, go to any Capability (1) and click on Add Item (2) to add Tasks (3-4) to the Capability. Like this:
 
-![image.png](/images/image67.png)
+![image.png](/images/image77.png)
 
 **What this Gives You**
 Now that we have set up a series of items, you can see how the hierarchy works for you. Look at the flow of information in your Workstream map here:
 
-![image.png](/images/image67.png)
+![image.png](/images/image76.png)
 
 The advantage of a Workstream map is that you can see all the work that goes into Product A, for example. All of the things—or work—in Product A rolls up into it. You will be able to see estimates for all the work, the level of effort required, completion progress, defects, etc. for Product A.
 
@@ -95,30 +95,31 @@ DevStride easily accommodates these changes.
 **Example:**
 In the example below, we have Tasks (3) under the Welcome Message Capability (2) that is currently housed under the Login module.
 
-![image.png](/images/image67.png)
+![image.png](/images/image79.png)
 
 If we decide that we really want to manage the Welcome Message Capability under the Dashboard Module instead, we can simply drag the Welcome Message Capability under Dashboard. This automatically reorganizes our Workstream.
 
 All the Tasks associated with the Capability will move with it, including all the data, reporting, and everything else associated with that Capability.  
 
-Click on the dotted grab bar (1) and drag it to the location you want it (2). 
+Click on the dotted grab bar (1) and drag it to the location you want it (2).
 
 Like this:
 
-![image.png](/images/image67.png)
+![image.png](/images/image80.png)
 
 This reorganizes the Workstream. In our example, the Capability (Welcome Message) and its Tasks have been moved from the Login module to the Dashboard module.
 
-![image.png](/images/image67.png)
-::(Warning) (Important note on reorganizing your workstreams)
+![image.png](/images/image81.png)
+::alert{type="warning" title="Important note on reorganizing your workstreams"}
 When you want to reorganize something in your workstream, DevStride protects your item hierarchy. That means you can't try to nest an item that is higher in your hierarchy under a lower hierarchy item type. Here, you couldn't drag a Module under Task, for example.
-:::
+::
 
-:::
+::
 
 ::alert{type="info" title="How Big Work Gets Done"}
 DevStride decomposes work from the top-level portfolio down to individual tasks. The data model it uses enables visibility and predictability throughout the entire Workstream Map.
 
 At the most granular level, work units are ultimately assigned to team members.
 ::
+
 Next up: <a href="/v1/docs/05-admin-onboarding-item-workspace-tour" target="_blank" rel="noopener noreferrer">The Item Workspace Tour</a>

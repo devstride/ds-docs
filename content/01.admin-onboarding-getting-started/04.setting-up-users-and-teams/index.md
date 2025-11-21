@@ -18,6 +18,7 @@ Click on **Invite Users**.(1)  In the pop up box, separate multiple users with a
 In the **Users** pane:
 
 (2) **Status** - will let you know if the user is active in the system. 
+
 (3) **Role** - displays access level. 
 
 During initial set up, you will typically be identifying the people who will be setting up teams and doing administrative activities. That means you may designate several people with the admin role and its rights. The admin role does not have to be limited to a single individual.
@@ -30,7 +31,7 @@ You can change rights for each user as needed.
 
 Labels are most useful to large organizations who might want to filter the list that is displayed here. These labels are not used elsewhere in DevStride.
 
-![image.png](/images/image45.png)
+![image.png](/images/image49.png)
 
 
 **Notes** 
@@ -82,11 +83,11 @@ We always launch DevStride with a default team, which uses the Organization name
 To Create a new team, click on **New Team** (3).
 In the pop-up box, name the team. You can add users from this box, or can wait and add users to the team later.
 
-![image.png](/images/image45.png)
+![image.png](/images/image82.png)
 
-When adding users to an existing team (1), click the pencil to the far right of the team name (2). Fill in the information on the dialog box by selecting the user in the **Add User** dropdown (3), and click **Update Team**. 
+When adding users to an existing team (1), click the pencil to the far right of the team name (2). Fill in the information on the dialog box by selecting the user in the **Add User** dropdown (3), and click **Update Team**.
 
-![image.png](/images/image45.png)
+![image.png](/images/image51.png)
 
 If you are unsure at this time who the team should be in your system, that is ok. You can add teams and team members at any time.
 

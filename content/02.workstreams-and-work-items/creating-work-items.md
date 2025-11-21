@@ -34,28 +34,28 @@ Now the other item types in our example - like Product Capabilities and Product 
 
 ![image.png](/images/image72.png)
 
-To do this, we can add the next level of granularity down. In our example, we will add an item under Login Module. Click on the "Login Module >" row (1).  And then click on **add item** in the Login Module's panel to create a nested item (2). 
+To do this, we can add the next level of granularity down. In our example, we will add an item under Login Module. Click on the "Login Module >" row (1).  And then click on **add item** in the Login Module's panel to create a nested item (2).
 
-![image.png](/images/image72.png)
+![image.png](/images/image73.png)
 
 We will name the capability we want to track. In our example, we call it Login with MFA (1). Because we have added an item inside a module, the next item type down,  Product Capability, is auto-populated (2).
 
 #### Step 4. Auto-open the item workspace, if desired.
 If you would like to detail the information for this item at this time, you can open this item's workspace by clicking on the available box (3). The workspace for this new item will open once you click Save New Item. You can also open the item any time to add information to its workspace.
 
-#### Step 5. Save. 
-Click Save New Item (4). 
+#### Step 5. Save.
+Click Save New Item (4).
 
-![image.png](/images/image72.png)
+![image.png](/images/image75.png)
 
 In our example, since Capabilities are right above tasks in our hierarchy, we are ready to add our individual tasks. To add tasks, go to any Capability (1) and click on Add Item (2) to add Tasks (3-4) to the Capability. Like this:
 
-![image.png](/images/image72.png)
+![image.png](/images/image77.png)
 
 **What this Gives You**
 Now that we have set up a series of items, you can see how the hierarchy works for you. Look at the flow of information in your Workstream map here:
 
-![image.png](/images/image72.png)
+![image.png](/images/image76.png)
 
 The advantage of a Plan Value workstream map is that you can see all the work that goes into Product A, for example. All of the things—or work—in Product A rolls up into it. You will be able to see estimates for all the work, the level of effort required, completion progress, defects, etc. for Product A.
 
@@ -67,26 +67,29 @@ DevStride easily accommodates these changes.
 **Example:**
 In the example below, we have Tasks (3) under the Welcome Message Capability (2) that is currently housed under the Login module.
 
-![image.png](/images/image72.png)
+![image.png](/images/image79.png)
 
 If we decide that we really want to manage the Welcome Message Capability under the Dashboard Module instead, we can simply drag the Welcome Message Capability under Dashboard. This automatically reorganizes our Workstream.
 
 All the Tasks associated with the Capability will move with it, including all the data, reporting, and everything else associated with that Capability.  
 
-Click on the dotted grab bar (1) and drag it to the location you want it (2). 
+Click on the dotted grab bar (1) and drag it to the location you want it (2).
 
 Like this:
 
-![image.png](/images/image72.png)
+![image.png](/images/image80.png)
 
 This reorganizes the Workstream. In our example, the Capability (Welcome Message) and its Tasks have been moved from the Login module to the Dashboard module.
 
-![image.png](/images/image72.png)
-::(Warning) (Important note on reorganizing your workstreams)
-When you want to reorganize something in your workstream, DevStride protects your item hierarchy. That means you can't try to nest an item that is higher in your hierarchy under a lower hierarchy item type. Here, you couldn't drag a Module under Task, for example.
-:::
+![image.png](/images/image81.png)
 
-:::
+<br>
+
+::alert{type="warning" title="Important note on reorganizing your workstreams"}
+When you want to reorganize something in your workstream, DevStride protects your item hierarchy. That means you can't try to nest an item that is higher in your hierarchy under a lower hierarchy item type. Here, you couldn't drag a Module under Task, for example.
+::
+
+::
 
 ::alert{type="info" title="How Big Work Gets Done"}
 DevStride decomposes work from the top-level portfolio down to individual tasks. The data model it uses enables visibility and predictability throughout the entire Workstream Map.

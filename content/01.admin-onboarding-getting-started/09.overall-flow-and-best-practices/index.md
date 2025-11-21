@@ -54,11 +54,11 @@ Break down work items from bigger units of work to smaller.
 
 For example, a development group's item hierarchy might look like this:
 
-Solution ->
-    Capability ->
-        Epic ->
-            Task
-             Defect
+Solution -><br>
+    Capability -><br>
+        Epic -><br>
+            Task<br>
+             Defect<br>
         
 
 Goal: This is your delivery view, like a product owner or business leader would view it - a delivery of value.
@@ -85,9 +85,9 @@ You will assign work to teams later in boards.
 
 In [Plan Delivery](https://app.devstride.com/devstride/boards/f/9d794c9b-9655-4461-85c7-7baebf666004):
 
-Create folders (1) named for how teams operate as working groups performing work (e.g., “QA Team”, “Web Product x Engineering Team”, “Customer Ops”).
+Create folders (1) named for how teams operate as working groups performing work (e.g., "QA Team", "Web Product x Engineering Team", "Customer Ops").
 
-![image.png](/images/image315.png)
+![image.png](/images/image317.png)
 
 Inside each folder, create:
 
@@ -96,7 +96,7 @@ Inside each folder, create:
 
 as needed (2):
 
-![image.png](/images/image315.png)
+![image.png](/images/image318.png)
 
 
 **Create Boards and and Assign Workstream Items**
@@ -110,7 +110,7 @@ OR
 Assign those items into the appropriate board where execution happens.
 
 
-![image.png](/images/image315.png)
+![image.png](/images/image319.png)
 
 
 <br>
