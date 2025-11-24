@@ -19,7 +19,7 @@
           </li>
           <li>
             <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/boards/using-cycle-boards">
+            <NuxtLink to="/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/setting-up-and-managing-boards/using-cycle-boards">
               Using Cycle Boards
             </NuxtLink>
           </li>
@@ -31,8 +31,8 @@
           </li>
           <li>
             <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/workstreams-and-work-items/mapping-your-workstreams">
-              Mapping Your Workstreams
+            <NuxtLink to="/admin-onboarding-getting-started/configuring-your-work-model/map-value-workstreams">
+              Understanding Workstreams
             </NuxtLink>
           </li>
         </ul>
@@ -50,14 +50,14 @@
           </li>
           <li>
             <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/workstreams-and-work-items/understanding-work-items">
-              Understanding Work Items
+            <NuxtLink to="/workstreams-and-work-items/creating-work-items">
+              Creating Items
             </NuxtLink>
           </li>
           <li>
             <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/16.item-types/item-types">
-              Item Types Overview
+            <NuxtLink to="/settings/data-model/item-types">
+              Item Types
             </NuxtLink>
           </li>
           <li>
@@ -68,8 +68,8 @@
           </li>
           <li>
             <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/workspace-capabilities/workspace-capabilities">
-              Workspace Capabilities
+            <NuxtLink to="/workspace-capabilities/explore-the-workspace">
+              Explore the Workspace
             </NuxtLink>
           </li>
         </ul>
@@ -81,7 +81,7 @@
         <ul class="article-list">
           <li>
             <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/release-notes/2025-07-02">
+            <NuxtLink to="/release-notes/2025-07-02-and-2025-07-07">
               Release Notes: 2025-07-02
             </NuxtLink>
           </li>
@@ -99,14 +99,14 @@
           </li>
           <li>
             <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/use-cases/gantt-charts-1">
-              Using Gantt Charts
+            <NuxtLink to="/use-cases/gantt-charts">
+              Gantt Charts
             </NuxtLink>
           </li>
           <li>
             <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/19.new-api/api-overview">
-              API Overview
+            <NuxtLink to="/use-cases/plan-a-sprint">
+              Plan a Sprint
             </NuxtLink>
           </li>
         </ul>
