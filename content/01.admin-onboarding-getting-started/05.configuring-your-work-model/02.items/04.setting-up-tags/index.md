@@ -155,4 +155,4 @@ You can **also easily add items to the default collection**. You will need to fo
 
 * * *
 
-Next Up: [Statuses and WIP Limiters](/v1/docs/status-wip-limiters)
+Next Up: [Statuses and WIP Limiters](/admin-onboarding-getting-started/configuring-your-work-model/creating-and-using-statuses/setting-up-workflow-statuses)

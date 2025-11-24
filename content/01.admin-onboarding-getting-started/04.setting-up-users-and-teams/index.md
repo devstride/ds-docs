@@ -37,7 +37,7 @@ Labels are most useful to large organizations who might want to filter the list 
 **Notes** 
 If you prefer, you can set up teams first, and then invite users. The order is up to you!
 
-For more details, <a href="/v1/docs/invite-and-add-users" target="_blank" rel="noopener noreferrer">learn how to invite and add users</a>.
+For more details, learn how to invite and add users in the User Management section above.
 
 * * *
 
@@ -109,7 +109,7 @@ When you know exactly who is responsible for a specific piece of work, first sel
 By allowing both team-level and individual-level assignments (even if the team has no members), DevStride offers the flexibility to handle scenarios where collective ownership is desired, or where a single point of ownership is necessary.
 ::
 
-Click here for [more detailed instructions ](https://docs.devstride.com/docs/setting-up-teams-and-permissions) on managing teams and permissions.
+The detailed instructions above cover managing teams and permissions.
 
-Next Up: <a href="/v1/docs/ao3-admin-onboarding-configuring-your-work-model" target="_blank" rel="noopener noreferrer">Configuring Your Work Model</a>
+Next Up: [Configuring Your Work Model](/admin-onboarding-getting-started/configuring-your-work-model)
 * * *

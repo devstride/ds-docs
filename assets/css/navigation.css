@@ -1,9 +1,9 @@
 
 /* Remove padding from aside elements */
-aside {
+/* aside {
   padding-left: 0!important;
-  /* padding-right: 4px!important; */
-}
+  padding-right: 4px!important;
+} */
 
 .truncate {
   overflow: unset;
@@ -13,4 +13,9 @@ aside {
   word-wrap: break-word;
   overflow-wrap: break-word;
   font-weight: normal;
+}
+
+ nav {
+  padding-right: 0px;
+  /* padding-left: 8px; */
 }

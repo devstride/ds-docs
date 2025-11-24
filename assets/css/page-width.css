@@ -1,0 +1,4 @@
+/* Override the default container max-width to make the page wider */
+:root {
+  --ui-container: 90rem; 
+}

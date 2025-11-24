@@ -9,7 +9,7 @@ Item Request Forms allow you to create either an Internal or an External form fo
 ## Usage
 The <a href="https://app.devstride.com/devstride/organization/forms?section=item-requests" target="_blank" rel="noopener noreferrer">Item Request Forms</a> configuration is found under Settings. 
 
-This feature also depends on your settings for [Item Types](/v1/docs/overview-of-item-types) and [Custom Fields](/v1/docs/custom-fields). 
+This feature also depends on your settings for [Item Types](/settings/data-model/item-types) and [Custom Fields](/settings/data-model/custom-fields). 
 
 ### Creating a New Item Request Form
 #### 1. Create a New Item Request Form
@@ -67,6 +67,6 @@ By pairing form submissions with an Automation, you can create notifications of 
 
 
 ## Related Resources
-* <a href="/v1/docs/overview-of-item-types" target="_blank" rel="noopener noreferrer">Item Types</a>
-* <a href="/v1/docs/custom-fields" target="_blank" rel="noopener noreferrer">Custom Fields</a>
-* <a href="/v1/docs/what-are-automations" target="_blank" rel="noopener noreferrer">Automations</a>
+* [Item Types](/settings/data-model/item-types)
+* [Custom Fields](/settings/data-model/custom-fields)
+* [Automations](/automations/setting-up-basic-automations)

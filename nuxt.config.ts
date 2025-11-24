@@ -8,7 +8,8 @@ export default defineNuxtConfig({
   // Add custom CSS to override navigation text truncation
   css: [
     '~/assets/css/navigation.css',
-    '~/assets/css/header-logo.css'
+    '~/assets/css/header-logo.css',
+    '~/assets/css/page-width.css'
   ],
 
   app: {

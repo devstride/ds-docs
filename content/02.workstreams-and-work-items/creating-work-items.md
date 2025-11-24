@@ -96,4 +96,4 @@ DevStride decomposes work from the top-level portfolio down to individual tasks.
 
 At the most granular level, work units are ultimately assigned to team members.
 ::
-Next up: <a href="/v1/docs/05-admin-onboarding-item-workspace-tour" target="_blank" rel="noopener noreferrer">The Item Workspace Tour</a>
+Next up: [The Item Workspace Tour](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour)

@@ -48,7 +48,7 @@ When creating a workstream, name it based on the business value you plan to deli
 
 Within the workstream, create items (e,g., Intiative, Objectives, Tasks or Epics, Features, Stories) that represent outcomes you plan to deliver.
 
-Structure these hierarchically using DevStride’s<a href="/v1/docs/setting-up-your-item-type-hierarchy" target="_blank" rel="noopener noreferrer"> item types</a>. 
+Structure these hierarchically using DevStride's [item types](/admin-onboarding-getting-started/configuring-your-work-model/items/setting-up-item-type-hierarchy). 
 
 Break down work items from bigger units of work to smaller. 
 

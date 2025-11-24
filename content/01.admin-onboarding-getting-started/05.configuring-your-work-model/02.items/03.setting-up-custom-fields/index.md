@@ -123,4 +123,4 @@ As we touched on in the Create Fields step, there are many field types that you 
 <br>
 DevStride provides unparalleled flexibility for your organization through custom fields while preserving the ability to standardize for reporting and analytics.
 
-<a href="/v1/docs/07-admin-onboarding-tags" target="_blank" rel="noopener noreferrer">Next Up: Setting Up Tags</a>
+[Next Up: Setting Up Tags](/admin-onboarding-getting-started/configuring-your-work-model/items/setting-up-tags)
