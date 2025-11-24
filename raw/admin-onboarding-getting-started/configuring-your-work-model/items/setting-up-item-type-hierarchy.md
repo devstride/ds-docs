@@ -113,4 +113,4 @@ Here's an example of multiple hierarchies - in this case, one for marketing, one
 
 </alert>
 
-Next up: [Populating and Managing Workstreams](/v1/docs/ao4-admin-onboarding-populating-and-managing-workstreams)
+Next up: [Populating and Managing Workstreams](/admin-onboarding-getting-started/populating-and-managing-workstreams)

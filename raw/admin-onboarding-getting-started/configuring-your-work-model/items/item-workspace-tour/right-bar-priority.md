@@ -42,22 +42,19 @@ In our example, we have projects that are based on service-level agreements, so 
 ---
 
 Now, continue to tour the features on the right bar of the item workspace:
-<br />
 
+[Team through Status](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-team-through-status)
 
+[Point Estimates](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-point-estimates)
 
-[Teams through Status](/v1/docs/5d-admin-onboarding-item-workspace)<br />
+[Time Estimates](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-time-estimates)
 
-[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)<br />
+[Best Practices for Time Estimates](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-best-practice-time-estimates)
 
-[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)<br />
+[Time Spent](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-time-spent)
 
-[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)<br />
+[Start Dates and Due Dates](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-start-dates-and-due-dates)
 
-[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)<br />
+[Progress Tracking](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-progress-tracking)
 
-[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)<br />
-
-[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)<br />
-
-[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)
+[Custom Fields](/admin-onboarding-getting-started/configuring-your-work-model/items/setting-up-custom-fields)

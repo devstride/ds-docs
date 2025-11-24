@@ -70,22 +70,13 @@ Note: The color you make an item is not a personal view - it will show up that w
 ---
 
 Now, for the features on the right bar of the item workspace:
-<br />
 
-[Team through Status](/v1/docs/5d-admin-onboarding-item-workspace)<br />
-
-[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)<br />
-
-[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)<br />
-
-[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)<br />
-
-[Time Spent](/v1/docs/5h-admin-onboarding-item-workspace-right-bar-part-3-time-spent)<br />
-
-[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)<br />
-
-[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)<br />
-
-[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)<br />
-
-[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)
+- [Team through Status](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-team-through-status)
+- [Point Estimates](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-point-estimates)
+- [Time Estimates](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-time-estimates)
+- [Best Practices for Time Estimates](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-best-practice-time-estimates)
+- [Time Spent](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-time-spent)
+- [Priority](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-priority)
+- [Start Dates and Due Dates](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-start-dates-and-due-dates)
+- [Progress Tracking](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-progress-tracking)
+- [Custom Fields](/admin-onboarding-getting-started/configuring-your-work-model/items/setting-up-custom-fields)

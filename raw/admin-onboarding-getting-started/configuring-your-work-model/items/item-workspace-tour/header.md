@@ -56,6 +56,6 @@ Our Module was changed to a Product Task and we moved it. We can now see it on t
 
 ![image.png](/images/image122.png)
 
-Next, we'll review the [Item Workspace Tabs](/v1/docs/o5b-admin-onboarding-item-workspace-tour).
+Next, we'll review the [Item Workspace Tabs](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/tabs).
 
 ---

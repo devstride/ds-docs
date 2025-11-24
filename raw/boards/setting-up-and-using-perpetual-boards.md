@@ -25,7 +25,7 @@ Click the “Plan Delivery” icon (1).
 ### Step 2: Select or Create your working teams folder.
 
 - Navigate to the working teams folder for which you want to add a board (2a).
-- Or create a [new folder](/v1/docs/11-creating-boards) at this time.
+- Or create a [new folder](/boards/working-group-folders) at this time.
 
 Click the "+ New" button (2b)
 

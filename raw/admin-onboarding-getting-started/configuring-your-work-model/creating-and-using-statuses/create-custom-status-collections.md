@@ -63,7 +63,7 @@ Note: there is no additional step assigning the status to boards here (3). This 
 
 #### Step 3: Assign the desired status collection to the board
 
-When creating a [new board](/v1/docs/11-creating-boards), you can set the workflow statuses you wish to use from the new board pop-up:
+When creating a [new board](/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/the-who-setting-up-working-groups/working-group-folders), you can set the workflow statuses you wish to use from the new board pop-up:
 
 ![image.png](/images/image248.png)
 

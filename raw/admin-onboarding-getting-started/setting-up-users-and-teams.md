@@ -39,7 +39,7 @@ Labels are most useful to large organizations who might want to filter the list 
 **Notes**
 If you prefer, you can set up teams first, and then invite users. The order is up to you!
 
-For more details, [learn how to invite and add users](/v1/docs/invite-and-add-users).
+For more details, learn how to invite and add users in the User Management section above.
 
 ---
 
@@ -114,8 +114,8 @@ By allowing both team-level and individual-level assignments (even if the team h
 
 </alert>
 
-Click here for [more detailed instructions ](https://docs.devstride.com/docs/setting-up-teams-and-permissions) on managing teams and permissions.
+The detailed instructions above cover managing teams and permissions.
 
-Next Up: [Configuring Your Work Model](/v1/docs/ao3-admin-onboarding-configuring-your-work-model)
+Next Up: [Configuring Your Work Model](/admin-onboarding-getting-started/configuring-your-work-model)
 
 ---

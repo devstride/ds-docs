@@ -25,7 +25,7 @@ Click the “Plan Delivery” icon (1).
 ### Step 2: Select or Create your working teams folder.
 
 - Navigate to the working teams folder for which you want to add a board (2a).
-- Or create a [new folder](/v1/docs/11-creating-boards) at this time.
+- Or create a [new folder](/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/the-who-setting-up-working-groups/working-group-folders) at this time.
 
 Click the "+ New" button (2b)
 
@@ -80,7 +80,7 @@ To view a particular perpetual board, navigate to the desired board through your
 
 ![image.png](/images/image293.png)
 
-Select the board you wish to see. Perpectual boards are listed along the top. Click go on the desired board (2).  Cycle based boards are listed in the next row down.
+Select the board you wish to see. Perpetual boards are listed along the top. Click go on the desired board (2). Cycle based boards are listed in the next row down.
 
 There are multiple ways to view your selected board.
 

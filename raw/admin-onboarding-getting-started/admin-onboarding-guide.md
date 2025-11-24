@@ -147,7 +147,7 @@ Setting up each capability generally takes just a few minutes to complete.
 
 Together, these steps will equip your organization with powerful project and portfolio management capabilities.
 
-If you would like more information about a specific topic, head over to our [documentation categories](https://docs.devstride.com/).
+If you would like more information about a specific topic, head over to our [documentation home page](/).
 
 <br />
 
@@ -210,4 +210,4 @@ The Workflow Automation section can be set to the default for now. (2)
 
 ---
 
-You're ready for [Article 02: Setting up Users and Teams!](/v1/docs/ao2-admin-onboarding-setting-up-users-and-teams)
+You're ready for [Article 02: Setting up Users and Teams!](/admin-onboarding-getting-started/setting-up-users-and-teams)

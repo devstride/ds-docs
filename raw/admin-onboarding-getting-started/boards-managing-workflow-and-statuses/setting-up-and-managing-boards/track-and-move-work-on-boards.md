@@ -14,7 +14,7 @@ These capabilities apply to **both** perpetual boards and cycle-based boards.
 
 From [Plan Delivery](https://app.devstride.com/devstride/boards/f/9d794c9b-9655-4461-85c7-7baebf666004), navigate to the perpetual or cycle board you wish to view and click Go.
 
-See this [article](/v1/docs/14-creating-boards-and-using-cadences) for more on how to navigate to the board you wan to see.
+See the [Setting Up Perpetual Boards](/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/setting-up-and-managing-boards/setting-up-perpetual-boards) and [Using Cycle Boards](/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/setting-up-and-managing-boards/using-cycle-boards) articles for more on how to navigate to the board you want to see.
 
 ### Step 2: Track and Move Work
 

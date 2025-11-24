@@ -73,20 +73,18 @@ You can build subtasks for each time entry and track billable time. In this way,
 
 Now, continue to tour the features on the right bar of the item workspace:
 
-<br />
+[Team through Status](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-team-through-status)
 
-[Teams through Status](/v1/docs/5d-admin-onboarding-item-workspace)<br />
+[Point Estimates](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-point-estimates)
 
-[Point Estimates](/v1/docs/5e-admin-onboarding-item-workspace)<br />
+[Time Estimates](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-time-estimates)
 
-[Time Estimates](/v1/docs/5f-admin-onboarding-item-workspace-right-bar-part-2-time)<br />
+[Best Practices for Time Estimates](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-best-practice-time-estimates)
 
-[Best Practices for Time Estimates](/v1/docs/5g-admin-onboarding-item-workspace-right-bar-part-3-best-practice-time-estimates)<br />
+[Priority](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-priority)
 
-[Priority](/v1/docs/5i-admin-onboarding-item-workspace-right-bar-part-3-time-estimates)<br />
+[Start Dates and Due Dates](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-start-dates-and-due-dates)
 
-[Start Dates and Due Dates](/v1/docs/5j-admin-onboarding-item-workspace-right-bar-part-7-start-dates-and-due-dates)<br />
+[Progress Tracking](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-progress-tracking)
 
-[Progress Tracking](/v1/docs/5k-admin-onboarding-item-workspace-right-bar-part-8-progress-tracking)<br />
-
-[Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)
+[Custom Fields](/admin-onboarding-getting-started/configuring-your-work-model/items/setting-up-custom-fields)

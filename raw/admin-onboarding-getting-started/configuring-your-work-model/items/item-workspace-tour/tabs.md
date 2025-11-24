@@ -145,4 +145,4 @@ You can interact with the list of activities (2) by clicking on links, searching
 
 ---
 
-Next, let's take a look at the item workspace [quick links](/v1/docs/o5c-admin-onboarding-item-workspace-quick-links).
+Next, let's take a look at the item workspace [quick links](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/quick-links).

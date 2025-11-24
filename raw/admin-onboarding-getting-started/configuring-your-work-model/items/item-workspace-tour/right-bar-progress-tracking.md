@@ -10,4 +10,4 @@ DevStride provides the option of **manually indicating** the percentage of compl
 
 ![image.png](/images/image187.png)
 
-[Next: Setting Up Custom Fields](/v1/docs/ao6-admin-onboarding-setting-up-custom-fields)
+[Next: Setting Up Custom Fields](/admin-onboarding-getting-started/configuring-your-work-model/items/setting-up-custom-fields)

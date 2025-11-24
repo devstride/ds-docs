@@ -6,7 +6,7 @@
 
 Using gantt charts is easy and provides a rich view into the status of work up and down the the plan value workstream map.
 
-This article covers how to use a gantt chart once you have created it. If you have not created one yet, head back to the [Setting Up Gantt Charts](/v1/docs/setting-up-gantt-charts) article.
+This article covers how to use a gantt chart once you have created it. If you have not created one yet, head back to the [Setting Up Gantt Charts](/admin-onboarding-getting-started/track-progress-gantt-charts/setting-up-gantt-charts) article.
 
 There are many ways you can interact with the items on your gantt chart
 
@@ -57,7 +57,7 @@ Click the snap to cycle icon (1). In the modal that appears, click on the cadenc
 
 ![image.png](/images/image359.png)
 
-Now, the work you are viewing in the gantt is diplayed according to the program increment timeline that the GTM team uses. Here we're seeing activities in PI-14, which started earlier, and PI-15, which is marked where it begins on the screen (1)
+Now, the work you are viewing in the gantt is displayed according to the program increment timeline that the GTM team uses. Here we're seeing activities in PI-14, which started earlier, and PI-15, which is marked where it begins on the screen (1)
 
 ![image.png](/images/image361.png)
 
@@ -75,7 +75,7 @@ To clear filters, simply click on the filter box and de-select individual filter
 
 In addition to viewing gantt charts in different ways, you can save views for ongoing reference.
 
-Here's an example of creating a saved view using a filter to diplay priority items only:
+Here's an example of creating a saved view using a filter to display priority items only:
 
 Click on the **Filters** icon (1). Apply one or more from the modal. In this example, we will select **Priority** (2). Select one or more priorities that you want to display. We will choose to show **Critical** (3). Apply filter (4).
 

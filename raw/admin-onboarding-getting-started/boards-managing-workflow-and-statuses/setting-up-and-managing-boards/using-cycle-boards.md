@@ -29,7 +29,7 @@ If a board is cycle-based - in other words, has a cadence - then:
 **No Manual Date Entry Required**
 Applying time-boxed cadences removes the need for manually entering dates at the item level. Items assume the start and end date of the board's cycle. You can also easily change the dates if needed.
 
-Go [here](/v1/docs/13-admin-onboarding-setting-up-cadences) to find out  the steps for setting up Cadences and Time Boxes.
+Go [here](/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/creating-cadences/setting-up-cadences-and-timeboxes) to find out the steps for setting up Cadences and Time Boxes.
 
 ### What this gives you
 
@@ -48,10 +48,10 @@ Planning becomes lightweight and consistent, driven by the cycle of the board it
 
 If not, go through these easy corresponding steps with the following articles:
 
-- [Understanding Workstreams](https://docs.devstride.com/docs/ao3-admin-onboarding-configuring-your-work-model)
-- [Setting Up Your Item Type Hierarchy](https://docs.devstride.com/docs/setting-up-your-item-type-hierarchy)
-- [Setting up Cadences](/v1/docs/13-admin-onboarding-setting-up-cadences)
-- [Organizing Boards: Working Group Folders](https://docs.devstride.com/docs/11-creating-boards)
+- [Understanding Workstreams](/admin-onboarding-getting-started/configuring-your-work-model)
+- [Setting Up Your Item Type Hierarchy](/admin-onboarding-getting-started/configuring-your-work-model/items/setting-up-item-type-hierarchy)
+- [Setting up Cadences](/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/creating-cadences/setting-up-cadences-and-timeboxes)
+- [Organizing Boards: Working Group Folders](/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/the-who-setting-up-working-groups/working-group-folders)
 
 #### Step 1: If you have not already done so, create the folder in which you want to house your boards.
 
@@ -79,7 +79,7 @@ For instance, marketing organizations might want to create a cycle called Quarte
 
 DevStride can accommodate any number of cadences for any number of working groups across the organization.
 
-Dependency visualization in Plan Delivery views as well as across DevStride allows teams to see depencies and timings of other working groups, to watch for upstream and downstream effects.
+Dependency visualization in Plan Delivery views as well as across DevStride allows teams to see dependencies and timings of other working groups, to watch for upstream and downstream effects.
 
 What's more, using Track Progress, each team can see other team's work within the lens of their own cadence or through another team's cadence, creating outstanding visibility across working groups and projects.
 
@@ -148,7 +148,7 @@ Use the various views to see work committed to the board.
 
 **What if I think of new items that I want to assign and that aren't already in the Workstream in Map Value?**
 
-No problem! You can add them to the map OR right to here in Plan Devliery. Adding them here (via any view) will add them to the Map Value module as well.
+No problem! You can add them to the map OR right to here in Plan Delivery. Adding them here (via any view) will add them to the Map Value module as well.
 
 To add items directly from Plan Delivery, click on the New Item (1) icon from any view. The dialogue box will open.
 Enter the name of the item you'd like to create.
