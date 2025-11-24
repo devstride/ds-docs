@@ -124,4 +124,4 @@ At the most granular level, work units are ultimately assigned to team members.
 
 </alert>
 
-Next up: [The Item Workspace Tour](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour)
+Next up: [The Item Workspace Tour](/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/header)
