@@ -123,8 +123,8 @@
         <div class="footer-column">
           <h4 class="footer-heading">Location</h4>
           <p class="footer-text">
-            3073 NW Thoreau Ln<br />
-            Lee's Summit, MO 64081
+            200 NE Missouri Rd, Ste. 200<br />
+            Lee's Summit, MO 64086
           </p>
         </div>
 
