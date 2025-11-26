@@ -7,15 +7,11 @@ Next, you'll invite users and set up teams.
 You can invite users to DevStride any time. They can be internal users or external, depending on your business rules. Users can then be grouped into teams, even before they accept your invitation.
 
 **Why it's important**
-DevStride is all about managing teams and collaboration to get great work done. Anyone who is doing work that you want to have visibility into should be added to a team in DevStride.<br />
-
-<br />
-
-
+DevStride is all about managing teams and collaboration to get great work done. Anyone who is doing work that you want to have visibility into should be added to a team in DevStride. :br:br
 
 #### Step 1: Invite Users
 
-Click on **Invite Users**.(1)  In the pop up box, separate multiple users with a space in between each email address.
+Click on **Invite Users**.(1) In the pop up box, separate multiple users with a space in between each email address.
 ![image.png](/images/image45.png)
 
 In the **Users** pane:
@@ -43,8 +39,7 @@ For more details, learn how to invite and add users in the User Management secti
 
 ---
 
-Now it's time to set up your teams and associate each user with their team(s).
-<br />
+Now it's time to set up your teams and associate each user with their team(s). <br />
 
 
 

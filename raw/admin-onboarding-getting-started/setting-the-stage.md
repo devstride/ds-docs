@@ -79,7 +79,7 @@ Goal: Using a map of value and an item hierarchy helps you to decompose the work
 
 <alert title="The Takeaway: Map By Value rather than Teams" type="info">
 
-Instead of creating workstreams named for teams, such as  “Frontend Team” or “QA Team,” capture what the teams are building, not who is building it.
+Instead of creating workstreams named for teams, such as “Frontend Team” or “QA Team,” capture what the teams are building, not who is building it.
 
 You will assign work to teams later in boards.
 
@@ -106,12 +106,9 @@ as needed (2):
 
 Assign items into the appropriate board where execution happens.
 
-![image.png](/images/image319.png)
+![image.png](/images/image319.png):br
 
-<br />
-
-**Goal:** The boards in the Plan Delivery will be your execution view. This view is one that a project manager, delivery manager, or scrum master might operate in, one that executes the work to support the value delivery.
-<br />
+**Goal:** The boards in the Plan Delivery will be your execution view. This view is one that a project manager, delivery manager, or scrum master might operate in, one that executes the work to support the value delivery. <br />
 
 
 
@@ -151,8 +148,7 @@ In addition to providing teams and leadership with status information, Track Pro
 
 #### 4. Measure Performance with interactive reports
 
-The Measure Performance module provides robust and meaningful reporting of progress, throughput, velocity, churn and more, creating the opportunity to track, refine, and improve processes and predictability project over project.
-<br />
+The Measure Performance module provides robust and meaningful reporting of progress, throughput, velocity, churn and more, creating the opportunity to track, refine, and improve processes and predictability project over project. <br />
 
 
 
