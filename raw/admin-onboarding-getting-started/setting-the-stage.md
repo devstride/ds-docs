@@ -106,7 +106,7 @@ as needed (2):
 
 Assign items into the appropriate board where execution happens.
 
-![image.png](/images/image319.png):br
+![image.png](/images/image319.png)
 
 **Goal:** The boards in the Plan Delivery will be your execution view. This view is one that a project manager, delivery manager, or scrum master might operate in, one that executes the work to support the value delivery. <br />
 
