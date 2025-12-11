@@ -42,10 +42,9 @@ Relationship management is a concept that exists in several different places in 
 The Manage Relationship view helps you to see or edit any of the following relationships that exists for the item:
 
 - Dependencies - something that has to happen first before this item can be completed
-- Related - something that is associated in some way but is not directly dependent. This item is related to another item in some way that should be tracked.
+- Related - something that is associated in some way but is not directly dependent. This item is related to another item in some way that should be tracked.<br />
 
 Example: a feature-based item might be related to a documentation item.
-
 - Dependents - items that rely on this item to be done before they can be completed
 
 This view is a useful way to create relationships, view relationships, and quickly jump back and forth between items that have some kind of relationship.

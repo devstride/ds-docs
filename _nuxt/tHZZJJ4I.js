@@ -1,1 +1,0 @@
-import{_ as e}from"./pGMyXGCl.js";import{_ as o,a3 as n,i as s,w as r,ag as _}from"./CIZ0559i.js";const c={};function f(t,l){const a=e;return s(),n(a,null,{default:r(()=>[_(t.$slots,"default")]),_:3})}const m=o(c,[["render",f]]);export{m as default};
