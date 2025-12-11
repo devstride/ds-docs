@@ -16,5 +16,13 @@ export default defineNuxtConfig({
     head: {
       title: 'DevStride Documentation',
     }
-  }
+  },
+
+  // Redirect /release-notes to the latest release note
+  // UPDATE THIS PATH when adding new releases!
+  routeRules: {
+    '/release-notes': { redirect: '/release-notes/2025-08-01-09-27' },
+    '/releases': { redirect: '/release-notes/2025-08-01-09-27' }
+  },
+
 })

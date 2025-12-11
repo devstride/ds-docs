@@ -45,8 +45,15 @@ if (isEnabled.value) {
 const { data: navigation } = await useAsyncData(() => `navigation_${collectionName.value}`, () => queryCollectionNavigation(collectionName.value as keyof PageCollections), {
   transform: (data) => {
     const rootResult = data.find(item => item.path === '/docs')?.children || data || []
+    const result = rootResult.find(item => item.path === `/${locale.value}`)?.children || rootResult
 
-    return rootResult.find(item => item.path === `/${locale.value}`)?.children || rootResult
+    // Reverse the order of release notes so newest appears first
+    const releaseNotesSection = result.find((item: any) => item.path === '/release-notes')
+    if (releaseNotesSection?.children) {
+      releaseNotesSection.children = [...releaseNotesSection.children].reverse()
+    }
+
+    return result
   },
   watch: [locale],
 })
