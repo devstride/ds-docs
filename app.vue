@@ -53,6 +53,13 @@ const { data: navigation } = await useAsyncData(() => `navigation_${collectionNa
       releaseNotesSection.children = [...releaseNotesSection.children].reverse()
     }
 
+    // Add external API documentation link at the end of navigation
+    result.push({
+      title: 'API',
+      path: 'https://api-docs.devstride.com/',
+      target: '_blank',
+    })
+
     return result
   },
   watch: [locale],
