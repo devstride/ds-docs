@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   extends: ['docus'],
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', 'nuxt-studio'],
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
 
@@ -15,6 +15,16 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'DevStride Documentation',
+    }
+  },
+
+  studio: {
+    // Git repository configuration (owner and repo are required)
+    repository: {
+      provider: 'github',
+      owner: 'devstride',
+      repo: 'ds-docs',
+      branch: 'main',
     }
   }
 })
