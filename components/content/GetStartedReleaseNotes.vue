@@ -27,7 +27,7 @@
           <p class="card-description">
             Stay informed on the latest updates and enhancements with our release notes. Discover new features, improvements, and fixes in each update to continuously enhance your portfolio management experience.
           </p>
-          <NuxtLink to="/release-notes/2025-08-01-09-27" class="card-link">
+          <NuxtLink to="/release-notes/2026-01-19" class="card-link">
             Read more
           </NuxtLink>
         </div>
