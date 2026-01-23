@@ -20,6 +20,21 @@ export default defineNuxtConfig({
 
   routeRules: {
     // CORS headers for release notes (allows cross-origin fetching)
+    // Note: /releases and /release-notes redirects are handled by server/middleware/releases.ts
+    '/releases': {
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type'
+      }
+    },
+    '/release-notes': {
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type'
+      }
+    },
     '/release-notes/**': {
       headers: {
         'Access-Control-Allow-Origin': '*',
