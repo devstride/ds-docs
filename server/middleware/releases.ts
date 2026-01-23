@@ -1,7 +1,7 @@
 import { readdirSync } from 'node:fs'
 import { join } from 'node:path'
 
-export default defineEventHandler(async (event) => {
+export default defineEventHandler((event) => {
   const path = getRequestURL(event).pathname
 
   // Only handle /releases and /release-notes (without a specific note) routes
