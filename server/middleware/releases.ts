@@ -2,10 +2,11 @@ import { readdirSync } from 'node:fs'
 import { join } from 'node:path'
 
 export default defineEventHandler((event) => {
-  const path = getRequestURL(event).pathname
+  const url = getRequestURL(event)
+  const normalizedPath = url.pathname.replace(/\/+$/, '') || '/'
 
   // Only handle /releases and /release-notes (without a specific note) routes
-  if (path !== '/releases' && path !== '/release-notes') {
+  if (normalizedPath !== '/releases' && normalizedPath !== '/release-notes') {
     return
   }
 
