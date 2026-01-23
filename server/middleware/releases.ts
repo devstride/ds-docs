@@ -16,18 +16,25 @@ export default defineEventHandler(async (event) => {
       .filter(f => f.endsWith('.md'))
       .sort() // Zero-padded prefixes sort correctly alphabetically
 
-    if (files.length === 0) {
+    // Filter to only files matching expected pattern: "##.YYYY-MM-DD.md" or similar
+    const validFiles = files.filter(f => /^\d+\..+\.md$/.test(f))
+
+    if (validFiles.length === 0) {
       return
     }
 
     // Get the last file (highest numbered prefix = latest)
-    const latestFile = files[files.length - 1]
-    // Convert filename like "41.2026-01-19.md" to path "/release-notes/2026-01-19"
-    const slug = latestFile.replace(/^\d+\./, '').replace(/\.md$/, '')
+    const latestFile = validFiles[validFiles.length - 1]
+    // Extract slug from filename like "41.2026-01-19.md" → "2026-01-19"
+    const match = latestFile.match(/^\d+\.(.+)\.md$/)
+    if (!match) {
+      return
+    }
+    const slug = match[1]
 
     return sendRedirect(event, `/release-notes/${slug}`, 302)
   } catch (error) {
-    // If directory doesn't exist or other error, let the request continue
+    // If directory doesn't exist or other error, log and let request continue to 404
     console.error('Error finding latest release note:', error)
     return
   }
