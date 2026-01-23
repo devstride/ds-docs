@@ -18,11 +18,15 @@ export default defineNuxtConfig({
     }
   },
 
-  // Redirect /release-notes to the latest release note
-  // UPDATE THIS PATH when adding new releases!
   routeRules: {
-    '/release-notes': { redirect: '/release-notes/2026-01-19' },
-    '/releases': { redirect: '/release-notes/2026-01-19' }
+    // CORS headers for release notes (allows cross-origin fetching)
+    '/release-notes/**': {
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type'
+      }
+    }
   },
 
 })
