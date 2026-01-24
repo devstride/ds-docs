@@ -25,6 +25,9 @@ export default defineNuxtConfig({
   routeRules: {
     // CORS headers for release notes (allows cross-origin fetching)
     // Note: /releases and /release-notes redirects are added by ~/modules/release-notes-redirect
+    // Note: These headers only work in dev mode. GitHub Pages doesn't support custom headers
+    // for static files. Simple cross-origin fetch() requests should still work without
+    // credentials. If CORS issues occur in production, use a proxy or same-origin fetch.
     '/release-notes/**': {
       headers: {
         'Access-Control-Allow-Origin': '*',
@@ -32,7 +35,6 @@ export default defineNuxtConfig({
         'Access-Control-Allow-Headers': 'Content-Type'
       }
     },
-    // Raw markdown endpoint for DevStride app to fetch unprocessed release notes
     '/raw-md/**': {
       headers: {
         'Access-Control-Allow-Origin': '*',
