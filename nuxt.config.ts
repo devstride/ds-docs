@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   extends: ['docus'],
   modules: [
     '@nuxt/content',
-    '~/modules/release-notes-redirect'  // Dynamically sets /releases redirect at build time
+    '~/modules/release-notes-redirect',  // Dynamically sets /releases redirect at build time
+    '~/modules/raw-md-generator'  // Generates static raw markdown files at build time
   ],
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
