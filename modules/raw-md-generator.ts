@@ -1,5 +1,5 @@
 import { defineNuxtModule } from '@nuxt/kit'
-import { readdirSync, readFileSync, mkdirSync, writeFileSync, copyFileSync } from 'node:fs'
+import { readdirSync, mkdirSync, writeFileSync, copyFileSync } from 'node:fs'
 import { join } from 'node:path'
 
 export default defineNuxtModule({
