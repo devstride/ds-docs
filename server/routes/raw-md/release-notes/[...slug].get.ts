@@ -1,4 +1,4 @@
-import { readFile } from 'fs/promises';
+import { readFile, readdir } from 'fs/promises';
 import { join } from 'path';
 
 export default defineEventHandler(async (event) => {
@@ -10,7 +10,6 @@ export default defineEventHandler(async (event) => {
 
   try {
     // Read directory to find the file with matching date
-    const { readdir } = await import('fs/promises');
     const files = await readdir(contentDir);
 
     // Find file that ends with the slug (e.g., "2026-01-19.md")
@@ -26,9 +25,8 @@ export default defineEventHandler(async (event) => {
     const filePath = join(contentDir, matchingFile);
     const content = await readFile(filePath, 'utf-8');
 
-    // Set headers for markdown content
+    // Set content type header (CORS headers are configured in nuxt.config.ts routeRules)
     setHeader(event, 'Content-Type', 'text/markdown; charset=utf-8');
-    setHeader(event, 'Access-Control-Allow-Origin', '*');
 
     return content;
   } catch (error) {
