@@ -30,6 +30,14 @@ export default defineNuxtConfig({
         'Access-Control-Allow-Methods': 'GET, OPTIONS',
         'Access-Control-Allow-Headers': 'Content-Type'
       }
+    },
+    // Raw markdown endpoint for DevStride app to fetch unprocessed release notes
+    '/raw-md/**': {
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type'
+      }
     }
   },
 
