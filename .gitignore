@@ -40,3 +40,6 @@ DevStride-Docs
 
 # Content backup
 content-backup/
+
+# Generated raw markdown files (built at deploy time)
+public/raw-md/
