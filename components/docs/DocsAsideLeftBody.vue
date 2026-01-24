@@ -3,7 +3,7 @@ import type { ContentNavigationItem } from '@nuxt/content'
 
 const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 const route = useRoute()
-const navRef = ref<HTMLElement>()
+const navRef = ref<{ $el: HTMLElement } | null>(null)
 const accordionKey = ref(0)
 
 // Watch for route changes to trigger re-render and scroll
@@ -28,10 +28,10 @@ onMounted(() => {
 
 // Scroll the active link into view
 function scrollToActiveLink() {
-  if (!navRef.value) return
+  if (!navRef.value?.$el) return
 
   // Find the active link (aria-current="page")
-  const activeLink = navRef.value.querySelector('[aria-current="page"]')
+  const activeLink = navRef.value.$el.querySelector('[aria-current="page"]')
   if (activeLink) {
     activeLink.scrollIntoView({
       behavior: 'smooth',

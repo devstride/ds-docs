@@ -1,7 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   extends: ['docus'],
-  modules: ['@nuxt/content'],
+  modules: [
+    '@nuxt/content',
+    '~/modules/release-notes-redirect'  // Dynamically sets /releases redirect at build time
+  ],
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
 
@@ -20,21 +23,7 @@ export default defineNuxtConfig({
 
   routeRules: {
     // CORS headers for release notes (allows cross-origin fetching)
-    // Note: /releases and /release-notes redirects are handled by server/middleware/releases.ts
-    '/releases': {
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'GET, OPTIONS',
-        'Access-Control-Allow-Headers': 'Content-Type'
-      }
-    },
-    '/release-notes': {
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'GET, OPTIONS',
-        'Access-Control-Allow-Headers': 'Content-Type'
-      }
-    },
+    // Note: /releases and /release-notes redirects are added by ~/modules/release-notes-redirect
     '/release-notes/**': {
       headers: {
         'Access-Control-Allow-Origin': '*',
