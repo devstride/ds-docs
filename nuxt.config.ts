@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   extends: ['docus'],
   modules: [
     '@nuxt/content',
+    'nuxt-studio',
     '~/modules/release-notes-redirect',  // Dynamically sets /releases redirect at build time
     '~/modules/raw-md-generator'  // Generates static raw markdown files at build time
   ],
@@ -41,6 +42,15 @@ export default defineNuxtConfig({
         'Access-Control-Allow-Methods': 'GET, OPTIONS',
         'Access-Control-Allow-Headers': 'Content-Type'
       }
+    }
+  },
+
+  studio: {
+    repository: {
+      provider: 'github',
+      owner: 'devstride',
+      repo: 'ds-docs',
+      branch: 'main'
     }
   },
 

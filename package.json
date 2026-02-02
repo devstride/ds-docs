@@ -17,6 +17,7 @@
     "better-sqlite3": "^12.4.1",
     "docus": "latest",
     "nuxt": "^4.2.1",
+    "nuxt-studio": "^1.2.0",
     "vue": "^3.5.24",
     "vue-router": "^4.6.3",
     "zod": "^3.25.76",
