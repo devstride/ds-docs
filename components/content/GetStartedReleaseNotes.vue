@@ -32,6 +32,22 @@
           </NuxtLink>
         </div>
       </div>
+
+      <!-- Developer Docs Card -->
+      <div class="card developer-docs-card">
+        <div class="card-image card-image-placeholder developer-docs-placeholder">
+          <Icon name="i-lucide-code-2" class="placeholder-icon" />
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Developer Docs</h3>
+          <p class="card-description">
+            Set up your development environment, learn the ds CLI, and dive into the codebase architecture. Everything you need to start contributing to DevStride.
+          </p>
+          <NuxtLink to="/developer-docs" class="card-link">
+            Read more
+          </NuxtLink>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -47,7 +63,7 @@
 
 .cards-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 0;
   max-width: 100%;
 }
@@ -64,6 +80,10 @@
 
 .release-notes-card {
   background: #ff4444;
+}
+
+.developer-docs-card {
+  background: #1e293b;
 }
 
 .card-image {
@@ -99,6 +119,10 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
+.developer-docs-placeholder .placeholder-icon {
+  color: #3b82f6;
+}
+
 .card-content {
   padding: 2.5rem;
   flex: 1;
@@ -120,6 +144,10 @@
   color: white;
 }
 
+.developer-docs-card .card-title {
+  color: white;
+}
+
 .card-description {
   font-size: 1rem;
   line-height: 1.6;
@@ -133,6 +161,10 @@
 
 .release-notes-card .card-description {
   color: rgba(255, 255, 255, 0.95);
+}
+
+.developer-docs-card .card-description {
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .card-link {
@@ -149,6 +181,10 @@
   text-decoration: underline;
 }
 
+.developer-docs-card .card-link {
+  color: #3b82f6;
+}
+
 .card-link:hover {
   color: #2563eb;
 }
@@ -157,9 +193,30 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
-@media (max-width: 968px) {
+.developer-docs-card .card-link:hover {
+  color: #60a5fa;
+}
+
+/* Responsive: 2 columns on medium screens */
+@media (max-width: 1200px) {
+  .cards-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Developer docs spans full width on 2-col layout */
+  .developer-docs-card {
+    grid-column: span 2;
+  }
+}
+
+/* Responsive: 1 column on small screens */
+@media (max-width: 768px) {
   .cards-container {
     grid-template-columns: 1fr;
+  }
+
+  .developer-docs-card {
+    grid-column: span 1;
   }
 
   .card-image {
