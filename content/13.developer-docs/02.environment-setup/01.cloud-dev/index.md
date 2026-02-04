@@ -12,8 +12,9 @@ Cloud development environments for DevStride developers, running on AWS EC2. Get
 - **Fast setup** - One command creates a fully configured environment
 - **Consistent** - Same tools and configuration for all developers
 - **Powerful** - 4 vCPU, 16GB RAM, 100GB SSD
-- **Pre-installed** - Node.js 20, pnpm, Docker, AWS CLI, Claude Code
-- **Cost-effective** - Stop when not working, pay only for storage (~$8/month)
+- **Pre-installed** - Node.js 20, pnpm, Docker, AWS CLI, Claude Code, VS Code CLI
+- **Cost-effective** - Auto-stop after idle time, pay only for storage when stopped (~$8/month)
+- **Auto-provisioning** - Optional automatic Neon database branch creation
 
 ## Quick Start
 
@@ -28,14 +29,16 @@ source ~/.zshrc               # Apply shell changes
 
 The `create` command automatically:
 1. Runs pre-flight checks (Node.js, pnpm, AWS CLI, Git, etc.)
-2. Deploys your EC2 instance (5-10 minutes on first deploy)
+2. Deploys your EC2 instance with auto-stop scheduler (5-10 minutes on first deploy)
 3. Waits for initialization to complete
 4. Sets up SSH keys and local config
-5. Adds a GitHub SSH key (via `gh` CLI or prompts you)
+5. Adds a GitHub SSH key (via `gh` CLI) and verifies access
 6. Clones the repository and installs dependencies
-7. Configures your `.env` file (uses shared dev database by default)
-8. Runs database migrations automatically
-9. Optionally starts backend in tmux (with `--start-backend`)
+7. Validates all required secrets are present
+8. Configures your `.env` file (shared dev database or auto-provisioned Neon branch)
+9. Runs database migrations and verifies connection
+10. Optionally starts backend in tmux (with `--start-backend`)
+11. Sends Slack notification (if configured by admin)
 
 After create completes:
 
@@ -45,13 +48,19 @@ cd ~/dev/devstride
 ./ds run backend
 ```
 
-Or use the new helper commands:
+Or use the helper commands:
 
 ```bash
 ./ds cloud-dev connect        # SSH with port forwarding for local frontend
 ./ds cloud-dev code           # Open VS Code Remote SSH
+./ds cloud-dev claude         # Run Claude Code on the instance
 ./ds cloud-dev verify         # Check environment health
+./ds cloud-dev start-backend  # Start backend remotely
 ```
+
+::callout{type="tip"}
+**Auto-stop enabled by default!** Your instance automatically stops after 4 hours of idle time to save costs. Use `--auto-stop 0` to disable if needed.
+::
 
 ## Prerequisites
 
@@ -71,8 +80,8 @@ Before setting up cloud-dev, ensure you have:
 ### 3. Neon Database Branch (Optional)
 
 - The `create` command uses the shared dev database by default
-- For isolated testing, request your own branch from a team lead
-- Use `--custom-db` flag during create to specify your own connection string
+- For isolated testing, use `--auto-provision-db` to auto-create your own branch
+- Or use `--custom-db` flag during create to specify your own connection string
 
 ### 4. Claude Code (Recommended)
 
@@ -93,15 +102,18 @@ Before setting up cloud-dev, ensure you have:
 | State | Cost |
 |-------|------|
 | Running | ~$0.17/hour (~$122/month if 24/7) |
+| Auto-stop enabled (typical) | ~$30-50/month |
 | Stopped | ~$8/month (EBS storage only) |
 | Destroyed | $0 |
 
 ::callout{type="tip"}
-**Best Practice:** Stop your instance when not working to minimize costs.
+**Auto-stop saves money!** With auto-stop enabled (default), instances stop after 4 hours of idle time. Typical monthly cost is $30-50 instead of $122.
 ::
 
 ## Next Steps
 
 - [Daily Workflow](/developer-docs/environment-setup/cloud-dev/daily-workflow) - Start, stop, connect
 - [Command Reference](/developer-docs/environment-setup/cloud-dev/commands) - All cloud-dev commands
+- [Advanced Features](/developer-docs/environment-setup/cloud-dev/advanced-features) - Auto-stop, Neon auto-provisioning, notifications
 - [Troubleshooting](/developer-docs/environment-setup/cloud-dev/troubleshooting) - Common issues
+- [Admin Guide](/developer-docs/environment-setup/cloud-dev/admin-guide) - Secrets setup, AMI building (admins only)
