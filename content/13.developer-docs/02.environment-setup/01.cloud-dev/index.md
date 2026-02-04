@@ -21,18 +21,21 @@ If you already have the DevStride repository cloned:
 
 ```bash
 cd ~/dev/devstride
-./ds cloud-dev init    # Configure environment (one-time)
-source ~/.zshrc        # Apply shell changes
-./ds cloud-dev create  # Creates fully configured environment
+./ds cloud-dev init           # Configure environment (one-time)
+source ~/.zshrc               # Apply shell changes
+./ds cloud-dev create         # Creates fully configured environment
 ```
 
 The `create` command automatically:
-1. Deploys your EC2 instance (5-10 minutes)
-2. Waits for initialization to complete
-3. Sets up SSH keys and local config
-4. Adds a GitHub SSH key (via `gh` CLI or prompts you)
-5. Clones the repository and installs dependencies
-6. Configures your `.env` file (prompts for your Neon DB connection string)
+1. Runs pre-flight checks (Node.js, pnpm, AWS CLI, Git, etc.)
+2. Deploys your EC2 instance (5-10 minutes on first deploy)
+3. Waits for initialization to complete
+4. Sets up SSH keys and local config
+5. Adds a GitHub SSH key (via `gh` CLI or prompts you)
+6. Clones the repository and installs dependencies
+7. Configures your `.env` file (uses shared dev database by default)
+8. Runs database migrations automatically
+9. Optionally starts backend in tmux (with `--start-backend`)
 
 After create completes:
 
@@ -40,6 +43,14 @@ After create completes:
 ssh devstride-yourname
 cd ~/dev/devstride
 ./ds run backend
+```
+
+Or use the new helper commands:
+
+```bash
+./ds cloud-dev connect        # SSH with port forwarding for local frontend
+./ds cloud-dev code           # Open VS Code Remote SSH
+./ds cloud-dev verify         # Check environment health
 ```
 
 ## Prerequisites
@@ -57,11 +68,11 @@ Before setting up cloud-dev, ensure you have:
 - GitHub account added to the `devstride` organization
 - Access to `devstride/devstride` repository
 
-### 3. Neon Database Branch (Required)
+### 3. Neon Database Branch (Optional)
 
-- Each developer needs their own Neon database branch
-- Request a branch from a team lead (e.g., `local-yourname`)
-- Have your connection string ready (from Neon Console > Your Branch > Connection Details)
+- The `create` command uses the shared dev database by default
+- For isolated testing, request your own branch from a team lead
+- Use `--custom-db` flag during create to specify your own connection string
 
 ### 4. Claude Code (Recommended)
 

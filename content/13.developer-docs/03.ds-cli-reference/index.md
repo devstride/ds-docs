@@ -49,8 +49,12 @@ The `ds` utility is the central command-line tool for DevStride development. It 
 | Command | Description |
 |---------|-------------|
 | `./ds cloud-dev init` | Configure cloud-dev environment |
-| `./ds cloud-dev create` | Create a cloud dev instance |
+| `./ds cloud-dev create` | Create a cloud dev instance (fully automated) |
 | `./ds cloud-dev ssh` | Connect to your instance |
+| `./ds cloud-dev connect` | SSH with port forwarding for local frontend |
+| `./ds cloud-dev code` | Open VS Code Remote SSH |
+| `./ds cloud-dev verify` | Health check your environment |
+| `./ds cloud-dev logs` | Tail backend logs |
 | `./ds cloud-dev claude` | Run Claude Code on your instance |
 | `./ds cloud-dev stop` | Stop your instance |
 
