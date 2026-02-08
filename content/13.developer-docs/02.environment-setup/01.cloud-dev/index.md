@@ -12,7 +12,7 @@ Cloud development environments for DevStride developers, running on AWS EC2. Get
 - **Fast setup** - One command creates a fully configured environment
 - **Consistent** - Same tools and configuration for all developers
 - **Powerful** - 4 vCPU, 16GB RAM, 100GB SSD
-- **Pre-installed** - Node.js 20, pnpm, Docker, AWS CLI, Claude Code, VS Code CLI
+- **Pre-installed** - Node.js 22, pnpm, Docker, AWS CLI, Pulumi, Claude Code, VS Code CLI
 - **Cost-effective** - Auto-stop after idle time, pay only for storage when stopped (~$8/month)
 - **Auto-provisioning** - Optional automatic Neon database branch creation
 
@@ -95,7 +95,7 @@ Before setting up cloud-dev, ensure you have:
 | Type | t3.xlarge (4 vCPU, 16GB RAM) |
 | Storage | 100GB GP3 SSD (preserved on stop/start) |
 | OS | Amazon Linux 2023 |
-| Pre-installed | Node.js 20 LTS, pnpm, Claude Code, Docker, AWS CLI, Git |
+| Pre-installed | Node.js 22 LTS, pnpm, Pulumi, Claude Code, Docker, AWS CLI, Git |
 
 ## Costs and Billing
 

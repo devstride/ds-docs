@@ -13,12 +13,12 @@ DevStride is built on a modern, scalable architecture designed for maintainabili
 
 | Technology | Purpose |
 |------------|---------|
-| **Node.js** | Runtime environment |
-| **TypeScript** | Type-safe development |
-| **Hono** | Web framework for API handlers |
-| **SST** | Infrastructure-as-code framework |
+| **Node.js 22** | Runtime environment |
+| **TypeScript** | Type-safe development (strict mode) |
+| **Hono** | Lightweight web framework for API handlers |
+| **Pulumi** | Infrastructure-as-code |
 | **DynamoDB** | NoSQL database (via dynamodb-onetable) |
-| **PostgreSQL** | Relational database (via Drizzle ORM) |
+| **PostgreSQL** | Relational database (via Drizzle ORM, hosted on Neon) |
 | **Pusher** | Real-time messaging |
 
 ### Frontend
@@ -36,12 +36,18 @@ DevStride is built on a modern, scalable architecture designed for maintainabili
 
 | Service | Purpose |
 |---------|---------|
-| **AWS Lambda** | Serverless compute |
+| **AWS Lambda** | Serverless compute (Node.js 22, ARM64) |
 | **API Gateway** | HTTP API routing |
 | **Cognito** | Authentication |
 | **S3** | File storage |
 | **EventBridge** | Event routing |
 | **SQS/SNS** | Message queues |
+| **Step Functions** | Complex workflows (importers, disable flows) |
+| **CloudFront** | CDN for frontend and media assets |
+| **Secrets Manager** | Application configuration and secrets |
+| **DynamoDB** | State and metadata storage |
+| **CodeBuild** | CI/CD pipelines and long-running jobs |
+| **SSM (Systems Manager)** | Cloud development environment and parameter management |
 
 ## Architecture Patterns
 
@@ -103,12 +109,17 @@ backend/src/modules/
 ```
 
 Each module contains:
-- `domain/` - Entities, value objects, events
-- `application/` - Commands, queries, services
-- `infrastructure/` - Repositories, external services
-- `interface-adapters/` - Hono handlers, DTOs
+- `domain/` - Entities, value objects, domain events
+- `commands/` - Command definitions, services, init files, Hono handlers
+- `queries/` - Query definitions, services, init files
+- `database/` - Repository ports and SQL implementations (entities, mappers, repositories)
+- `dtos/` - Data transfer objects (requests, responses)
+- `application/` - Domain event handlers, integration event handlers
+- `integration-events/` - Integration event definitions
+- `interface-adapters/` - Lambda handlers (HTTP, SQS, cron, Step Function)
 
 ## Learn More
 
-- [Backend Architecture Guide](/developer-docs/architecture/backend) - Deep dive into backend patterns
+- [Backend Architecture](/developer-docs/architecture/backend) - Deep dive into backend patterns
 - [Frontend Architecture](/developer-docs/architecture/frontend) - Vue.js structure and conventions
+- [Infrastructure Guide](/developer-docs/infrastructure) - Pulumi infrastructure and deployment

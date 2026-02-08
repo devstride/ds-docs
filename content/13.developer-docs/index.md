@@ -5,7 +5,7 @@ description: "Everything you need to set up your development environment and sta
 
 # Developer Documentation
 
-Welcome to the DevStride developer documentation. Whether you're setting up your first development environment or diving deep into the codebase architecture, you'll find everything you need here.
+Welcome to the DevStride developer documentation. This is your central resource for setting up a development environment, understanding the `ds` CLI, managing infrastructure with Pulumi, and navigating the application architecture. Whether you are onboarding for the first time or looking up a specific command, start here.
 
 ## Quick Start
 
@@ -24,7 +24,7 @@ class: py-8
   Cloud Development (Recommended)
 
   #description
-  Get a fully configured cloud environment in ~10 minutes. Pre-installed tools, automatic setup, and ready to code.
+  Get a fully configured cloud environment in ~10 minutes. Pre-installed tools, automatic setup, and ready to code. No local dependencies to manage.
   :::
 
   :::u-page-card
@@ -36,28 +36,33 @@ class: py-8
   Local Development
 
   #description
-  Set up DevStride on your local machine. Full control over your environment with manual configuration.
+  Set up DevStride on your local machine. Full control over your environment with manual configuration of all dependencies.
   :::
 ::
 
 ## What's Covered
 
 ### Environment Setup
-- **Cloud Development** - AWS EC2-based development environment with all tools pre-installed
-- **Local Development** - Step-by-step guide to configure your local machine
-- **Prerequisites** - Required accounts, access, and tools
+
+- **[Cloud Development](/developer-docs/environment-setup/cloud-dev)** - Pre-configured AWS EC2 instance with all tools pre-installed (Node.js 22, pnpm, Docker, AWS CLI, Pulumi, Claude Code)
+- **[Local Development](/developer-docs/environment-setup/local-setup)** - Step-by-step guide to configure your local machine with all required dependencies
+- **Prerequisites** - Required accounts, access, and tooling for both environments
 
 ### ds CLI Reference
+
+- **[All Commands](/developer-docs/ds-cli-reference)** - The `ds` utility is the central tool for DevStride development
 - **Development Commands** - Run backend, frontend, build, and test
-- **Database Commands** - Migrations, data import/export, reset
-- **Cloud Dev Commands** - Manage your cloud development instance
+- **Infrastructure Commands** - Deploy and manage your Pulumi stacks
+- **Data Commands** - Migrations, import/export, database reset
+
+### Infrastructure
+
+- **[Pulumi-Based Infrastructure](/developer-docs/infrastructure)** - DevStride uses Pulumi (TypeScript) for infrastructure-as-code on AWS
+- **Deploying** - Personal development stacks, preview changes, and deploy with `pulumi up`
+- **Safety Guards** - Stage protection, domain validation, resource protection and retention policies
+- **Cost Management** - Understanding AWS resource costs and keeping development stacks lean
 
 ### Architecture
-- **Backend** - DDD, CQRS, repository pattern, event-driven design
-- **Frontend** - Vue 3, Pinia, Quasar, Tailwind CSS
-- **Infrastructure** - AWS serverless with SST framework
 
-### Contributing
-- Code style guidelines
-- Testing requirements
-- Pull request process
+- **[Backend](/developer-docs/architecture/backend)** - Domain-Driven Design (DDD), CQRS, repository pattern, event-driven architecture with Hono API handlers
+- **[Frontend](/developer-docs/architecture/frontend)** - Vue 3 with Composition API, Pinia state management, Quasar component framework, Tailwind CSS
