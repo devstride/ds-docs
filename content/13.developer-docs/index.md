@@ -1,6 +1,7 @@
 ---
-title: "ds CLI"
-description: "Command reference for the ds development utility."
+title: ds CLI
+description: Command reference for the ds development utility.
+links: []
 ---
 
 # ds CLI
@@ -9,11 +10,11 @@ The `ds` command-line tool for DevStride development. Run `ds` with no arguments
 
 ## Command Groups
 
-| Group | AWS Auth | Description |
-|-------|----------|-------------|
-| [`ds local`](/developer-docs/local) | No | Run servers, generate code, lint checks |
-| [`ds db`](/developer-docs/db) | Yes | Migrations, import/export, repair, queries |
-| [`ds cloud`](/developer-docs/cloud) | Yes | Deploy, secrets, config, stages, Stripe, admin |
+| Group      | AWS Auth | Description                                    |
+| ---------- | -------- | ---------------------------------------------- |
+| `ds local` | No       | Run servers, generate code, lint checks        |
+| `ds db`    | Yes      | Migrations, import/export, repair, queries     |
+| `ds cloud` | Yes      | Deploy, secrets, config, stages, Stripe, admin |
 
 ## Caching
 
@@ -28,14 +29,14 @@ You can also manually refresh with `ds cloud outputs pull`.
 
 ## Aliases
 
-| Shorthand | Expands To |
-|-----------|------------|
-| `ds backend` | `ds local run backend` |
-| `ds frontend` | `ds local run frontend` |
-| `ds up` | `ds cloud deploy` |
-| `ds down` | `ds cloud destroy` |
-| `ds migrate` | `ds db migrate` |
-| `ds g <c\|q>` | `ds local generate <command\|query>` |
+| Shorthand     | Expands To                          |
+| ------------- | ----------------------------------- |
+| `ds backend`  | `ds local run backend`              |
+| `ds frontend` | `ds local run frontend`             |
+| `ds up`       | `ds cloud deploy`                   |
+| `ds down`     | `ds cloud destroy`                  |
+| `ds migrate`  | `ds db migrate`                     |
+| `ds g <c|q>`  | `ds local generate <command|query>` |
 
 ## Meta Commands
 
@@ -45,12 +46,12 @@ You can also manually refresh with `ds cloud outputs pull`.
 
 **When to use:** First-time setup on a new machine or cloud instance. Handles AWS auth, secrets, Neon database provisioning, `pnpm install`, Pulumi stack creation, `pulumi up`, config sync, and migrations.
 
-| Option | Effect |
-|--------|--------|
-| `--stage <name>` | Set stage name without prompting |
-| `--skip-deploy` | Skip `pulumi up` |
-| `--skip-migrations` | Skip database migrations |
-| `--skip-start` | Skip starting backend and frontend |
+| Option              | Effect                             |
+| ------------------- | ---------------------------------- |
+| `--stage <name>`    | Set stage name without prompting   |
+| `--skip-deploy`     | Skip `pulumi up`                   |
+| `--skip-migrations` | Skip database migrations           |
+| `--skip-start`      | Skip starting backend and frontend |
 
 ::callout{type="info"}
 Idempotent -- skips steps that are already complete. Safe to re-run.
