@@ -1,68 +1,67 @@
 ---
-title: "Developer Documentation"
-description: "Everything you need to set up your development environment and start contributing to DevStride."
+title: "ds CLI"
+description: "Command reference for the ds development utility."
 ---
 
-# Developer Documentation
+# ds CLI
 
-Welcome to the DevStride developer documentation. This is your central resource for setting up a development environment, understanding the `ds` CLI, managing infrastructure with Pulumi, and navigating the application architecture. Whether you are onboarding for the first time or looking up a specific command, start here.
+The `ds` command-line tool for DevStride development. Run `ds` with no arguments for an interactive menu, or `ds help` to list all commands.
 
-## Quick Start
+## Command Groups
 
-Choose your development setup:
+| Group | AWS Auth | Description |
+|-------|----------|-------------|
+| [`ds local`](/developer-docs/local) | No | Run servers, generate code, lint checks |
+| [`ds db`](/developer-docs/db) | Yes | Migrations, import/export, repair, queries |
+| [`ds cloud`](/developer-docs/cloud) | Yes | Deploy, secrets, config, stages, Stripe, admin |
 
-::u-page-grid
----
-class: py-8
----
-  :::u-page-card
-  ---
-  icon: i-lucide-cloud
-  to: /developer-docs/environment-setup/cloud-dev
-  ---
-  #title
-  Cloud Development (Recommended)
+## Caching
 
-  #description
-  Get a fully configured cloud environment in ~10 minutes. Pre-installed tools, automatic setup, and ready to code. No local dependencies to manage.
-  :::
+The `ds` wrapper caches Pulumi stack outputs in `.ds/bind/` so commands start quickly. The cache auto-refreshes when:
 
-  :::u-page-card
-  ---
-  icon: i-lucide-laptop
-  to: /developer-docs/environment-setup/local-setup
-  ---
-  #title
-  Local Development
+- The cache file does not exist (first run, or after `ds cloud deploy` which clears it)
+- The Pulumi config file (`infra/Pulumi.<stage>.yaml`) has been modified since the cache was written
 
-  #description
-  Set up DevStride on your local machine. Full control over your environment with manual configuration of all dependencies.
-  :::
+You can also manually refresh with `ds cloud outputs pull`.
+
+**Example:** You deploy a Cognito change with `ds cloud deploy`. The deploy clears the cache automatically, so your next `ds local run backend` picks up the new Cognito user pool ID. However, if a teammate deploys infrastructure to a shared stage (like `dev`) outside of your machine, your local cache is stale. Run `ds cloud outputs pull` to fetch the updated values, then restart your backend.
+
+## Aliases
+
+| Shorthand | Expands To |
+|-----------|------------|
+| `ds backend` | `ds local run backend` |
+| `ds frontend` | `ds local run frontend` |
+| `ds up` | `ds cloud deploy` |
+| `ds down` | `ds cloud destroy` |
+| `ds migrate` | `ds db migrate` |
+| `ds g <c\|q>` | `ds local generate <command\|query>` |
+
+## Meta Commands
+
+### setup
+
+**Purpose:** Full automated environment setup from zero to running services.
+
+**When to use:** First-time setup on a new machine or cloud instance. Handles AWS auth, secrets, Neon database provisioning, `pnpm install`, Pulumi stack creation, `pulumi up`, config sync, and migrations.
+
+| Option | Effect |
+|--------|--------|
+| `--stage <name>` | Set stage name without prompting |
+| `--skip-deploy` | Skip `pulumi up` |
+| `--skip-migrations` | Skip database migrations |
+| `--skip-start` | Skip starting backend and frontend |
+
+::callout{type="info"}
+Idempotent -- skips steps that are already complete. Safe to re-run.
 ::
 
-## What's Covered
+### help
 
-### Environment Setup
+**Purpose:** Print all available commands, flags, and aliases.
 
-- **[Cloud Development](/developer-docs/environment-setup/cloud-dev)** - Pre-configured AWS EC2 instance with all tools pre-installed (Node.js 22, pnpm, Docker, AWS CLI, Pulumi, Claude Code)
-- **[Local Development](/developer-docs/environment-setup/local-setup)** - Step-by-step guide to configure your local machine with all required dependencies
-- **Prerequisites** - Required accounts, access, and tooling for both environments
+### menu
 
-### ds CLI Reference
+**Purpose:** Launch the interactive command picker with arrow-key navigation.
 
-- **[All Commands](/developer-docs/ds-cli-reference)** - The `ds` utility is the central tool for DevStride development
-- **Development Commands** - Run backend, frontend, build, and test
-- **Infrastructure Commands** - Deploy and manage your Pulumi stacks
-- **Data Commands** - Migrations, import/export, database reset
-
-### Infrastructure
-
-- **[Pulumi-Based Infrastructure](/developer-docs/infrastructure)** - DevStride uses Pulumi (TypeScript) for infrastructure-as-code on AWS
-- **Deploying** - Personal development stacks, preview changes, and deploy with `pulumi up`
-- **Safety Guards** - Stage protection, domain validation, resource protection and retention policies
-- **Cost Management** - Understanding AWS resource costs and keeping development stacks lean
-
-### Architecture
-
-- **[Backend](/developer-docs/architecture/backend)** - Domain-Driven Design (DDD), CQRS, repository pattern, event-driven architecture with Hono API handlers
-- **[Frontend](/developer-docs/architecture/frontend)** - Vue 3 with Composition API, Pinia state management, Quasar component framework, Tailwind CSS
+**When to use:** When you cannot remember the exact command name. Same as running `ds` with no arguments.
