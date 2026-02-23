@@ -43,7 +43,7 @@
           <p class="card-description">
             Set up your development environment, learn the ds CLI, and dive into the codebase architecture. Everything you need to start contributing to DevStride.
           </p>
-          <NuxtLink to="/developer-docs" class="card-link">
+          <NuxtLink to="/developer-docs/introduction" class="card-link">
             Read more
           </NuxtLink>
         </div>
