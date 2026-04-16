@@ -7,7 +7,7 @@
     "node": ">=22.13.0"
   },
   "scripts": {
-    "dev": "nuxt dev --extends docus",
+    "dev": "nuxt dev --extends docus --port 3001",
     "build": "nuxt build --extends docus",
     "generate": "nuxt generate --extends docus",
     "preview": "nuxt preview --extends docus"
