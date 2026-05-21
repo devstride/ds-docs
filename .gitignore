@@ -43,3 +43,6 @@ content-backup/
 
 # Generated raw markdown files (built at deploy time)
 public/raw-md/
+
+# Local docs authoring scratch (screenshots, demo scripts)
+docs/
