@@ -192,6 +192,18 @@ class: py-16
 
   :::u-page-feature
   ---
+  icon: i-lucide-clock
+  to: /plugins/weekly-logs/overview
+  ---
+  #title
+  Plugins
+  
+  #description
+  Extend DevStride with purpose-built plugins. Weekly Logs brings time tracking directly into your workflow — log hours against tasks, view team entries, and export timesheets without leaving the platform.
+  :::
+
+  :::u-page-feature
+  ---
   icon: i-lucide-code
   to: https://api-docs.devstride.com/
   target: _blank
