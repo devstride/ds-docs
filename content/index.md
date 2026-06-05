@@ -193,7 +193,7 @@ class: py-16
   :::u-page-feature
   ---
   icon: i-lucide-clock
-  to: /plugins/weekly-logs/overview
+  to: /plugins
   ---
   #title
   Plugins
