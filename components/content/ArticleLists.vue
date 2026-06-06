@@ -81,20 +81,20 @@
         <ul class="article-list">
           <li>
             <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/release-notes/2025-07-02-and-2025-07-07">
-              Release Notes: 2025-07-02
+            <NuxtLink to="/release-notes/2026-05-29">
+              Release Notes: 2026-05-29
             </NuxtLink>
           </li>
           <li>
             <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/release-notes/2025-06-16">
-              Release Notes: 2025-06-16
+            <NuxtLink to="/release-notes/2026-05-13">
+              Release Notes: 2026-05-13
             </NuxtLink>
           </li>
           <li>
             <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/release-notes/2025-05-29">
-              Release Notes: 2025-05-29
+            <NuxtLink to="/release-notes/2026-04-29">
+              Release Notes: 2026-04-29
             </NuxtLink>
           </li>
           <li>
