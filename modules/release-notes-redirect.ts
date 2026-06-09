@@ -9,7 +9,7 @@ export default defineNuxtModule({
   },
   setup(options, nuxt) {
     // Find the latest release note at build time
-    const contentDir = join(nuxt.options.rootDir, 'content', '11.release-notes')
+    const contentDir = join(nuxt.options.rootDir, 'content', '12.release-notes')
 
     try {
       const files = readdirSync(contentDir)
