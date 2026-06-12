@@ -21,7 +21,7 @@ export default defineNuxtModule({
 })
 
 function generateRawMdFiles(rootDir: string) {
-  const contentDir = join(rootDir, 'content', '12.release-notes')
+  const contentDir = join(rootDir, 'content', '18.release-notes')
   const outputDir = join(rootDir, 'public', 'raw-md', 'release-notes')
 
   try {

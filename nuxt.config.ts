@@ -42,7 +42,13 @@ export default defineNuxtConfig({
         'Access-Control-Allow-Methods': 'GET, OPTIONS',
         'Access-Control-Allow-Headers': 'Content-Type'
       }
-    }
+    },
+
+    // Workspace Capabilities moved under Map Value (2026-06-10) — redirect old URLs so existing links keep working
+    '/workspace-capabilities/explore-the-workspace': { redirect: { to: '/workstreams-and-work-items/workspace-capabilities/explore-the-workspace', statusCode: 301 } },
+    '/workspace-capabilities/workspace-sidebar': { redirect: { to: '/workstreams-and-work-items/workspace-capabilities/workspace-sidebar', statusCode: 301 } },
+    '/workspace-capabilities/themes-and-appearance': { redirect: { to: '/workstreams-and-work-items/workspace-capabilities/themes-and-appearance', statusCode: 301 } },
+    '/workspace-capabilities/getting-help-and-support': { redirect: { to: '/workstreams-and-work-items/workspace-capabilities/getting-help-and-support', statusCode: 301 } }
   },
 
   studio: {
