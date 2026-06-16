@@ -7,8 +7,8 @@
         <ul class="article-list">
           <li>
             <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/admin-onboarding-getting-started/admin-onboarding-guide">
-              Admin Onboarding - Getting Started
+            <NuxtLink to="/admin-onboarding-getting-started/setting-the-stage">
+              Getting Started: Setting the Stage
             </NuxtLink>
           </li>
           <li>

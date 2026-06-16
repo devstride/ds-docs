@@ -27,6 +27,10 @@ While the default role is member, you can simply change the role to admin for ea
 
 You can change rights for each user as needed.
 
+::alert{type="tip" title="More on roles and permissions"}
+**Admin** and **member** are just the starting point. You can tailor what each role can do, create custom roles, and control access to individual items and boards. For the full picture, see [More on Permissions](/admin-onboarding-getting-started/permissions/understanding-permissions) — covered later in this guide.
+::
+
 (4) **Labels** - you can set up labels to further identify aspects of your team on this screen, such as whether they are contractors, customers, vendors, or part of a special skill group, etc.
 
 Labels are most useful to large organizations who might want to filter the list that is displayed here. These labels are not used elsewhere in DevStride.

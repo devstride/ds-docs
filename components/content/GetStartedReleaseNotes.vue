@@ -11,7 +11,7 @@
           <p class="card-description">
             Kickstart your journey with DevStride in our 'Getting Started' section. Here, you'll find all the essential resources and guides to set up your account, navigate the interface, and begin managing projects with confidence.
           </p>
-          <NuxtLink to="/admin-onboarding-getting-started/admin-onboarding-guide" class="card-link">
+          <NuxtLink to="/admin-onboarding-getting-started/setting-the-stage" class="card-link">
             Read more
           </NuxtLink>
         </div>
