@@ -48,7 +48,10 @@ export default defineNuxtConfig({
     '/workspace-capabilities/explore-the-workspace': { redirect: { to: '/workstreams-and-work-items/workspace-capabilities/explore-the-workspace', statusCode: 301 } },
     '/workspace-capabilities/workspace-sidebar': { redirect: { to: '/workstreams-and-work-items/workspace-capabilities/workspace-sidebar', statusCode: 301 } },
     '/workspace-capabilities/themes-and-appearance': { redirect: { to: '/workstreams-and-work-items/workspace-capabilities/themes-and-appearance', statusCode: 301 } },
-    '/workspace-capabilities/getting-help-and-support': { redirect: { to: '/workstreams-and-work-items/workspace-capabilities/getting-help-and-support', statusCode: 301 } }
+    '/workspace-capabilities/getting-help-and-support': { redirect: { to: '/workstreams-and-work-items/workspace-capabilities/getting-help-and-support', statusCode: 301 } },
+
+    // Manage Items grew from a single placeholder page into a multi-page module (2026-06-16) — redirect the old bare URL to the new landing
+    '/manage-items': { redirect: { to: '/manage-items/overview', statusCode: 301 } }
   },
 
   studio: {
