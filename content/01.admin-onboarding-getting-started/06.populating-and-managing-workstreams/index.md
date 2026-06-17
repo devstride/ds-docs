@@ -74,6 +74,10 @@ If you would like to further describe this item using its workspace, you can ope
 
 Click **Save New Item** (4).
 
+::alert{type="tip" title="Faster ways to add many items"}
+Adding items one at a time is great for a few, but you don't have to. To turn notes or a document into a batch of items at once, see [Using AI in DevStride](/admin-onboarding-getting-started/using-ai-in-devstride/create-items-with-ai). To build a whole workstream from a reusable spreadsheet, see [Import Templates](/admin-onboarding-getting-started/populating-and-managing-workstreams/import-templates).
+::
+
 ![image.png](/images/image75.png)
 
 In our example, since Capabilities are right above tasks in our hierarchy, we are ready to add our individual tasks. To add tasks, go to any Capability (1) and click on Add Item (2) to add Tasks (3-4) to the Capability. Like this:
