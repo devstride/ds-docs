@@ -21,8 +21,16 @@ export default defineNuxtModule({
 })
 
 function generateRawMdFiles(rootDir: string) {
-  const contentDir = join(rootDir, 'content', '18.release-notes')
+  // Find the release-notes folder by slug — prefix-agnostic, so renumbering the
+  // top-level nav never breaks this module (it used to hardcode "18.release-notes").
+  const contentRoot = join(rootDir, 'content')
+  const releaseNotesDir = readdirSync(contentRoot).find(d => /^\d+\.release-notes$/.test(d))
   const outputDir = join(rootDir, 'public', 'raw-md', 'release-notes')
+  if (!releaseNotesDir) {
+    console.warn('[raw-md-generator] No "*.release-notes" folder found under content/')
+    return
+  }
+  const contentDir = join(contentRoot, releaseNotesDir)
 
   try {
     // Clean output directory to remove stale files from deleted/renamed release notes

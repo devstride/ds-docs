@@ -8,8 +8,15 @@ export default defineNuxtModule({
     configKey: 'releaseNotesRedirect'
   },
   setup(options, nuxt) {
-    // Find the latest release note at build time
-    const contentDir = join(nuxt.options.rootDir, 'content', '18.release-notes')
+    // Find the release-notes folder by slug — prefix-agnostic, so renumbering the
+    // top-level nav never breaks this module (it used to hardcode "18.release-notes").
+    const contentRoot = join(nuxt.options.rootDir, 'content')
+    const releaseNotesDir = readdirSync(contentRoot).find(d => /^\d+\.release-notes$/.test(d))
+    if (!releaseNotesDir) {
+      console.warn('[release-notes-redirect] No "*.release-notes" folder found under content/')
+      return
+    }
+    const contentDir = join(contentRoot, releaseNotesDir)
 
     try {
       const files = readdirSync(contentDir)

@@ -31,6 +31,10 @@ You can change rights for each user as needed.
 **Admin** and **member** are just the starting point. You can tailor what each role can do, create custom roles, and control access to individual items and boards. For the full picture, see [More on Permissions](/admin-onboarding-getting-started/permissions/understanding-permissions) — covered later in this guide.
 ::
 
+::alert{type="tip" title="Each person manages their own account"}
+Once invited, every user controls their **own** personal settings — profile, multi-factor authentication, notification preferences, and API keys — under **My Account**, which is separate from the organization's Configure Settings. See [My Account](/my-account/overview).
+::
+
 (4) **Labels** - you can set up labels to further identify aspects of your team on this screen, such as whether they are contractors, customers, vendors, or part of a special skill group, etc.
 
 Labels are most useful to large organizations who might want to filter the list that is displayed here. These labels are not used elsewhere in DevStride.
