@@ -1,9 +1,9 @@
 ---
-title: "03: Basic Terms"
+title: "Basic Terms"
 description: "Core DevStride concepts — workstreams, items, workspaces, cycles, boards, and Gantts — plus a glossary of the terms you'll meet across the product."
 ---
 
-<!-- TWIN COPY — keep in sync with content/02.basic-terms/index.md -->
+<!-- TWIN COPY — keep in sync with content/01.admin-onboarding-getting-started/03.basic-terms.md -->
 
 ## Workstream 
 
