@@ -91,11 +91,13 @@ These are the main areas in the left navigation.
 ### Structuring work
 
 - **Custom Field** — A field you add to items to capture domain-specific data (text, date, number, select, and more). [Custom fields](/settings/data-model/custom-fields)
-- **Dependency** — A link showing that one item must be completed before or alongside another; visualized in the dependency graph. [Dependency graph](/workstreams-and-work-items/dependency-graph)
+- **Dependency** — An item the current item is **blocked by**: a prerequisite that must be completed first. Dependencies drive the dependency graph and Gantt scheduling. [Dependency graph](/workstreams-and-work-items/dependency-graph)
+- **Dependent** — The mirror of a dependency: an item the current item **blocks** — work that's waiting on this item to finish. [Manage and edit dependencies](/boards/manage-and-edit-dependencies)
 - **Dual Hierarchy** — DevStride organizes the same work two ways at once: the **workstream hierarchy** in Map Value captures the *what* (the value to deliver, as nested core and sub-workstreams), while the **folder-and-board hierarchy** in Plan Delivery captures the *who and when* (the working groups executing it). An item lives in a workstream for portfolio and value context and is also placed on a board within a folder for delivery — so you can navigate and roll up the same work by either value or delivery. [Working-group folders](/boards/working-group-folders)
 - **Folder** — A container in Plan Delivery for organizing boards and cycles; boards and folders inherit permissions from their parent. [Working-group folders](/boards/working-group-folders)
 - **Item Type** — A classification for items (for example Epic, Story, or Task) that defines how they nest and which fields they carry. [Item Types](/settings/data-model/item-types)
 - **Priority** — A configurable ranking that indicates an item's relative importance. [Priority levels](/settings/data-model/priority-levels)
+- **Related to** — A non-directional link between two items (shown as **Related** in the Relationships dialog): a peer or reference association that, unlike a dependency, doesn't block either item or affect scheduling. [Manage and edit dependencies](/boards/manage-and-edit-dependencies)
 - **Subtask / Child Item** — A smaller unit of work nested under a parent item, with its own status, assignee, and estimates. [Item hierarchy](/manage-items/item-hierarchy)
 - **Tag** — A user-defined label (or a reserved tag such as Blocked) applied to items for categorization and filtering. [Tags](/settings/data-model/tags)
 
@@ -119,6 +121,7 @@ These are the main areas in the left navigation.
 - **Role** — An organization-wide set of permissions (such as Owner, Admin, or Member) that controls what a person can do across DevStride. [Roles & permissions](/permissions/roles-and-permissions)
 - **Sharing & Access** — Per-object permission grants (view, comment, edit, own) on a specific item, board, or folder. [Sharing & access](/permissions/sharing-and-access)
 - **Team** — A group of members who work together; items and boards can be assigned to a team. [Setting up users & teams](/admin-onboarding-getting-started/setting-up-users-and-teams)
+- **Watcher** — Someone following an item to stay informed. Watchers are notified (in-app, email, or Slack, per their notification settings) when the item changes — status, assignment, comments, dates, relationships, and more. Anyone who can edit the item can add or remove watchers. [Overview of notification options](/notifications/overview-of-notification-options)
 
 ### Estimation & scheduling
 
