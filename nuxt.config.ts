@@ -51,7 +51,16 @@ export default defineNuxtConfig({
     '/workspace-capabilities/getting-help-and-support': { redirect: { to: '/workstreams-and-work-items/workspace-capabilities/getting-help-and-support', statusCode: 301 } },
 
     // Manage Items grew from a single placeholder page into a multi-page module (2026-06-16) — redirect the old bare URL to the new landing
-    '/manage-items': { redirect: { to: '/manage-items/overview', statusCode: 301 } }
+    '/manage-items': { redirect: { to: '/manage-items/overview', statusCode: 301 } },
+
+    // Developer Docs rewritten around the real ds CLI (2026-06-30) — old pages described a fictional
+    // Pulumi/Neon-branching CLI that never shipped and consolidated from 11 pages down to 9 + a new
+    // Claude Skills subsection. Redirect removed/renamed URLs so existing links keep working.
+    '/developer-docs/developer-lifecycle': { redirect: { to: '/developer-docs/local-development', statusCode: 301 } },
+    '/developer-docs/database-management': { redirect: { to: '/developer-docs/local-development', statusCode: 301 } },
+    '/developer-docs/integrations': { redirect: { to: '/developer-docs/stripe-integration', statusCode: 301 } },
+    '/developer-docs/utilities-and-maintenance': { redirect: { to: '/developer-docs/maintenance-and-codebase-checks', statusCode: 301 } },
+    '/developer-docs/aws-operations': { redirect: { to: '/developer-docs/introduction', statusCode: 301 } }
   },
 
   studio: {
