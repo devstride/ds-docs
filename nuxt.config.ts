@@ -192,6 +192,46 @@ const CONCERN_REORG_REDIRECTS_2026_07_01: Array<[string, string]> = [
   ['/workstreams-and-work-items/workstream-and-item-permissions', '/major-modules/workstreams-and-work-items/workstream-and-item-permissions'],
 ]
 
+// Admin Onboarding was flattened to fit a 4-level nav (2026-07-01): Boards/Gantt Charts pages that
+// duplicated the real Boards/Gantts modules were removed (Gantt content was promoted into the real,
+// previously-stub Track Progress: Gantts module instead), and remaining subsections (Items, Item
+// Workspace Tour, Creating and Using Statuses, Cadences, Map Value: WorkStreams) were promoted from
+// nested sub-subgroups to flat top-level sections.
+const ADMIN_ONBOARDING_FLATTEN_REDIRECTS_2026_07_01: Array<[string, string]> = [
+  ['/getting-started/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/creating-cadences/setting-up-cadences-and-timeboxes', '/getting-started/admin-onboarding-getting-started/creating-cadences/setting-up-cadences-and-timeboxes'],
+  ['/getting-started/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/creating-cadences/understanding-planning-cadences', '/getting-started/admin-onboarding-getting-started/creating-cadences/understanding-planning-cadences'],
+  ['/getting-started/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/how-devstride-manages-the-when', '/major-modules/boards/how-devstride-manages-the-when'],
+  ['/getting-started/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/setting-up-and-managing-boards/setting-up-perpetual-boards', '/major-modules/boards/setting-up-and-using-perpetual-boards'],
+  ['/getting-started/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/setting-up-and-managing-boards/track-and-move-work-on-boards', '/major-modules/boards/track-and-move-work-with-board-views'],
+  ['/getting-started/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/setting-up-and-managing-boards/using-cycle-boards', '/major-modules/boards/using-cycle-boards'],
+  ['/getting-started/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/setting-up-and-managing-boards/wip-limiters', '/major-modules/boards/boards-and-wip-limiters'],
+  ['/getting-started/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/the-who-setting-up-working-groups/working-group-folders', '/major-modules/boards/working-group-folders'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/creating-and-using-statuses/create-custom-status-collections', '/getting-started/admin-onboarding-getting-started/creating-and-using-statuses/create-custom-status-collections'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/creating-and-using-statuses/setting-up-workflow-statuses', '/getting-started/admin-onboarding-getting-started/creating-and-using-statuses/setting-up-workflow-statuses'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/create-items-with-ai', '/getting-started/admin-onboarding-getting-started/items/create-items-with-ai'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/creating-and-managing-forms', '/getting-started/admin-onboarding-getting-started/items/creating-and-managing-forms'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/header', '/getting-started/admin-onboarding-getting-started/item-workspace-tour/header'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/quick-links', '/getting-started/admin-onboarding-getting-started/item-workspace-tour/quick-links'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-best-practice-time-estimates', '/getting-started/admin-onboarding-getting-started/item-workspace-tour/right-bar-best-practice-time-estimates'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-point-estimates', '/getting-started/admin-onboarding-getting-started/item-workspace-tour/right-bar-point-estimates'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-priority', '/getting-started/admin-onboarding-getting-started/item-workspace-tour/right-bar-priority'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-progress-tracking', '/getting-started/admin-onboarding-getting-started/item-workspace-tour/right-bar-progress-tracking'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-start-dates-and-due-dates', '/getting-started/admin-onboarding-getting-started/item-workspace-tour/right-bar-start-dates-and-due-dates'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-team-through-status', '/getting-started/admin-onboarding-getting-started/item-workspace-tour/right-bar-team-through-status'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-time-estimates', '/getting-started/admin-onboarding-getting-started/item-workspace-tour/right-bar-time-estimates'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/right-bar-time-spent', '/getting-started/admin-onboarding-getting-started/item-workspace-tour/right-bar-time-spent'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/item-workspace-tour/tabs', '/getting-started/admin-onboarding-getting-started/item-workspace-tour/tabs'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/setting-up-custom-fields', '/getting-started/admin-onboarding-getting-started/items/setting-up-custom-fields'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/setting-up-item-type-hierarchy', '/getting-started/admin-onboarding-getting-started/items/setting-up-item-type-hierarchy'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/items/setting-up-tags', '/getting-started/admin-onboarding-getting-started/items/setting-up-tags'],
+  ['/getting-started/admin-onboarding-getting-started/configuring-your-work-model/map-value-workstreams', '/getting-started/admin-onboarding-getting-started/map-value-workstreams'],
+  ['/getting-started/admin-onboarding-getting-started/track-progress-gantt-charts/navigating-the-table', '/major-modules/track-progress-gantts/navigating-the-table'],
+  ['/getting-started/admin-onboarding-getting-started/track-progress-gantt-charts/navigating-the-timeline', '/major-modules/track-progress-gantts/navigating-the-timeline'],
+  ['/getting-started/admin-onboarding-getting-started/track-progress-gantt-charts/setting-up-gantt-charts', '/major-modules/track-progress-gantts/setting-up-gantt-charts'],
+  ['/getting-started/admin-onboarding-getting-started/track-progress-gantt-charts/viewing-gantt-charts', '/major-modules/track-progress-gantts/viewing-gantt-charts'],
+  ['/major-modules/track-progress-gantts', '/major-modules/track-progress-gantts/setting-up-gantt-charts'],
+]
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   extends: ['docus'],
@@ -259,6 +299,11 @@ export default defineNuxtConfig({
     // Concern-level regroup (2026-07-01) — every page under a moved top-level section, mapped old → new
     ...Object.fromEntries(
       CONCERN_REORG_REDIRECTS_2026_07_01.map(([from, to]) => [from, { redirect: { to, statusCode: 301 } }])
+    ),
+
+    // Admin Onboarding flattened to fit 4 nav levels (2026-07-01)
+    ...Object.fromEntries(
+      ADMIN_ONBOARDING_FLATTEN_REDIRECTS_2026_07_01.map(([from, to]) => [from, { redirect: { to, statusCode: 301 } }])
     )
   },
 

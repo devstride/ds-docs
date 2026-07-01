@@ -25,7 +25,7 @@ class: py-16
   :::u-page-feature
   ---
   icon: i-lucide-git-branch
-  to: /admin-onboarding-getting-started/configuring-your-work-model/map-value-workstreams
+  to: /getting-started/admin-onboarding-getting-started/map-value-workstreams
   ---
   #title
   Mapping Your Workstreams

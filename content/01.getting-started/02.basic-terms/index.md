@@ -3,7 +3,7 @@ title: "Basic Terms"
 description: "Core DevStride concepts — workstreams, items, workspaces, cycles, boards, and Gantts — plus a glossary of the terms you'll meet across the product."
 ---
 
-<!-- TWIN COPY — keep in sync with content/01.admin-onboarding-getting-started/03.basic-terms.md -->
+<!-- TWIN COPY — keep in sync with content/01.getting-started/01.admin-onboarding-getting-started/03.basic-terms.md -->
 
 ## Workstream 
 
@@ -120,7 +120,7 @@ These are the main areas in the left navigation.
 - **Assignee** — The member responsible for an item (the "Assigned To" field). [Creating work items](/workstreams-and-work-items/creating-work-items)
 - **Role** — An organization-wide set of permissions (such as Owner, Admin, or Member) that controls what a person can do across DevStride. [Roles & permissions](/permissions/roles-and-permissions)
 - **Sharing & Access** — Per-object permission grants (view, comment, edit, own) on a specific item, board, or folder. [Sharing & access](/permissions/sharing-and-access)
-- **Team** — A group of members who work together; items and boards can be assigned to a team. [Setting up users & teams](/admin-onboarding-getting-started/setting-up-users-and-teams)
+- **Team** — A group of members who work together; items and boards can be assigned to a team. [Setting up users & teams](/getting-started/admin-onboarding-getting-started/setting-up-users-and-teams)
 - **Watcher** — Someone following an item to stay informed. Watchers are notified (in-app, email, or Slack, per their notification settings) when the item changes — status, assignment, comments, dates, relationships, and more. Anyone who can edit the item can add or remove watchers. [Overview of notification options](/notifications/overview-of-notification-options)
 
 ### Estimation & scheduling

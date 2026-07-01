@@ -28,7 +28,7 @@ While the default role is member, you can simply change the role to admin for ea
 You can change rights for each user as needed.
 
 ::alert{type="tip" title="More on roles and permissions"}
-**Admin** and **member** are just the starting point. You can tailor what each role can do, create custom roles, and control access to individual items and boards. For the full picture, see [More on Permissions](/admin-onboarding-getting-started/permissions/understanding-permissions) — covered later in this guide.
+**Admin** and **member** are just the starting point. You can tailor what each role can do, create custom roles, and control access to individual items and boards. For the full picture, see [More on Permissions](/getting-started/admin-onboarding-getting-started/permissions/understanding-permissions) — covered later in this guide.
 ::
 
 ::alert{type="tip" title="Each person manages their own account"}
@@ -116,6 +116,6 @@ By allowing both team-level and individual-level assignments (even if the team h
 
 The detailed instructions above cover managing teams and permissions.
 
-Next Up: [Configuring Your Work Model](/admin-onboarding-getting-started/configuring-your-work-model)
+Next Up: [Configuring Your Work Model](/getting-started/admin-onboarding-getting-started/configuring-your-work-model)
 
 ---
