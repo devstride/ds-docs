@@ -232,6 +232,43 @@ const ADMIN_ONBOARDING_FLATTEN_REDIRECTS_2026_07_01: Array<[string, string]> = [
   ['/major-modules/track-progress-gantts', '/major-modules/track-progress-gantts/setting-up-gantt-charts'],
 ]
 
+// Developer Docs split into two nav subgroups — "Intro" and "Agentic Skills" (2026-07-10). The single
+// "Developer Docs" group (/developer-experience/developer-docs/<slug>) became two groups, so every page
+// gained a new path segment (intro or agentic-skills), and a new Skill Audit page was added. This table
+// maps BOTH the legacy short URL (/developer-docs/<slug>) and the prior canonical URL to the new home;
+// spread LAST in routeRules so it supersedes the matching 2026-06-30 and 2026-07-01 developer-docs entries.
+const DEV_DOCS_SPLIT_2026_07_10_MAP: Array<[string, string]> = [
+  ['getting-started', 'intro'],
+  ['introduction', 'intro'],
+  ['command-reference', 'intro'],
+  ['local-development', 'intro'],
+  ['dockerized-worktree-development', 'intro'],
+  ['golden-dataset', 'intro'],
+  ['deployment', 'intro'],
+  ['api-development', 'intro'],
+  ['stripe-integration', 'intro'],
+  ['maintenance-and-codebase-checks', 'intro'],
+  ['claude-code-skills-overview', 'agentic-skills'],
+  ['skill-audit', 'agentic-skills'],
+  ['claude-skills-planning-loop', 'agentic-skills'],
+  ['claude-skills-delivery-loop', 'agentic-skills'],
+]
+const DEV_DOCS_SPLIT_REDIRECTS_2026_07_10: Array<[string, string]> = [
+  ...DEV_DOCS_SPLIT_2026_07_10_MAP.flatMap(([slug, group]): Array<[string, string]> => {
+    const to = `/developer-experience/${group}/${slug}`
+    return [
+      [`/developer-docs/${slug}`, to],
+      [`/developer-experience/developer-docs/${slug}`, to],
+    ]
+  }),
+  // Pages removed in the 2026-06-30 rewrite, repointed from their old short URLs to the new homes
+  ['/developer-docs/developer-lifecycle', '/developer-experience/intro/local-development'],
+  ['/developer-docs/database-management', '/developer-experience/intro/local-development'],
+  ['/developer-docs/integrations', '/developer-experience/intro/stripe-integration'],
+  ['/developer-docs/utilities-and-maintenance', '/developer-experience/intro/maintenance-and-codebase-checks'],
+  ['/developer-docs/aws-operations', '/developer-experience/intro/introduction'],
+]
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   extends: ['docus'],
@@ -304,6 +341,12 @@ export default defineNuxtConfig({
     // Admin Onboarding flattened to fit 4 nav levels (2026-07-01)
     ...Object.fromEntries(
       ADMIN_ONBOARDING_FLATTEN_REDIRECTS_2026_07_01.map(([from, to]) => [from, { redirect: { to, statusCode: 301 } }])
+    ),
+
+    // Developer Docs split into "Intro" + "Agentic Skills" subgroups (2026-07-10) — spread LAST so it
+    // supersedes any earlier developer-docs redirect target via last-key-wins.
+    ...Object.fromEntries(
+      DEV_DOCS_SPLIT_REDIRECTS_2026_07_10.map(([from, to]) => [from, { redirect: { to, statusCode: 301 } }])
     )
   },
 
