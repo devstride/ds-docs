@@ -145,6 +145,7 @@ const CONCERN_REORG_REDIRECTS_2026_07_01: Array<[string, string]> = [
   ['/project-planning-tools/kanban-boards/kanban-best-practices', '/planning-concepts-and-use-cases/project-planning-tools/kanban-boards/kanban-best-practices'],
   ['/project-planning-tools/kanban-boards/setting-up-your-kanban-board', '/planning-concepts-and-use-cases/project-planning-tools/kanban-boards/setting-up-your-kanban-board'],
   ['/project-planning-tools/kanban-boards/using-kanban-for-workflow-visualization', '/planning-concepts-and-use-cases/project-planning-tools/kanban-boards/using-kanban-for-workflow-visualization'],
+  ['/service-desk/customer-support-portal', '/major-modules/service-desk/customer-support-portal'],
   ['/service-desk/email-channels', '/major-modules/service-desk/email-channels'],
   ['/service-desk/enabling-service-desk', '/major-modules/service-desk/enabling-service-desk'],
   ['/service-desk/finding-and-filtering-tickets', '/major-modules/service-desk/finding-and-filtering-tickets'],
