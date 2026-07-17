@@ -62,7 +62,7 @@ Cycles are not mandatory. If your team prefers continuous flow, you can work ent
 
 ## Board
 
-In DevStride, users can view and move work items within a KanBan board in the Plan Delivery module. Boards can be set up as perpetual (ongoing) or cycle-based. Drag item cards between lanes as work progresses.
+In DevStride, users can view and move work items within a KanBan board in the Plan Delivery module. Boards can be set up as perpetual (ongoing) or cycle-based. Drag item cards between statuses as work progresses.
 
 Users can apply filters for a swift and practical segmentation of work items in the Status view, Table view or 2D view.
 
