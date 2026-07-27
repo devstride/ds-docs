@@ -84,6 +84,27 @@ description: "Perpetual vs. cycle-based boards and when to use each."
 ## First section heading
 ```
 
+### Release notes: what earns a note (CRITICAL!)
+
+Release notes in `content/08.release-notes/` are **customer-facing**. They are read by clients, not by the team. **Not every release gets a note.** A release train that is mostly scaffolding, refactors, or maintenance should ship **silently**.
+
+**Publish a note only when the release contains at least one high-value, directly customer-facing change** — something a customer can see, do, or decide differently because of it:
+- A new capability, or a meaningful expansion of an existing one.
+- A visible behavior change a customer needs to know about (especially anything they could be surprised by).
+- A fix for a bug customers actually hit and would recognize.
+
+**Do NOT publish a note for** (these are the failure mode — they read as filler and erode trust in the notes):
+- Foundation, scaffolding, or plumbing landed "ahead of" a feature that hasn't shipped yet. Wait and announce it when the customer-visible feature lands.
+- Internal refactors, dependency bumps, build/CI changes, test coverage.
+- Generic "reliability hardening" / "performance improvements" / "security hardening" with nothing to configure and nothing observable.
+- Fixes to defects that never reached customers (caught in the same release, behind a flag, or in unreleased code).
+
+If a release has one qualifying item and several that don't, **publish the note with only the qualifying item(s)**. Don't pad it out with a "behind the scenes" section to make it look substantial — an honest one-item note is better than a three-item note that's two-thirds filler.
+
+If nothing qualifies, **write no note at all** and say so, rather than publishing a thin one.
+
+**When in doubt, ask before publishing.** An unpublished note costs nothing; a silly one goes out to every client. Adding a note is effectively irreversible from the customer's side, so treat "should this ship at all?" as a question for the user, not a judgment call to make silently.
+
 ### MDC components (use inside Markdown)
 Custom components live in `components/content/` and are invoked with MDC syntax. Available components:
 
@@ -107,5 +128,6 @@ When adding a new content component, place it in `components/content/` so it's a
 
 ## When making changes
 - **Content edits** → work in `content/`, respect zero-padded numbering, include `title` + `description` frontmatter, and use `::alert` for callouts.
+- **Release notes** → apply the bar in "Release notes: what earns a note" first. Confirm the release has a real customer-facing change before writing anything; a maintenance/scaffolding train ships with no note.
 - **Look & behavior** → override via `app.config.ts` / `app.vue` / `assets/css/`, add MDC components in `components/content/`, or adjust the `modules/`.
 - Don't hand-edit generated output or `.nuxt/`; the static site is produced by `pnpm generate`.
