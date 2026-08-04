@@ -322,6 +322,11 @@ export default defineNuxtConfig({
     '/workspace-capabilities/themes-and-appearance': { redirect: { to: '/major-modules/workstreams-and-work-items/workspace-capabilities/themes-and-appearance', statusCode: 301 } },
     '/workspace-capabilities/getting-help-and-support': { redirect: { to: '/major-modules/workstreams-and-work-items/workspace-capabilities/getting-help-and-support', statusCode: 301 } },
 
+    // Enterprise SSO moved from Organization to Integrations (2026-08-04) — Identity Providers
+    // is registered in the Integrations accordion in the product, so the docs tree now matches
+    // where the reader actually finds the screen. Redirect the old URL so existing links keep working.
+    '/workspace-administration/settings/organization/enterprise-sso': { redirect: { to: '/workspace-administration/settings/integrations/enterprise-sso', statusCode: 301 } },
+
     // Manage Items grew from a single placeholder page into a multi-page module (2026-06-16) — redirect the old bare URL to the new landing
     '/manage-items': { redirect: { to: '/workspace-administration/manage-items/overview', statusCode: 301 } },
 
