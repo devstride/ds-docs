@@ -8,7 +8,7 @@
         <slot name="description" />
       </p>
       <div class="button-container">
-        <NuxtLink to="/admin-onboarding-getting-started/setting-the-stage" class="documentation-button">
+        <NuxtLink to="/getting-started/admin-onboarding-getting-started/setting-the-stage" class="documentation-button">
           Documentation
         </NuxtLink>
       </div>
