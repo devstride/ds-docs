@@ -19,187 +19,310 @@ Explore the world of DevStride with our detailed guide, designed to empower user
 
 ::u-page-section
 ---
-class: py-16
+class: bg-muted
+ui:
+  container: py-10 sm:py-12 lg:py-16
+title: Getting Started
+description: New to DevStride? Start here to set up your workspace and learn the vocabulary.
+---
+#features
+  :::u-page-feature
+  ---
+  icon: i-lucide-rocket
+  to: /getting-started/admin-onboarding-getting-started/setting-the-stage
+  ---
+  #title
+  Admin Onboarding
+
+  #description
+  A guided path from an empty workspace to a working one: set the stage, model your work, map your workstreams, and bring your team on board.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-book-a
+  to: /getting-started/basic-terms
+  ---
+  #title
+  Basic Terms
+
+  #description
+  The core vocabulary — workstreams, items, boards, cycles, and statuses — and how the pieces relate to one another.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-keyboard
+  to: /getting-started/keyboard-shortcuts
+  ---
+  #title
+  Keyboard Shortcuts
+  
+  #description
+  A quick reference for navigating DevStride without reaching for the mouse.
+  :::
+::
+
+::u-page-section
+---
+ui:
+  container: py-10 sm:py-12 lg:py-16
+title: Major Modules
+description: The places most day-to-day work happens.
 ---
 #features
   :::u-page-feature
   ---
   icon: i-lucide-git-branch
-  to: /getting-started/admin-onboarding-getting-started/map-value-workstreams
+  to: /major-modules/workstreams-and-work-items/creating-work-items
   ---
   #title
-  Mapping Your Workstreams
+  Map Value: Workstreams and Work Items
   
   #description
-  Explore Mapping Workstreams to align your daily tasks with broader business goals. This feature helps you understand how your work fits into the larger picture, ensuring that every item moves the project forward.
+  Organize work into workstreams and create the items — stories, bugs, tasks — that move it forward. Includes the map, the items table, and dependencies.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-bar-chart-3
-  to: /boards/how-devstride-manages-the-when
+  icon: i-lucide-columns-3
+  to: /major-modules/boards/how-devstride-manages-the-when
   ---
   #title
-  Boards
+  Plan Delivery: Boards
   
   #description
-  Our Boards feature provides a dynamic, visual layout to organize and track tasks through various workflow stages, offering status, table, and 2D views for an efficient overview of tasks across different stages.
+  Perpetual and cycle-based boards, board views, WIP limiters, and how DevStride decides when work happens.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-file-text
-  to: /workstreams-and-work-items/creating-work-items
+  icon: i-lucide-chart-gantt
+  to: /major-modules/track-progress-gantts/setting-up-gantt-charts
   ---
   #title
-  Work Items
+  Track Progress: Gantts
   
   #description
-  Use Work Items to manage and keep track of your day-to-day tasks, user stories, bugs, or feature requests. This is where your individual contributions to the project's success become visible and accountable.
+  Build and read Gantt views to see schedules, dependencies, and how a plan is actually tracking against its dates.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-pie-chart
-  to: /measure-performance-reports/viewing-optimization
+  icon: i-lucide-chart-pie
+  to: /major-modules/measure-performance-reports/viewing-optimization
   ---
   #title
-  Reports
+  Measure Performance: Reports
   
   #description
-  Generate detailed Reports to gain insights into various aspects of your project's health. Assess performance, monitor resource utilization, and track progress to make informed decisions.
+  Burn-down, burn-up, velocity, cycle time, throughput, and cumulative flow — what each report tells you and when to reach for it.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-zap
-  to: /automations/setting-up-basic-automations
+  icon: i-lucide-life-buoy
+  to: /major-modules/service-desk/overview
   ---
   #title
-  Automations
+  Service Desk
   
   #description
-  Employ our sophisticated Automations to streamline your workflow. Set up triggers and actions that handle routine tasks automatically, freeing up your time for more important work.
+  Take in requests from outside your team: email channels, request forms, requesters and companies, and working a ticket end to end.
   :::
+::
 
+::u-page-section
+---
+class: bg-muted
+ui:
+  container: py-10 sm:py-12 lg:py-16
+title: Personal Workspace
+description: Your own corner of DevStride — what you're working on and how you're notified.
+---
+#features
   :::u-page-feature
   ---
-  icon: i-lucide-users
-  to: /settings/organization/org-profile
+  icon: i-lucide-circle-user
+  to: /personal-workspace/my-work
   ---
   #title
-  Configure Organization
+  My Work
   
   #description
-  Configure Your Organization within DevStride to mirror your real-world team structure and roles. Customize permissions and methodologies to create a seamless management experience.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-settings
-  to: /settings/data-model/tags
-  ---
-  #title
-  Data Models
-  
-  #description
-  Understand the structure of your project data with our intuitive Data Models. They ensure that the information you work with is organized logically, making decision-making and reporting more effective.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-package
-  to: /settings/data-model/item-types
-  ---
-  #title
-  Item Types
-  
-  #description
-  Navigate through different Item Types to categorize your work into capabilities, epics, stories, and more. This categorization helps you organize your workload and prioritize effectively.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-chevron-down
-  to: /workspace-capabilities/explore-the-workspace
-  ---
-  #title
-  Workspace Capabilities
-  
-  #description
-  Leverage the full range of Workspace Capabilities to enhance collaboration, manage documents, and tailor your workflow settings to your team's needs, all within your personal workspace.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-gantt-chart
-  to: /project-planning-tools/gantt-charts/gantt-charts-basics
-  ---
-  #title
-  Project Planning Tools
-  
-  #description
-  Utilize Project Planning Tools like Gantt Charts and Kanban boards to plan your projects with precision. Visualize schedules, track progress, and manage tasks with ease to stay ahead of deadlines.
+  A single view of everything assigned to you across boards and workstreams.
   :::
 
   :::u-page-feature
   ---
   icon: i-lucide-bell
-  to: /notifications/overview-of-notification-options
+  to: /personal-workspace/notifications/overview-of-notification-options
   ---
   #title
-  Notifications Preferences
+  Notifications
   
   #description
-  Set your Notifications Preferences to stay updated on the things that matter most to you. Tailor your alerts for changes, milestones, and updates to maintain awareness without the noise.
+  Choose what you're alerted about and how, for yourself and for your teams, so you stay aware without the noise.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-user-cog
+  to: /personal-workspace/my-account/overview
+  ---
+  #title
+  My Account
+  
+  #description
+  Manage your profile, security settings, and personal API keys.
+  :::
+::
+
+::u-page-section
+---
+ui:
+  container: py-10 sm:py-12 lg:py-16
+title: Workspace Administration
+description: Configure DevStride to match how your organization actually works.
+---
+#features
+  :::u-page-feature
+  ---
+  icon: i-lucide-table-2
+  to: /workspace-administration/manage-items/overview
+  ---
+  #title
+  Manage Items
+  
+  #description
+  Find, filter, and bulk-edit items across the whole workspace, and save views to share with your team.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-zap
+  to: /workspace-administration/automations/setting-up-basic-automations
+  ---
+  #title
+  Automate Workflows
+  
+  #description
+  Set up triggers and actions that handle routine updates for you, so work moves itself along.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-settings
+  to: /workspace-administration/settings/organization/org-profile
+  ---
+  #title
+  Configure Settings
+  
+  #description
+  Your organization profile, users and roles, and the data model — item types, statuses, tags, priorities, custom fields, and estimation.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-shield-check
+  to: /workspace-administration/permissions/understanding-permissions
+  ---
+  #title
+  Permissions
+  
+  #description
+  How roles, sharing, and access control work, and how to grant the right people the right level of access.
   :::
 
   :::u-page-feature
   ---
   icon: i-lucide-filter
-  to: /filters/my-work
+  to: /workspace-administration/filters/my-work
   ---
   #title
   Filters, Sort, and Options
   
   #description
-  Quickly sift through tasks with powerful filters, customize your display options for clarity, and sort items to prioritize your work. Efficiently manage your workload by customizing how you see and interact with your tasks, keeping your attention on top priorities.
+  Narrow, sort, and customize every view in DevStride — boards, cycles, items, reports, and more.
   :::
+::
 
+::u-page-section
+---
+class: bg-muted
+ui:
+  container: py-10 sm:py-12 lg:py-16
+title: Planning Concepts & Use Cases
+description: The methodology behind the tools, and worked examples of common scenarios.
+---
+#features
   :::u-page-feature
   ---
-  icon: i-lucide-plug
-  to: /settings/integrations/github
+  icon: i-lucide-compass
+  to: /planning-concepts-and-use-cases/project-planning-tools/gantt-charts/gantt-charts-basics
   ---
   #title
-  Integrations
+  Project Planning Tools
   
   #description
-  Cultivate a connected workspace with 'Integrations' in DevStride. Link your favorite tools and services, ensuring seamless data flow and communication across platforms. This harmonized ecosystem means all your essential tools are in one place, ready to work together for your success.
+  Gantt charts and Kanban boards explained from first principles — what each is good at, and how to set one up well.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-list
-  to: /use-cases/gantt-charts
+  icon: i-lucide-list-checks
+  to: /planning-concepts-and-use-cases/use-cases/gantt-charts
   ---
   #title
-  Common Use Cases
+  Use Cases
   
   #description
-  Unlock the potential of DevStride with 'Use Cases Overviews'. Discover how to tailor DevStride for various scenarios, from simple portfolio management to complex enterprise workflows.
+  Step-by-step walkthroughs of everyday scenarios: plan a sprint, run a standup, refine a backlog, and manage cadences.
+  :::
+::
+
+::u-page-section
+---
+ui:
+  container: py-10 sm:py-12 lg:py-16
+title: Integrations & Extensibility
+description: Connect DevStride to the rest of your toolchain, and extend what it can do.
+---
+#features
+  :::u-page-feature
+  ---
+  icon: i-lucide-bot
+  to: /integrations-and-extensibility/devstride-mcp-server/what-is-the-devstride-mcp-server
+  ---
+  #title
+  DevStride MCP Server
+  
+  #description
+  Let AI assistants read and update your workspace directly. What the MCP server is, how to connect it, and how to get real work out of it.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-clock
-  to: /plugins
+  icon: i-lucide-puzzle
+  to: /integrations-and-extensibility/plugins/weekly-logs/overview
   ---
   #title
   Plugins
   
   #description
-  Extend DevStride with purpose-built plugins. Weekly Logs brings time tracking directly into your workflow — log hours against tasks, view team entries, and export timesheets without leaving the platform.
+  Extend DevStride with purpose-built plugins. Weekly Logs brings time tracking into your workflow — log hours, view team entries, and export timesheets.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-plug
+  to: /workspace-administration/settings/integrations/github
+  ---
+  #title
+  Connect Your Tools
+  
+  #description
+  Link GitHub, Jira, AI assistants, and direct database access so data flows between DevStride and the tools you already use.
   :::
 
   :::u-page-feature
@@ -209,10 +332,44 @@ class: py-16
   target: _blank
   ---
   #title
-  API
+  API Reference
   
   #description
-  Dive into the full technical reference for the DevStride platform — from authentication and request format to every available endpoint, complete with sample calls, response examples, and usage guidelines. Whether you’re building integrations, automations, or custom tooling, this documentation will help you get up and running quickly.
+  The full technical reference — authentication, request format, and every endpoint with sample calls and response examples.
+  :::
+::
+
+::u-page-section
+---
+class: bg-muted
+ui:
+  container: py-10 sm:py-12 lg:py-16
+title: Developer Experience
+description: For engineers building DevStride itself.
+---
+#features
+  :::u-page-feature
+  ---
+  icon: i-lucide-terminal
+  to: /developer-experience/intro/getting-started
+  ---
+  #title
+  Developer Docs
+  
+  #description
+  Set up your environment, learn the ds CLI, and get to know the codebase, local development, deployment, and maintenance.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-sparkles
+  to: /developer-experience/agentic-skills/claude-code-skills-overview
+  ---
+  #title
+  Agentic Skills
+  
+  #description
+  How the Claude Code skills work in this codebase — the planning loop, the delivery loop, and how skills are audited.
   :::
 ::
 

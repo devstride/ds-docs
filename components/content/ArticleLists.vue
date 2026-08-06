@@ -1,118 +1,5 @@
 <template>
   <div class="article-lists-section">
-    <div class="article-lists-container">
-      <!-- Most Viewed Articles -->
-      <div class="article-column">
-        <h3 class="column-title">Most Viewed Articles</h3>
-        <ul class="article-list">
-          <li>
-            <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/admin-onboarding-getting-started/setting-the-stage">
-              Getting Started: Setting the Stage
-            </NuxtLink>
-          </li>
-          <li>
-            <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/admin-onboarding-getting-started/basic-terms">
-              Basic Terms and Concepts
-            </NuxtLink>
-          </li>
-          <li>
-            <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/admin-onboarding-getting-started/boards-managing-workflow-and-statuses/setting-up-and-managing-boards/using-cycle-boards">
-              Using Cycle Boards
-            </NuxtLink>
-          </li>
-          <li>
-            <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/automations/setting-up-basic-automations">
-              Setting Up Basic Automations
-            </NuxtLink>
-          </li>
-          <li>
-            <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/admin-onboarding-getting-started/configuring-your-work-model/map-value-workstreams">
-              Understanding Workstreams
-            </NuxtLink>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Most Read Articles -->
-      <div class="article-column">
-        <h3 class="column-title">Most Read Articles</h3>
-        <ul class="article-list">
-          <li>
-            <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/measure-performance-reports/report-filters-and-options">
-              Report Filters and Options
-            </NuxtLink>
-          </li>
-          <li>
-            <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/workstreams-and-work-items/creating-work-items">
-              Creating Items
-            </NuxtLink>
-          </li>
-          <li>
-            <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/settings/data-model/item-types">
-              Item Types
-            </NuxtLink>
-          </li>
-          <li>
-            <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/admin-onboarding-getting-started/track-progress-gantt-charts/viewing-gantt-charts">
-              Viewing Gantt Charts
-            </NuxtLink>
-          </li>
-          <li>
-            <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/workspace-capabilities/explore-the-workspace">
-              Explore the Workspace
-            </NuxtLink>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Recently Created Articles -->
-      <div class="article-column">
-        <h3 class="column-title">Recently Created Articles</h3>
-        <ul class="article-list">
-          <li>
-            <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/release-notes/2026-05-29">
-              Release Notes: 2026-05-29
-            </NuxtLink>
-          </li>
-          <li>
-            <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/release-notes/2026-05-13">
-              Release Notes: 2026-05-13
-            </NuxtLink>
-          </li>
-          <li>
-            <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/release-notes/2026-04-29">
-              Release Notes: 2026-04-29
-            </NuxtLink>
-          </li>
-          <li>
-            <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/use-cases/gantt-charts">
-              Gantt Charts
-            </NuxtLink>
-          </li>
-          <li>
-            <Icon name="i-lucide-chevron-right" class="list-icon" />
-            <NuxtLink to="/use-cases/plan-a-sprint">
-              Plan a Sprint
-            </NuxtLink>
-          </li>
-        </ul>
-      </div>
-    </div>
-
     <!-- Footer -->
     <div class="footer-section">
       <div class="footer-content">
@@ -139,14 +26,14 @@
         <div class="footer-column footer-social">
           <h4 class="footer-heading">Follow Us</h4>
           <div class="social-icons">
-            <a href="https://www.linkedin.com/company/devstride" target="_blank" class="social-link">
+            <a
+              href="https://www.linkedin.com/in/phildreynolds/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              aria-label="Phil Reynolds on LinkedIn"
+            >
               <Icon name="i-lucide-linkedin" class="social-icon" />
-            </a>
-            <a href="https://www.facebook.com/DevStrideApp" target="_blank" class="social-link">
-              <Icon name="i-lucide-facebook" class="social-icon" />
-            </a>
-            <a href="https://www.instagram.com/devstrideapp/" target="_blank" class="social-link">
-              <Icon name="i-lucide-instagram" class="social-icon" />
             </a>
           </div>
         </div>
@@ -161,59 +48,6 @@
 <style scoped>
 .article-lists-section {
   background: white;
-}
-
-.article-lists-container {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-  padding: 3rem 2rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
-  max-width: 100%;
-}
-
-.article-column {
-  color: white;
-}
-
-.column-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  color: white;
-}
-
-.article-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.article-list li {
-  margin-bottom: 0.75rem;
-  display: flex;
-  align-items: flex-start;
-  gap: 0.5rem;
-}
-
-.list-icon {
-  width: 16px;
-  height: 16px;
-  color: white;
-  flex-shrink: 0;
-  margin-top: 0.25rem;
-}
-
-.article-list a {
-  color: white;
-  text-decoration: none;
-  transition: opacity 0.2s;
-  line-height: 1.5;
-}
-
-.article-list a:hover {
-  opacity: 0.8;
-  text-decoration: underline;
 }
 
 .footer-section {
@@ -307,11 +141,6 @@
 }
 
 @media (max-width: 1024px) {
-  .article-lists-container {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
-  }
-
   .footer-content {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -323,10 +152,6 @@
 }
 
 @media (max-width: 640px) {
-  .article-lists-container {
-    padding: 2rem 1.5rem;
-  }
-
   .footer-content {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -334,10 +159,6 @@
 
   .footer-section {
     padding: 1rem .5rem 1rem;
-  }
-
-  .column-title {
-    font-size: 1.25rem;
   }
 }
 </style>

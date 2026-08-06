@@ -2,7 +2,11 @@
   <div class="cards-section">
     <div class="cards-container">
       <!-- Get Started Card -->
-      <div class="card get-started-card">
+      <NuxtLink
+        to="/getting-started/admin-onboarding-getting-started/setting-the-stage"
+        class="card get-started-card"
+        aria-label="Get Started"
+      >
         <div class="card-image card-image-placeholder get-started-placeholder">
           <Icon name="i-lucide-rocket" class="placeholder-icon" />
         </div>
@@ -11,14 +15,15 @@
           <p class="card-description">
             Kickstart your journey with DevStride in our 'Getting Started' section. Here, you'll find all the essential resources and guides to set up your account, navigate the interface, and begin managing projects with confidence.
           </p>
-          <NuxtLink to="/admin-onboarding-getting-started/setting-the-stage" class="card-link">
-            Read more
-          </NuxtLink>
+          <span class="card-link">
+            Start setting up
+            <Icon name="i-lucide-arrow-right" class="card-link-arrow" />
+          </span>
         </div>
-      </div>
+      </NuxtLink>
 
       <!-- Release Notes Card -->
-      <div class="card release-notes-card">
+      <NuxtLink to="/release-notes" class="card release-notes-card" aria-label="Release Notes">
         <div class="card-image card-image-placeholder release-notes-placeholder">
           <Icon name="i-lucide-megaphone" class="placeholder-icon" />
         </div>
@@ -27,14 +32,19 @@
           <p class="card-description">
             Stay informed on the latest updates and enhancements with our release notes. Discover new features, improvements, and fixes in each update to continuously enhance your portfolio management experience.
           </p>
-          <NuxtLink to="/release-notes" class="card-link">
-            Read more
-          </NuxtLink>
+          <span class="card-link">
+            See what's new
+            <Icon name="i-lucide-arrow-right" class="card-link-arrow" />
+          </span>
         </div>
-      </div>
+      </NuxtLink>
 
       <!-- Developer Docs Card -->
-      <div class="card developer-docs-card">
+      <NuxtLink
+        to="/developer-experience/intro/getting-started"
+        class="card developer-docs-card"
+        aria-label="Developer Docs"
+      >
         <div class="card-image card-image-placeholder developer-docs-placeholder">
           <Icon name="i-lucide-code-2" class="placeholder-icon" />
         </div>
@@ -43,11 +53,12 @@
           <p class="card-description">
             Set up your development environment, learn the ds CLI, and dive into the codebase architecture. Everything you need to start contributing to DevStride.
           </p>
-          <NuxtLink to="/developer-docs/introduction" class="card-link">
-            Read more
-          </NuxtLink>
+          <span class="card-link">
+            Read the docs
+            <Icon name="i-lucide-arrow-right" class="card-link-arrow" />
+          </span>
         </div>
-      </div>
+      </NuxtLink>
     </div>
   </div>
 </template>
@@ -72,6 +83,32 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  /* The whole card is the link — reset anchor styling and let the children keep their own colors */
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  z-index: 1;
+}
+
+.card:focus-visible {
+  outline: 3px solid #3b82f6;
+  outline-offset: -3px;
+}
+
+/* Reduced-motion users still get the shadow cue, just no movement */
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: box-shadow 0.2s;
+  }
+
+  .card:hover {
+    transform: none;
+  }
 }
 
 .get-started-card {
@@ -168,12 +205,32 @@
 }
 
 .card-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
   color: #3b82f6;
   font-weight: 600;
   text-decoration: none;
   transition: color 0.2s;
   font-size: 1rem;
+}
+
+.card-link-arrow {
+  width: 1em;
+  height: 1em;
+  transition: transform 0.2s;
+}
+
+.card:hover .card-link-arrow {
+  transform: translateX(3px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-link-arrow,
+  .card:hover .card-link-arrow {
+    transition: none;
+    transform: none;
+  }
 }
 
 .release-notes-card .card-link {
@@ -185,15 +242,17 @@
   color: #3b82f6;
 }
 
-.card-link:hover {
+/* "Read more" is now a span inside the card-wide link, so it reacts to hovering the whole card */
+.card:hover .card-link {
   color: #2563eb;
+  text-decoration: underline;
 }
 
-.release-notes-card .card-link:hover {
+.release-notes-card:hover .card-link {
   color: rgba(255, 255, 255, 0.9);
 }
 
-.developer-docs-card .card-link:hover {
+.developer-docs-card:hover .card-link {
   color: #60a5fa;
 }
 

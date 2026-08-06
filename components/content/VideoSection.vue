@@ -18,9 +18,6 @@
       <p class="video-caption">
         Agile Project Management for Cross-Functional Teams.
       </p>
-      <a href="https://www.youtube.com/@devstride" target="_blank" class="more-videos-button">
-        More videos
-      </a>
     </div>
   </div>
 </template>
@@ -119,25 +116,8 @@
 .video-caption {
   font-size: 1rem;
   color: #4b5563;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
   line-height: 1.5;
-}
-
-.more-videos-button {
-  display: inline-block;
-  padding: 0.75rem 2rem;
-  background: #3b82f6;
-  color: white;
-  border-radius: 0.375rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.2s;
-}
-
-.more-videos-button:hover {
-  background: #2563eb;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
 }
 
 @media (max-width: 768px) {
