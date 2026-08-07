@@ -144,7 +144,7 @@ These are the main areas in the left navigation.
 - **API Key** — A personal credential for programmatic access to DevStride via its API or integrations. [API keys](/my-account/api-keys)
 - **Item Request Form** — An internal or public form that collects structured input and creates items automatically. [Item request forms](/settings/forms/item-request-forms)
 - **MCP Server** — DevStride's Model Context Protocol server, which lets AI assistants connect to DevStride and act on your behalf. [Connect AI & MCP](/settings/integrations/connect-ai-and-mcp)
-- **Published List** — A read-only, externally shareable view of items accessible without a DevStride login. [Published lists](/workstreams-and-work-items/published-lists)
+- **Shared List** — A read-only view of items shared with chosen customer companies through the support portal, behind sign-in. [Shared lists](/major-modules/workstreams-and-work-items/published-lists)
 - **Template** — A reusable workstream and item structure you export and re-import to recreate a hierarchy quickly. [Import templates](/workstreams-and-work-items/import-templates)
 
 ### General project management terms
