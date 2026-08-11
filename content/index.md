@@ -116,7 +116,7 @@ description: The places most day-to-day work happens.
   Measure Performance: Reports
   
   #description
-  Burn-down, burn-up, velocity, cycle time, throughput, and cumulative flow — what each report tells you and when to reach for it.
+  Burn-down, burn-up, velocity, cycle time, throughput, cumulative flow, and the Time Allocation Matrix — what each report tells you and when to reach for it.
   :::
 
   :::u-page-feature
@@ -129,6 +129,18 @@ description: The places most day-to-day work happens.
   
   #description
   Take in requests from outside your team: email channels, request forms, requesters and companies, and working a ticket end to end.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-book-open
+  to: /major-modules/knowledge-base/overview
+  ---
+  #title
+  Knowledge Base
+  
+  #description
+  Write articles once and publish them to your team, your customers, or both — with categories, audience controls, and a searchable customer help center.
   :::
 ::
 
