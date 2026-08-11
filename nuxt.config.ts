@@ -270,6 +270,35 @@ const DEV_DOCS_SPLIT_REDIRECTS_2026_07_10: Array<[string, string]> = [
   ['/developer-docs/aws-operations', '/developer-experience/intro/introduction'],
 ]
 
+// The individual report pages were retitled from "What is <Report>?" to "Report: <Report>"
+// (2026-08-11), and their slugs were shortened to match so the URL no longer contradicts the
+// heading. The parent section is already "measure-performance-reports", so the "what-is-" prefix
+// was redundant. This maps BOTH the legacy short URL (/measure-performance-reports/what-is-<x>)
+// and the prior canonical URL to the new home; spread LAST in routeRules so it supersedes the
+// matching 2026-07-01 concern-reorg entries.
+const REPORT_SLUG_REDIRECTS_2026_08_11_MAP: Array<[string, string]> = [
+  ['what-is-current-progress', 'current-progress'],
+  ['what-is-trending-progress', 'trending-progress'],
+  ['what-is-cycle-time', 'cycle-time'],
+  ['what-is-throughput', 'throughput'],
+  ['what-is-cumulative-flow', 'cumulative-flow'],
+  ['what-is-velocity', 'velocity'],
+  ['what-is-burn-up', 'burn-up'],
+  ['what-is-burn-down', 'burn-down'],
+  ['what-is-user-time-completed', 'user-time-completed'],
+  ['what-is-churn', 'churn'],
+  ['what-is-the-time-allocation-matrix', 'time-allocation-matrix'],
+]
+const REPORT_SLUG_REDIRECTS_2026_08_11: Array<[string, string]> = (
+  REPORT_SLUG_REDIRECTS_2026_08_11_MAP.flatMap(([oldSlug, newSlug]): Array<[string, string]> => {
+    const to = `/major-modules/measure-performance-reports/${newSlug}`
+    return [
+      [`/measure-performance-reports/${oldSlug}`, to],
+      [`/major-modules/measure-performance-reports/${oldSlug}`, to],
+    ]
+  })
+)
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   extends: ['docus'],
@@ -353,6 +382,12 @@ export default defineNuxtConfig({
     // supersedes any earlier developer-docs redirect target via last-key-wins.
     ...Object.fromEntries(
       DEV_DOCS_SPLIT_REDIRECTS_2026_07_10.map(([from, to]) => [from, { redirect: { to, statusCode: 301 } }])
+    ),
+
+    // Report pages retitled "Report: <X>" and reslugged to drop "what-is-" (2026-08-11) — spread
+    // LAST so it supersedes the 2026-07-01 concern-reorg targets via last-key-wins.
+    ...Object.fromEntries(
+      REPORT_SLUG_REDIRECTS_2026_08_11.map(([from, to]) => [from, { redirect: { to, statusCode: 301 } }])
     )
   },
 

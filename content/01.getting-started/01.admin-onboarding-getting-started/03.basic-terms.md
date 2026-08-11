@@ -132,12 +132,12 @@ These are the main areas in the left navigation.
 
 ### Reporting metrics
 
-- **Burn Up / Burn Down** — Forecast charts tracking completed work (burn up) or remaining work (burn down) against a target. [Burn up](/measure-performance-reports/what-is-burn-up) · [Burn down](/measure-performance-reports/what-is-burn-down)
-- **Churn** — Work that was added but not completed, or reopened and reworked — a signal of scope creep or quality issues. [What is Churn?](/measure-performance-reports/what-is-churn)
-- **Current Progress** — A snapshot of how much work is complete versus remaining at a point in time. [What is Current Progress?](/measure-performance-reports/what-is-current-progress)
-- **Cycle Time** — How long work takes from start to completion; used to spot bottlenecks. [What is Cycle Time?](/measure-performance-reports/what-is-cycle-time)
-- **Throughput** — How many items are completed in a given period. [What is Throughput?](/measure-performance-reports/what-is-throughput)
-- **Velocity** — How much work a team completes per cycle, used to forecast future capacity. [What is Velocity?](/measure-performance-reports/what-is-velocity)
+- **Burn Up / Burn Down** — Forecast charts tracking completed work (burn up) or remaining work (burn down) against a target. [Burn up](/major-modules/measure-performance-reports/burn-up) · [Burn down](/major-modules/measure-performance-reports/burn-down)
+- **Churn** — Work that was added but not completed, or reopened and reworked — a signal of scope creep or quality issues. [Churn report](/major-modules/measure-performance-reports/churn)
+- **Current Progress** — A snapshot of how much work is complete versus remaining at a point in time. [Current Progress report](/major-modules/measure-performance-reports/current-progress)
+- **Cycle Time** — How long work takes from start to completion; used to spot bottlenecks. [Cycle Time report](/major-modules/measure-performance-reports/cycle-time)
+- **Throughput** — How many items are completed in a given period. [Throughput report](/major-modules/measure-performance-reports/throughput)
+- **Velocity** — How much work a team completes per cycle, used to forecast future capacity. [Velocity report](/major-modules/measure-performance-reports/velocity)
 
 ### Intake & integration
 
