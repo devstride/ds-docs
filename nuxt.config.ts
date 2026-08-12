@@ -313,6 +313,7 @@ export default defineNuxtConfig({
 
   // Add custom CSS to override navigation text truncation
   css: [
+    '~/assets/css/brand.css',
     '~/assets/css/navigation.css',
     '~/assets/css/header-logo.css',
     '~/assets/css/page-width.css'
@@ -321,6 +322,16 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'DevStride Documentation',
+      link: [
+        // Poppins is the DevStride brand typeface (see assets/css/brand.css). Loaded
+        // from Google Fonts, the same way the marketing site loads it.
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'
+        }
+      ]
     }
   },
 

@@ -1,0 +1,63 @@
+/* ============================================================
+   DevStride brand tokens for the docs site.
+
+   Source of truth is the marketing site (devstride.com):
+     ~/dev/ds-website/tokens/colors.css   — the palette
+     ~/dev/ds-website/public/ds-site.css  — the hero/gradient treatment
+   When the brand moves over there, update these values to match.
+
+   Only the landing page is branded to the marketing site today; the
+   article pages keep the Docus reading theme (and its light/dark
+   toggle) so long-form docs stay comfortable to read.
+   ============================================================ */
+
+:root {
+  /* Brand navy — the wordmark colour, and every dark surface */
+  --ds-navy: #060646;
+
+  /* The "spark" — links, accents, small interactive bits. Never large fills. */
+  --ds-blue: #0099ff;
+  --ds-blue-hover: #0088e6;
+  --ds-blue-light: #4db8ff;
+  /* Link text on light surfaces. The bright --ds-blue only clears ~3:1 on white,
+     which fails WCAG AA for body-sized text, so links use the medium blue the
+     marketing tokens already reserve for "interactive / links" (~5.6:1). */
+  --ds-blue-medium: #335dff;
+  --ds-blue-medium-hover: #2348e0;
+  --ds-blue-soft: #e6f5ff;
+
+  /* The two stops of --ds-highlight. The gradient reads left-to-right as motion
+     toward a destination, so anything meant to be that destination (the hero CTA)
+     takes the end stop. */
+  --ds-blue-bright: #39a9ff;
+  --ds-green-bright: #00d68c;
+
+  --ds-green: #00ce84;
+  --ds-red: #ff3355;
+  --ds-yellow: #ffbb00;
+
+  /* Text */
+  --ds-ink: #0d0d33;
+  --ds-body: #3c3c46;
+  --ds-muted: #8a8a93;
+
+  --ds-font: 'Poppins', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  /* Dark navy glow that sits behind heroes and dark bands */
+  --ds-hero: radial-gradient(120% 130% at 50% 0%, #1a1a63 0%, #0b0b3d 46%, #060626 100%);
+
+  /* Blue -> green gradient used on emphasised words */
+  --ds-highlight: linear-gradient(92deg, #39a9ff 0%, #00d68c 100%);
+}
+
+/* The hero only renders on the landing page, so :has() scopes the brand font
+   there without needing a route-specific class. Deliberately targets `main`
+   rather than `body`: the header and sidebar are shared with every other page,
+   and switching their font on one route reads as a bug while you navigate. */
+body:has(.hero-section) main {
+  font-family: var(--ds-font);
+}
+
+body:has(.hero-section) main :is(h1, h2, h3, h4) {
+  letter-spacing: -0.025em;
+}

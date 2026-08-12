@@ -51,7 +51,7 @@
 }
 
 .footer-section {
-  background: linear-gradient(135deg, #1a1f5c 0%, #0f1340 100%);
+  background: var(--ds-hero);
   padding: 1rem .5rem 1rem;
 }
 

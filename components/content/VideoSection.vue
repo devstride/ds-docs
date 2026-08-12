@@ -40,7 +40,7 @@
 .video-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #1f2937;
+  color: var(--ds-ink);
   margin-bottom: 2rem;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .video-background {
-  background: linear-gradient(135deg, #1a1f5c 0%, #0f1340 100%);
+  background: var(--ds-hero);
   aspect-ratio: 16 / 9;
   display: flex;
   align-items: center;
@@ -77,7 +77,7 @@
   position: absolute;
   width: 80px;
   height: 80px;
-  background: rgba(255, 76, 76, 0.9);
+  background: rgba(255, 51, 85, 0.9);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -89,7 +89,7 @@
 }
 
 .play-button:hover {
-  background: rgba(255, 76, 76, 1);
+  background: rgba(255, 51, 85, 1);
   transform: scale(1.1);
   border-color: rgba(255, 255, 255, 0.5);
 }
@@ -102,7 +102,7 @@
 }
 
 .video-footer {
-  background: #1a1f5c;
+  background: var(--ds-navy);
   padding: 0.75rem;
   text-align: center;
 }
@@ -115,7 +115,7 @@
 
 .video-caption {
   font-size: 1rem;
-  color: #4b5563;
+  color: var(--ds-body);
   margin-bottom: 0;
   line-height: 1.5;
 }
