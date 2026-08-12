@@ -96,7 +96,7 @@
 }
 
 .card:focus-visible {
-  outline: 3px solid #3b82f6;
+  outline: 3px solid var(--ds-blue);
   outline-offset: -3px;
 }
 
@@ -112,15 +112,15 @@
 }
 
 .get-started-card {
-  background: #e0f0ff;
+  background: var(--ds-blue-soft);
 }
 
 .release-notes-card {
-  background: #ff4444;
+  background: var(--ds-red);
 }
 
 .developer-docs-card {
-  background: #1e293b;
+  background: var(--ds-navy);
 }
 
 .card-image {
@@ -149,7 +149,7 @@
 }
 
 .get-started-placeholder .placeholder-icon {
-  color: #3b82f6;
+  color: var(--ds-blue);
 }
 
 .release-notes-placeholder .placeholder-icon {
@@ -157,7 +157,7 @@
 }
 
 .developer-docs-placeholder .placeholder-icon {
-  color: #3b82f6;
+  color: var(--ds-blue-light);
 }
 
 .card-content {
@@ -174,7 +174,7 @@
 }
 
 .get-started-card .card-title {
-  color: #1f2937;
+  color: var(--ds-ink);
 }
 
 .release-notes-card .card-title {
@@ -193,7 +193,7 @@
 }
 
 .get-started-card .card-description {
-  color: #4b5563;
+  color: var(--ds-body);
 }
 
 .release-notes-card .card-description {
@@ -208,7 +208,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.375rem;
-  color: #3b82f6;
+  color: var(--ds-blue-medium);
   font-weight: 600;
   text-decoration: none;
   transition: color 0.2s;
@@ -239,12 +239,12 @@
 }
 
 .developer-docs-card .card-link {
-  color: #3b82f6;
+  color: var(--ds-blue-light);
 }
 
 /* "Read more" is now a span inside the card-wide link, so it reacts to hovering the whole card */
 .card:hover .card-link {
-  color: #2563eb;
+  color: var(--ds-blue-medium-hover);
   text-decoration: underline;
 }
 
@@ -253,7 +253,7 @@
 }
 
 .developer-docs-card:hover .card-link {
-  color: #60a5fa;
+  color: #7ec9ff;
 }
 
 /* Responsive: 2 columns on medium screens */

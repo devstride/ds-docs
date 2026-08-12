@@ -8,7 +8,7 @@ seo:
 
 ::hero-section
 #title
-Welcome to DevStride Documentation
+Welcome to *DevStride* Documentation
 
 #description
 Explore the world of DevStride with our detailed guide, designed to empower users on their journey.
