@@ -9,9 +9,13 @@ What happens *after* you sign up depends on your situation — you might be join
 
 ## Signing up with Google or Microsoft
 
-On the signup page, choose **Sign up with Google** or **Sign up with Microsoft**. You are handed to that provider, you approve the sign-in there, and you come back to DevStride with your account created.
+On the signup page, accept the terms of use and privacy policy, then choose **Sign up with Google** or **Sign up with Microsoft**. You are handed to that provider, you approve the sign-in there, and you come back to DevStride with your account created.
 
 You never set a DevStride password. From then on, you sign in the same way you signed up.
+
+**The provider buttons stay greyed out until you have accepted the terms.** That is deliberate: choosing a provider sends you straight to them, so your agreement has to be recorded before you leave the page.
+
+**Only the providers DevStride has configured appear.** If there is no button for yours, sign up with an email address and password instead.
 
 **What comes across.** Your name is taken from your provider, so your profile starts filled in rather than blank. Your profile picture comes across too, if your provider shares one — not all do, and you can always set it yourself afterwards.
 
