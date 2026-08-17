@@ -381,7 +381,7 @@ description: For engineers building DevStride itself.
   Agentic Skills
   
   #description
-  How the Claude Code skills work in this codebase — the planning loop, the delivery loop, and how skills are audited.
+  The devstride Claude Code plugin — installing it, the planning loop, the delivery loop, and every configuration key.
   :::
 ::
 
