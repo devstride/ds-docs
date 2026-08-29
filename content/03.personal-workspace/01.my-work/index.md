@@ -72,6 +72,16 @@ Need your list outside DevStride? The **Export** button in the toolbar (next to 
 - In the **Export Items to CSV** dialog you name the export and **choose which columns** to include.
 - Exports run in the background; when one finishes you'll find it under **Measure Performance ▸ Exports**, ready to download. See [Measure Performance](/measure-performance-reports/viewing-optimization).
 
+### Custom fields in the export
+
+Select **Custom Fields** in the column list and your export gets **one column per custom field**, so you can sort, filter and pivot on a single field instead of splitting a cell by hand.
+
+- Only fields that are **actually filled in** on at least one exported item get a column. An organization with dozens of custom fields defined won't produce dozens of empty columns.
+- Choice fields export their **option labels** rather than internal IDs, and file fields export their file names.
+- The original combined custom-fields column is still there and unchanged, so a spreadsheet or script already reading it keeps working.
+- A value that a spreadsheet would otherwise treat as a formula — one starting with `=`, `+`, `-` or `@` — is written with a leading apostrophe so it displays as text. Ordinary numbers such as `-5` are left alone.
+- If you don't select **Custom Fields**, your export is unchanged.
+
 Because it produces a report, the **Export** button appears only for members with reporting access.
 
 ## When the list is empty
