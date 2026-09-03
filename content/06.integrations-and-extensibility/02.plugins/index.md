@@ -23,6 +23,10 @@ Plugins are enabled on a per-organization basis by the DevStride team. To activa
 
 Once enabled, the plugin appears under **Plugins** in the left navigation for all members of your organization.
 
+## Hiding a plugin's menu from a role
+
+Every role sees every enabled plugin by default. An administrator can hide a plugin's menu from specific roles in **Configure Settings → Permissions**: each plugin has a **Hide** switch per role, and a role with it on no longer sees that plugin in its navigation. Nothing changes for existing roles until you switch it on, and hiding the menu is a navigation setting only — it does not grant or remove any other permission. See [Roles & Permissions](/workspace-administration/permissions/roles-and-permissions#plugin-menus).
+
 ::alert{title="What to Include in Your Request" type="info"}
 Let us know which plugin you need and the name of your organization. The DevStride team will confirm once it has been activated.
 ::
