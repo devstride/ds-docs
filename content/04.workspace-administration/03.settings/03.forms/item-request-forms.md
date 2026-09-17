@@ -33,6 +33,10 @@ Now you are able to add fields, which are available based on a combination of st
 You can change the displayed text for the field's Label if you prefer not to use the default Label, and you can also specify whether a field is Visible or not. For example, if you always want to pass through a Priority of High any time a user submits an Issue, you can specify the Default Value of High and configure Visible to off. 
 ![image.png](/images/image(5).png)
 
+### Required fields and saved answers
+
+An explicit **No** or numeric **0** is a valid answer. DevStride keeps that answer instead of substituting a default or treating it as blank. A required checkbox left unticked counts as **No**. Calculated fields are filled from their formulas after the item is created, so submitters do not need to answer them, even when they are marked required. These rules apply to private and public request forms.
+
 ### Using a Private Item Request Form
 Once you have saved your first Private form, you should now see a new button at the top of the DevStride screen, which will then show you all available Private forms when clicked.
 ![image.png](/images/image(7).png)

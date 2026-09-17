@@ -90,7 +90,13 @@ In the pop-up box, name the team. You can add users from this box, or can wait a
 
 ![image.png](/images/image82.png)
 
-When adding users to an existing team (1), click the pencil to the far right of the team name (2). Fill in the information on the dialog box by selecting the user in the **Add User** dropdown (3), and click **Update Team**.
+To add users to an existing team, click the pencil beside its name. You can choose one person from **Add User**, or add several at once:
+
+1. Click **Add multiple users**.
+2. In **Add Users to Team**, search for and select the active users you want to add.
+3. Click **Add Users**, then **Update Team** to save. For a new team, finish with **Create Team**.
+
+Existing team members stay in place. Cancelling the picker leaves the team selection unchanged.
 
 ![image.png](/images/image51.png)
 
