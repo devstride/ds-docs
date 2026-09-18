@@ -49,6 +49,8 @@ Once the command palette (`Cmd/Ctrl + K`) is open:
 | `Enter` | Open the highlighted result |
 | `Esc` | Close the palette |
 
+**Looking for archived work?** Turn on **Include archived** at the bottom of the command palette to search archived work items and workstreams too. It starts off, and your browser remembers your choice. Archived results carry an **Archived** label and open their archived record. You still see only work you have permission to access.
+
 ## Dialogs and selectors
 
 DevStride's dialogs and pickers (assignee, status, tags, and the rest) share one set of keys:
